@@ -2,5 +2,8 @@
 
 </script>
 <template>
-    <p>contact</p>
+    <div class="h-screen bg-lightContrast">
+        <p>contact</p>
+    </div>
+   
 </template>

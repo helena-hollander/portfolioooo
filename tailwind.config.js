@@ -11,10 +11,10 @@ export default {
       },
       colors: {
         darkest: '#0404FF',
-        lightest: '#FCFFFD'
+        lightest: '#FCFFFD',
+        lightContrast: '#CEE3FF'
       },
       backgroundImage: {
-        scribbleWork: ["url('/images/scribbles/scribbleWork.png')"],
         scribbleWorkHover: ["url('/images/scribbles/scribbleWorkHover.png')"],
         scribbleContactHover: ["url('/images/scribbles/scribbleContactHover.png')"],
         scribbleAboutHover: ["url('/images/scribbles/scribbleAboutHover.png')"],
