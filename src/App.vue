@@ -1,17 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import NavCom from './components/universal/NavCom.vue';
 
 </script>
 
 <template>
   <header>
 
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
- 
+<NavCom />
+     
   </header>
 
   <RouterView />

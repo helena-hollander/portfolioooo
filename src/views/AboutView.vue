@@ -1,4 +1,4 @@
 <template>
-  <p>about</p>
+  <p class="font-trispace">about</p>
 </template>
 
