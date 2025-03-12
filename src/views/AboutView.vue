@@ -1,4 +1,6 @@
 <template>
-  <p class="font-trispace">about</p>
+ <div class="h-[100vh] bg-lightest">
+
+ </div>
 </template>
 
