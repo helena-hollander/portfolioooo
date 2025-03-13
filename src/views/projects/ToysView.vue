@@ -1,3 +1,5 @@
+
+
 <template>
     <div class="grid">
         <img src="/images/toys/toysSketch01.png" class="w-[70vw] justify-self-end pt-4">
