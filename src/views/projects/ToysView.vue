@@ -14,27 +14,23 @@
         <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full mt-[10%] justify-self-center z-10">
         <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px]">
         <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end translate-y-[-5%]">
-        <video autoplay muted loop playsinline class="w-[54%] justify-self-start translate-y-[-7%]">
+        <video autoplay muted loop playsinline class="w-[54%] justify-self-start translate-y-[-22%]">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
          </video>
     </div>
 
     <!-- scribble div -->
-    <!-- <div class="absolute top-0 grid w-full">
-        <div class="h-[228px] content-end">
-        <img src="/images/toys/toyScribble01.png" class="w-[50vw] ml-4">
-        </div>
-        <div class="h-[228px] content-end">
-    <img src="/images/toys/toysScribbleHearts01.png" class="w-[30vw] justify-self-end mr-8">
-        </div>
-        <div class="h-[338px] content-end">
-    <img src="/images/toys/toyScribbleD01.png" class="w-[32vw] justify-self-end mr-4">
-        </div>
-        <div class="h-[278px] content-end">
-    <img src="/images/toys/scribbleDemoFloor.png" class="w-[10vw] justify-self-start ml-[40vw]">
-        </div> -->
+    <div class="absolute top-0 grid w-full">   
+     <img src="/images/toys/toyScribble01.png" class="w-[50%] mt-[30%] ml-[4%]">
+     <img src="/images/toys/toysScribbleHearts01.png" class="w-[30%] mt-[16%] justify-self-end mr-[10%]">
+     <img src="/images/toys/toyScribbleD01.png" class="w-[32%] mt-[106%] justify-self-end mr-[4%]">
+     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[24%] justify-self-start ml-[41%]">
+     <img src="/images/toys/toysScribbleGenerator01.png" class="w-[54%] mt-[129%] justify-self-center">
+     <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[96%] justify-self-start ml-[12%]">
+     <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[58%] justify-self-start ml-[32%]">
+     <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] mt-[88%] justify-self-center">
         <!-- <div class="h-[0px] content-end">
     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10vw] justify-self-start ml-[40vw]">
         </div> -->
-    <!-- </div> -->
+    </div>
 </template>
