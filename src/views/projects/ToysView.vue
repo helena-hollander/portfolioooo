@@ -46,7 +46,7 @@
     <div class="absolute top-0 grid w-full">
         <h1 class="mt-[124%] mr-[4%] font-trispace text-darkest text-displaySizeMobile/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
         <p class="mr-[4%] font-trispace text-darkest text-right text-contextSizeMobile">[school project, June '24]</p>
-        <div class="grid grid-cols-2 justify-content-end mr-[4%] gap-[10%]">
+        <div class="grid grid-cols-2 justify-content-end content-end mr-[4%] gap-[10%]">
             <p class="col-start-2 mt-[194%]  font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
         </div>
         <p class="mx-[4%] mt-[6%] font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">
