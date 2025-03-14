@@ -28,8 +28,8 @@
     <!-- scribble div -->
     <div class="absolute top-0 grid w-full">   
      <img src="/images/toys/toyScribble01.png" class="w-[50%] mt-[30%] ml-[4%]">
-     <img src="/images/toys/toysScribbleHearts01.png" class="w-[30%] mt-[16%] justify-self-end mr-[10%]">
-     <img src="/images/toys/toyScribbleD01.png" class="w-[32%] mt-[106%] justify-self-end mr-[4%]">
+     <img src="/images/toys/toysScribbleHearts01.png" class="w-[28%] mt-[44%] justify-self-end mr-[10%]">
+     <img src="/images/toys/toyScribbleD01.png" class="w-[32%] mt-[80%] justify-self-end mr-[4%]">
      <img src="/images/toys/toysLogoBlue.png" class="w-[16%] mt-[0%] justify-self-start ml-[26%]">
      <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[12%] justify-self-start ml-[41%]">
      <img src="/images/toys/toysScribbleGenerator01.png" class="w-[58%] mt-[129%] justify-self-center">
@@ -44,6 +44,15 @@
     </div>
     <!-- text div -->
     <div class="absolute top-0 grid w-full">
-        <h1 class="mt-[110%] mr-[2%] font-trispace text-darkest text-5xl/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
+        <h1 class="mt-[124%] mr-[4%] font-trispace text-darkest text-displaySizeMobile/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
+        <p class="mr-[4%] font-trispace text-darkest text-right text-contextSizeMobile">[school project, June '24]</p>
+        <div class="grid grid-cols-2 justify-content-end mr-[4%] gap-[10%]">
+            <p class="col-start-2 mt-[194%]  font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
+        </div>
+        <p class="mx-[4%] mt-[6%] font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">
+The concept focuses on sextoys being playful and ‘pop’, rather than taboo.
+The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
+The whole idea ties into the interactive floor, on display in the museum, spawning where you walk, inviting you to explore.  </p>
+
     </div>
 </template>

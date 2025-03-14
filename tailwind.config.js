@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+   
     extend: {
       fontFamily: {
         trispace: ['Trispace', 'mono'],
@@ -19,7 +20,13 @@ export default {
         scribbleContactHover: ["url('/images/scribbles/scribbleContactHover.png')"],
         scribbleAboutHover: ["url('/images/scribbles/scribbleAboutHover.png')"],
       },
+      fontSize:{
+        displaySizeMobile: '2.3rem',
+        contextSizeMobile: '0.85rem',
+
+      },
     },
+    
   },
   plugins: [],
 }
