@@ -42,4 +42,8 @@
     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10vw] justify-self-start ml-[40vw]">
         </div> -->
     </div>
+    <!-- text div -->
+    <div class="absolute top-0 grid w-full">
+        <h1 class="mt-[110%] mr-[2%] font-trispace text-darkest text-5xl/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
+    </div>
 </template>
