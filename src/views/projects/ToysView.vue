@@ -20,12 +20,14 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                 The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
                 The whole idea ties into the interactive floor, on display in the museum, spawning where you walk, inviting you to explore.  </p>
         </div>
-            <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] justify-self-center ">
-            <img src="/images/toys/toysScribbleGenerator01.png" class="w-[58%] my-[2%] justify-self-center">
-            <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full justify-self-center z-10">
-            <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px]">
-            <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[-58%] justify-self-start ml-[12%]">
-            <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[-10%]">
+        <div class="sm:grid sm:grid-cols-5 sm:col-span-2">
+            <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] justify-self-center sm:w-[66%] sm:justify-self-end ">
+            <img src="/images/toys/toysScribbleGenerator01.png" class="w-[58%] my-[2%] justify-self-center sm:col-start-2 sm:col-span-3 sm:self-center sm:w-[50%] sm:mt-[-4%]">
+            <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full justify-self-center z-10 sm:col-start-2 sm:col-span-3 sm:w-[82%] sm:mt-[-10%]">
+            <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px] sm:w-[70%] sm:col-span-3 sm:col-start-3 sm:mt-[-48%]">
+            <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[-58%] justify-self-start ml-[12%] sm:col-start-4 sm:row-start-3 sm:mt-[22%] sm:w-[36%]">
+        </div>
+            <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[10%]">
             <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%]">
             <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-12%]">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
