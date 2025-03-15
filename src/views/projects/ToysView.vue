@@ -17,20 +17,24 @@
             The concept focuses on sextoys being playful and ‘pop’, rather than taboo.
             The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
             The whole idea ties into the interactive floor, on display in the museum, spawning where you walk, inviting you to explore.  </p>
-        <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] justify-self-center ">
-        <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full mt-[10%] justify-self-center z-10">
-        <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px]">
-        <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[-10%]">
-        <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-18%]">
+            <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] justify-self-center ">
+            <img src="/images/toys/toysScribbleGenerator01.png" class="w-[58%] my-[2%] justify-self-center">
+            <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full justify-self-center z-10">
+            <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px]">
+            <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[-58%] justify-self-start ml-[12%]">
+            <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[-10%]">
+            <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%]">
+            <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-12%]">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
-         </video>
+            </video>
          <div class="grid grid-cols-3 mt-[4%] gap-[8%]">
              <img src="/images/toys/toysSatisfyerPoster.png" class="w-full">
              <img src="/images/toys/toysDildPoster.png" class="w-full">
              <img src="/images/toys/toysWandPoster.png" class="w-full">
             </div>
-            <p class="mr-[4%] my-[8%] font-trispace text-darkest text-contextSizeMobile">[school project, June '24]</p>
-    <img src="/images/toys/toysCollection3d01.png" class="w-[96%] justify-self-center">
+     <p class="mx-[4%] my-[8%] font-trispace text-darkest text-contextSizeMobile">[school project, June '24] Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorem temporibus quasi laborum esse libero modi omnis dolorum minus veritatis, ad possimus, expedita similique quidem in, est nisi dolor numquam.</p>
+     <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] justify-self-center">
+    <img src="/images/toys/toysCollection3d01.png" class="w-[96%] mt-[-6%] justify-self-center">
     </div>
 
     <!-- scribble div -->
@@ -39,18 +43,14 @@
      <img src="/images/toys/toysScribbleHearts01.png" class="w-[28%] mt-[44%] justify-self-end mr-[10%]">
      <img src="/images/toys/toyScribbleD01.png" class="w-[32%] mt-[80%] justify-self-end mr-[4%]">
      <img src="/images/toys/toysLogoBlue.png" class="w-[16%] mt-[0%] justify-self-start ml-[26%]">
-     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[12%] justify-self-start ml-[41%]">
-     <img src="/images/toys/toysScribbleGenerator01.png" class="w-[58%] mt-[129%] justify-self-center">
-     <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[96%] justify-self-start ml-[12%]">
-     <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[48%] justify-self-start ml-[32%]">
+     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[13%] justify-self-start ml-[41%]">
     
-     <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] mt-[168%] justify-self-center">
    
         <!-- <div class="h-[0px] content-end">
     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10vw] justify-self-start ml-[40vw]">
         </div> -->
     </div>
-    <!-- text div -->
+    <!-- displayText div -->
     <div class="absolute top-0 grid w-full">
         <h1 class="mt-[124%] mr-[4%] font-trispace text-darkest text-displaySizeMobile/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
         <p class="mr-[4%] font-trispace text-darkest text-right text-contextSizeMobile">[school project, June '24]</p>
