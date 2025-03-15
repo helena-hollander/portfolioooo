@@ -5,24 +5,32 @@
         <img src="/images/toys/toysSketch01.png" class="w-[70%] justify-self-end pt-4">
         <img src="/images/toys/toysSketch02.png" class="w-[70%] justify-self-start translate-y-[-20px] translate-x-[-20px]">
         <video autoplay muted loop playsinline class="w-[50%] justify-self-center mt-[10%]">
-                <source src="/videos/toys01.mp4" type="video/mp4">
-         </video>
-         <video autoplay muted loop playsinline class="w-[46%] mt-[10%] justify-self-start translate-x-[-18px]">
-                <source src="/videos/demoFloorToys.mp4" type="video/mp4">
+            <source src="/videos/toys01.mp4" type="video/mp4">
         </video>
-        <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] mt-[75%] justify-self-center ">
+        <div class="grid grid-cols-2 w-full mt-[10%] text-right justify-self-start font-trispace text-darkest text-contextSizeMobile/[1.8]">
+            <video autoplay muted loop playsinline class="ml-[-14%]">
+                <source src="/videos/demoFloorToys.mp4" type="video/mp4">
+            </video>
+            <p class="self-end mr-[8%]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
+        </div>
+        <p class="mx-[4%] my-[8%] font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">
+            The concept focuses on sextoys being playful and ‘pop’, rather than taboo.
+            The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
+            The whole idea ties into the interactive floor, on display in the museum, spawning where you walk, inviting you to explore.  </p>
+        <img src="/images/toys/toysFloggerBlender01.png" class="w-[36%] justify-self-center ">
         <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full mt-[10%] justify-self-center z-10">
         <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px]">
         <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[-10%]">
         <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-18%]">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
          </video>
-    <div class="grid grid-cols-3 mt-[4%] gap-[8%]">
-        <img src="/images/toys/toysSatisfyerPoster.png" class="w-full">
-        <img src="/images/toys/toysDildPoster.png" class="w-full">
-        <img src="/images/toys/toysWandPoster.png" class="w-full">
-    </div>
-    <img src="/images/toys/toysCollection3d01.png" class="w-[96%] mt-[50%] justify-self-center">
+         <div class="grid grid-cols-3 mt-[4%] gap-[8%]">
+             <img src="/images/toys/toysSatisfyerPoster.png" class="w-full">
+             <img src="/images/toys/toysDildPoster.png" class="w-full">
+             <img src="/images/toys/toysWandPoster.png" class="w-full">
+            </div>
+            <p class="mr-[4%] my-[8%] font-trispace text-darkest text-contextSizeMobile">[school project, June '24]</p>
+    <img src="/images/toys/toysCollection3d01.png" class="w-[96%] justify-self-center">
     </div>
 
     <!-- scribble div -->
@@ -46,13 +54,9 @@
     <div class="absolute top-0 grid w-full">
         <h1 class="mt-[124%] mr-[4%] font-trispace text-darkest text-displaySizeMobile/[1.15] text-right">the<br>SEXTOY<br>GALLERY</h1>
         <p class="mr-[4%] font-trispace text-darkest text-right text-contextSizeMobile">[school project, June '24]</p>
-        <div class="grid grid-cols-2 justify-content-end content-end mr-[4%] gap-[10%]">
-            <p class="col-start-2 mt-[194%]  font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
-        </div>
-        <p class="mx-[4%] mt-[6%] font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">
-The concept focuses on sextoys being playful and ‘pop’, rather than taboo.
-The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
-The whole idea ties into the interactive floor, on display in the museum, spawning where you walk, inviting you to explore.  </p>
+        <!-- <div class="grid grid-cols-2 justify-content-end content-end mr-[4%] gap-[10%] h-[136vw]">
+            <p class="col-start-2 self-end h-full font-trispace text-darkest text-right text-contextSizeMobile/[1.8]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
+        </div> -->
 
     </div>
 </template>
