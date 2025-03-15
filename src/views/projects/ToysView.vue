@@ -10,11 +10,11 @@ import FooterCom from '@/components/universal/FooterCom.vue';
         <video autoplay muted loop playsinline class="w-[50%] justify-self-center mt-[10%] sm:w-[46%] sm:col-start-1 sm:row-start-1 sm:justify-self-end sm:mt-0"> ">
             <source src="/videos/toys01.mp4" type="video/mp4">
         </video>
-        <div class="grid grid-cols-2 sm:col-span-2 w-full mt-[10%] text-right justify-self-start font-trispace text-darkest text-contextSizeMobile/[1.8] sm:grid-cols-3 sm:mt-[-10%]">
+        <div class="grid grid-cols-2 sm:col-span-2 w-full mt-[10%] text-right justify-self-start font-trispace text-darkest text-contextSizeMobile/[1.8] sm:grid-cols-3 sm:mt-[-6%]">
             <video autoplay muted loop playsinline class="ml-[-14%] sm:col-start-3 sm:row-span-2 sm:w-[70%] sm:ml-0 sm:mr-[10%] sm:justify-self-start">
                 <source src="/videos/demoFloorToys.mp4" type="video/mp4">
             </video>
-            <p class="self-end mr-[8%] my-[4%] sm:col-start-1 sm:row-start-1 sm:col-span-2 sm:text-base sm:ml-[4%] sm:mr-[4%]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
+            <p class="self-end mr-[8%] mb-[4%] sm:col-start-1 sm:row-start-1 sm:col-span-2 sm:text-base sm:ml-[4%] sm:mr-[4%]">Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.</p>
             <p class="mx-[4%] my-[8%] col-span-2 font-trispace text-darkest text-right text-contextSizeMobile/[1.8] sm:text-base sm:my-0">
                 The concept focuses on sextoys being playful and ‘pop’, rather than taboo.
                 The squares in the pixelsgrid maps the 3d elements, creating a filter and an SVG export.
@@ -46,7 +46,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
      <img src="/images/toys/toysScribbleHearts01.png" class="w-[28%] mt-[44%] justify-self-end mr-[10%] sm:col-start-3 sm:row-start-2 sm:w-[34%] sm:justify-self-start">
      <img src="/images/toys/toyScribbleD01.png" class="w-[32%] mt-[80%] justify-self-end mr-[4%] sm:col-start-2 sm:row-start-1 sm:w-[44%] sm:mr-[20%] sm:mt-[34%]">
      <img src="/images/toys/toysLogoBlue.png" class="w-[16%] mt-[0%] justify-self-start ml-[26%] sm:col-start-1 sm:w-[34%] sm:justify-self-end sm:mt-[80%] sm:mr-[-38%]">
-     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[13%] justify-self-start ml-[41%] sm:col-start-3 sm:mt-0 sm:justify-self-end">
+     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[13%] justify-self-start ml-[41%] sm:col-start-3 sm:mt-[20%] sm:w-[18%] sm:mr-[14%] sm:justify-self-end">
     
    
         <!-- <div class="h-[0px] content-end">
