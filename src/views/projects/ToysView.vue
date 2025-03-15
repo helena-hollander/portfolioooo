@@ -32,8 +32,8 @@
              <img src="/images/toys/toysDildPoster.png" class="w-full">
              <img src="/images/toys/toysWandPoster.png" class="w-full">
             </div>
-     <p class="mx-[4%] my-[8%] font-trispace text-darkest text-contextSizeMobile">[school project, June '24] Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorem temporibus quasi laborum esse libero modi omnis dolorum minus veritatis, ad possimus, expedita similique quidem in, est nisi dolor numquam.</p>
-     <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] justify-self-center">
+     <p class="mx-[4%] m-[4%] font-trispace text-darkest text-contextSizeMobile">Pixels, often used to censor bodies or sextoys, are now re-used to draw them. </p>
+     <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] mt-[4%] justify-self-center">
     <img src="/images/toys/toysCollection3d01.png" class="w-[96%] mt-[-6%] justify-self-center">
     </div>
 
