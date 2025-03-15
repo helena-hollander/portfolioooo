@@ -26,18 +26,18 @@ import FooterCom from '@/components/universal/FooterCom.vue';
             <img src="/images/toys/toysGeneratorProcessing01.png" class="w-full justify-self-center z-10 sm:col-start-2 sm:col-span-3 sm:w-[82%] sm:mt-[-10%]">
             <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px] sm:w-[70%] sm:col-span-3 sm:col-start-3 sm:mt-[-48%]">
             <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[-58%] justify-self-start ml-[12%] sm:col-start-4 sm:row-start-3 sm:mt-[22%] sm:w-[36%]">
-        </div>
-            <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[10%]">
-            <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%]">
-            <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-12%]">
+            <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[10%] sm:col-start-1 sm:mt-[4%] sm:row-start-4 sm:row-span-2 sm:w-[74%] ">
+            <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%] sm:col-start-2 sm:row-start-4 sm:mt-0 sm:self-end sm:w-[54%] sm:justify-self-end">
+            <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-12%] sm:col-start-2 sm:row-span-2 sm:w-[88%] sm:mt-0 sm:justify-self-end">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
             </video>
-         <div class="grid grid-cols-3 mt-[4%] gap-[8%]">
-             <img src="/images/toys/toysSatisfyerPoster.png" class="w-full">
-             <img src="/images/toys/toysDildPoster.png" class="w-full">
-             <img src="/images/toys/toysWandPoster.png" class="w-full">
-            </div>
-     <p class="mx-[4%] m-[4%] font-trispace text-darkest text-contextSizeMobile">Pixels, often used to censor bodies or sextoys, are now re-used to draw them. </p>
+            <div class="grid grid-cols-3 mt-[4%] gap-[8%] sm:col-span-3  sm:w-[80%] sm:justify-self-center sm:mt-0 sm:self-center sm:gap-[4%]">
+                <img src="/images/toys/toysSatisfyerPoster.png" class="w-full">
+                <img src="/images/toys/toysDildPoster.png" class="w-full">
+                <img src="/images/toys/toysWandPoster.png" class="w-full">
+               </div>
+               <p class="mx-[4%] m-[4%] font-trispace text-darkest text-contextSizeMobile sm:col-span-3 sm:col-start-3 sm:text-base">Pixels, often used to censor bodies or sextoys, are now re-used to draw them. </p>
+        </div>
      <img src="/images/toys/toysCollectionScribble01.png" class="w-[52%] mt-[4%] justify-self-center">
     <img src="/images/toys/toysCollection3d01.png" class="w-[96%] mt-[-6%] justify-self-center">
     </div>
