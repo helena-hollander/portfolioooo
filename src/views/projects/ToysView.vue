@@ -1,4 +1,7 @@
-
+<script setup>
+import { ref } from 'vue'
+import FooterCom from '@/components/universal/FooterCom.vue';
+</script>
 
 <template>
     <div class="grid">
@@ -59,4 +62,5 @@
         </div> -->
 
     </div>
+    <FooterCom />
 </template>
