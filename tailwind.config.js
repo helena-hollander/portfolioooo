@@ -23,6 +23,7 @@ export default {
       fontSize:{
         displaySizeMobile: '2.3rem',
         contextSizeMobile: '0.85rem',
+        contactSizeWeb: '2.3rem',
 
       },
     },

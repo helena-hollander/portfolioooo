@@ -27,8 +27,8 @@ import FooterCom from '@/components/universal/FooterCom.vue';
             <img src="/images/toys/toysFloggerPixel01.png" class="w-[90%] justify-self-end translate-y-[-12%] translate-x-[40px] sm:w-[70%] sm:col-span-3 sm:col-start-3 sm:mt-[-48%]">
             <img src="/images/toys/toysSvgScribble01.png" class="w-[30%] mt-[-58%] justify-self-start ml-[12%] sm:col-start-4 sm:row-start-3 sm:mt-[22%] sm:w-[36%]">
             <img src="/images/toys/toysProcessing02.png" class="w-[38%] justify-self-end mt-[10%] sm:col-start-1 sm:mt-[4%] sm:row-start-4 sm:row-span-2 sm:w-[74%] ">
-            <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%] sm:col-start-2 sm:row-start-4 sm:mt-0 sm:self-end sm:w-[54%] sm:justify-self-end">
-            <video autoplay muted loop playsinline class="w-[54%] justify-self-start mt-[-12%] sm:col-start-2 sm:row-span-2 sm:w-[88%] sm:mt-0 sm:justify-self-end">
+            <img src="/images/toys/toysTweaksScribble01.png" class="w-[22%] mt-[-20%] ml-[32%] sm:col-start-2 sm:row-start-4 sm:mt-0 sm:self-end sm:w-[54%] sm:justify-self-end ">
+            <video autoplay muted loop playsinline class="w-[54%] justify-self-start sm:col-start-2 sm:row-span-2 sm:w-[88%] sm:mt-0 sm:justify-self-end sm:self-end">
                 <source src="/videos/toysTweaks.mp4" type="video/mp4">
             </video>
             <div class="grid grid-cols-3 mt-[4%] gap-[8%] sm:col-span-3  sm:w-[80%] sm:justify-self-center sm:mt-0 sm:self-center sm:gap-[4%]">
