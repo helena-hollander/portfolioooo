@@ -14,10 +14,10 @@
                 
                 as part of my bachelor in Coded Design, DMJX, Copenhagen. The period is from 20th of October ‘25 - 6th of March ‘26. (It can be split into two halves) <br><br>I would love to explore the crossover between interactive design, creative code, 3d and installation/stage design. I want to tell stories and facilitate rooms where people dare to dance and dream. <br><br>Other work inquiries are also very welcome. Big or small.<img src="/images/scribbles/contact/pTagEnd.png" class="w-[70px] inline"></img></p>
         </div>
-        <div>
-            <a href="https://www.behance.net/helenahollnder" target="_blank"><img src="/images/scribbles/contact/scribbleBehance.png"></a>
-            <a href="https://www.behance.net/helenahollnder" target="_blank"><img src="/images/scribbles/contact/scribbleLinkedin.png"></a>
-            <a href="https://www.behance.net/helenahollnder" target="_blank"><img src="/images/scribbles/contact/scribbleInsta.png"></a>
+        <div class="grid">
+            <a href="https://www.behance.net/helenahollnder" target="_blank"><img src="/images/scribbles/contact/scribbleBehance.png" class="w-[64%] justify-self-end hover:opacity-60"></a>
+            <a href="https://www.linkedin.com/in/helena-holl%C3%A6nder-b0641728b/" target="_blank"><img src="/images/scribbles/contact/scribbleLinkedin.png" class="w-[70%] justify-self-end hover:opacity-60"></a>
+            <a href="https://www.instagram.com/hollanderen/" target="_blank"><img src="/images/scribbles/contact/scribbleInsta.png" class="w-[80%] justify-self-end hover:opacity-60"></a>
         </div>
     </div>
    
