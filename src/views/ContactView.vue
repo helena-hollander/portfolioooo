@@ -22,7 +22,7 @@ const imageSrc = computed(() => {
 </script>
 <template>
     <div class="grid  h-full bg-lightContrast pt-[10%] content-start sm:h-screen">
-        <h2 class="mt-[10%] ml-[4%] sm:pr-[4%] font-trispace text-3xl/6 text-darkest w-[360px] lg:text-displayContact sm:w-full  lg:max-w-[84%]">Let’s <img src="/images/scribbles/contact/scribbleShare.png" class="w-[140px] inline ml-[-20px] sm:w-[200px]"><span class="ml-[-120px] sm:ml-[-180px]">share</span></img> ideas and get creative.</h2>
+        <h2 class="mt-[10%] ml-[4%] font-trispace text-3xl/6 text-darkest w-[360px] lg:text-displayContact sm:w-full  lg:max-w-[84%]">Let’s <img src="/images/scribbles/contact/scribbleShare.png" class="w-[140px] inline ml-[-20px] sm:w-[200px]"><span class="ml-[-120px] sm:ml-[-180px]">share</span></img> ideas and get creative.</h2>
         <img :src="imageSrc" class="w-[100%] mt-[-30%] lg:w-[84%]">
 
     
