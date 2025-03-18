@@ -24,7 +24,16 @@ export default {
         displaySizeMobile: '2.3rem',
         contextSizeMobile: '0.85rem',
         contactSizeWeb: '2.3rem',
+        displayContact: '2.6rem',
 
+      },
+      screens: {
+        'xs': '375px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
     },
     
