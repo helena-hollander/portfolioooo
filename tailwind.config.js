@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         trispace: ['Trispace', 'mono'],
+        vazirmatn: ['Vazirmatn', 'sans-serif'],
       },
       colors: {
         darkest: '#0404FF',
@@ -26,6 +27,10 @@ export default {
         contactSizeWeb: '2.3rem',
         displayContact: '2.6rem',
 
+      },
+      cursor: {
+        orange: 'url(/images/cursor_orange.png), default',
+        // pointer: 'url(/images/cursor.png), pointer',
       },
       screens: {
         'xs': '375px',

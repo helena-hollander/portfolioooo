@@ -26,7 +26,7 @@
       },
       fontFamily: {
         type: String,
-        default: 'Trispace'
+        default: 'Vazirmatn'
       }
     },
     data() {
@@ -126,6 +126,7 @@
             graphic.textFont(this.fontFamily);
             graphic.textSize(p.width * this.textSize);
             graphic.textAlign(p.CENTER, p.CENTER);
+            graphic.textStyle(p.BOLD);
             graphic.fill(this.textColor);
             graphic.noStroke();
             
