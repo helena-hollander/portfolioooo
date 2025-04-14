@@ -14,8 +14,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
       <RouterLink to="/toys">sextoys</RouterLink>
       <RouterLink to="/toys">sextoys</RouterLink>
        </div>
-       <div class="container">
-        <div class="h-full">
+       <div class="container w-full justify-content-center">
     <InteractiveLogoCom 
       text="HELENA HOLLÆNDER" 
       :textSize="0.05"
@@ -24,7 +23,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
       fontFamily="Trispace"
       class="text-center text-darkest"
     />
-  </div>
+
   </div>
     </div>
    

@@ -99,20 +99,19 @@
           `;
           
           p.setup = () => {
-            // Create canvas based on container size
-            const container = this.$refs.canvasContainer;
-            const canvas = p.createCanvas(window.innerWidth, window.innerHeight, p.WEBGL);
-            canvas.parent(container);
-            
-            // Create shader
-            shader = p.createShader(vertexShader, fragmentShader);
-            
-            // Create graphics buffer for text (use P2D renderer)
-            graphic = p.createGraphics(p.width, p.height, p.P2D);
-            
-            p.noStroke();
-            p.frameRate(60);
-          };
+  // Create canvas based on window size
+  const canvas = p.createCanvas(window.innerWidth, window.innerHeight, p.WEBGL);
+  canvas.parent(this.$refs.canvasContainer);
+
+  // Create shader
+  shader = p.createShader(vertexShader, fragmentShader);
+
+  // Create graphics buffer for text (use P2D renderer)
+  graphic = p.createGraphics(p.width, p.height, p.P2D);
+
+  p.noStroke();
+  p.frameRate(60);
+};
           
           p.draw = () => {
             // Clear the graphics buffer
@@ -165,10 +164,15 @@
           };
           
           p.windowResized = () => {
-            const container = this.$refs.canvasContainer;
-            p.resizeCanvas(container.clientWidth, container.clientHeight);
-            graphic = p.createGraphics(p.width, p.height, p.P2D);
-          };
+  // Resize the canvas to match the new window size
+  p.resizeCanvas(window.innerWidth, window.innerHeight);
+
+  // Recreate the graphics buffer with the new dimensions
+  graphic = p.createGraphics(p.width, p.height, p.P2D);
+
+  // Ensure the text stays centered
+  graphic.textAlign(p.CENTER, p.CENTER);
+};
         };
         
         this.p5Instance = new p5(sketch);
