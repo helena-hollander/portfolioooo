@@ -14,7 +14,7 @@ export default {
       colors: {
         darkest: '#0E183D',
         lightest: '#FFFCF8',
-        lightContrast: '#F4442E',
+        lightContrast: '#2126cf',
         strongContrast: '#FF3567',
       },
       backgroundImage: {

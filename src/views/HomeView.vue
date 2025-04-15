@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
+import TitleCom from '@/components/universal/TitleCom.vue';
 
 
 </script>
@@ -12,32 +13,36 @@ import { ref, onMounted, onUnmounted } from 'vue';
       <div class="absolute self-center hover:underline">
       <RouterLink to="/toys">sextoys</RouterLink>
        </div>
- <div class="container w-full justify-content-center">
-  
-    <InteractiveLogoCom 
-      text="helena hollænder" 
-      :textSize="0.12"
-      textColor="#0E183D"
-      backgroundColor="#FFFCF8"
-      fontFamily="Vazirmatn"
-      class="text-center text-darkest"
-    />
-
-  </div>
+       <div class="logo-container fixed w-full h-[100%] z-10 mt-[-10%]">
+        <InteractiveLogoCom 
+          text="helena hollænder" 
+          :textSize="0.12"
+          textColor="#0E183D"
+          backgroundColor="#FFFCF8"
+          fontFamily="Vazirmatn"
+          class="text-center text-darkest"
+        />
+      </div>
     </div>
-    <div class="h-screen z-10 absolute top-0">
-      <img src="/images/work_tags/portoflio_title_blue.png" alt="portoflio_title"/>
+    <div class="w-screen z-30 absolute top-0">
+      <TitleCom />
+    </div>
+    <div class="h-screen w-full bg-lightContrast absolute z-20">
+
     </div>
    
   </main>
 </template>
 
 <style>
-.container {
+.logo-container {
   width: 100%;
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main {
   cursor: url('/images/cursor_orange.png'), auto;
 }
+
 </style>
