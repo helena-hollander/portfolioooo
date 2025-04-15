@@ -12,5 +12,10 @@ import NavCom from './components/universal/NavCom.vue';
   </header>
 
   <RouterView></RouterView>
+
 </template>
+
+<style scoped>
+
+</style>
 

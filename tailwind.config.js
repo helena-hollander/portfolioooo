@@ -12,9 +12,9 @@ export default {
         vazirmatn: ['Vazirmatn', 'sans-serif'],
       },
       colors: {
-        darkest: '#0404FF',
-        lightest: '#FCFFFD',
-        lightContrast: '#CEE3FF'
+        darkest: '#0E183D',
+        lightest: '#FFFCF8',
+        lightContrast: '#F4442E'
       },
       backgroundImage: {
         scribbleWorkHover: ["url('/images/scribbles/scribbleWorkHover.png')"],
@@ -28,10 +28,7 @@ export default {
         displayContact: '2.6rem',
 
       },
-      cursor: {
-        orange: 'url(/images/cursor_orange.png), default',
-        // pointer: 'url(/images/cursor.png), pointer',
-      },
+    
       screens: {
         'xs': '375px',
         'sm': '640px',
@@ -42,6 +39,9 @@ export default {
       },
     },
     
+  },
+  corePlugins: {
+    cursor: false, // Disable Tailwind's cursor utilities
   },
   plugins: [],
 }
