@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router'
 import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 import TitleCom from '@/components/universal/TitleCom.vue';
+import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
 
 
 </script>
@@ -15,8 +16,8 @@ import TitleCom from '@/components/universal/TitleCom.vue';
        </div>
        <div class="logo-container fixed w-full sm:h-[100%] h-[100%] z-10">
         <InteractiveLogoCom 
-          text="helena hollænder" 
-          :textSize="0.12"
+          text="HELENA HOLLÆNDER" 
+          :textSize="0.09"
           textColor="#0E183D"
           backgroundColor="#FFFCF8"
           fontFamily="Vazirmatn"
@@ -26,8 +27,9 @@ import TitleCom from '@/components/universal/TitleCom.vue';
 
     <div class="w-screen z-30 absolute sm:mt-0 mt-[20%]">
       <TitleCom />
-      <div class="h-screen w-full bg-lightContrast z-20 mt-[20%] sm:mt-0">
-    </div>
+      <div class="h-[300vh] w-full  z-20 mt-[-20%] sm:mt-[-0%]">
+      <WorkLayoutCom class=""></WorkLayoutCom>
+      </div>
     </div>
    
    
