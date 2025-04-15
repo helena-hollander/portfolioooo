@@ -25,8 +25,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
   </div>
     </div>
-    <div class="h-screen bg-lightContrast z-10">
-
+    <div class="h-screen z-10 absolute top-0">
+      <img src="/images/work_tags/portoflio_title_blue.png" alt="portoflio_title"/>
     </div>
    
   </main>
