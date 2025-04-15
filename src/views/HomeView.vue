@@ -15,8 +15,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
  <div class="container w-full justify-content-center">
   
     <InteractiveLogoCom 
-      text="HELENA HOLLÆNDER" 
-      :textSize="0.09"
+      text="helena hollænder" 
+      :textSize="0.12"
       textColor="#0E183D"
       backgroundColor="#FFFCF8"
       fontFamily="Vazirmatn"
