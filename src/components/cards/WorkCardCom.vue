@@ -17,9 +17,9 @@ defineProps({
 </script>
 
 <template>
-  <div class="grid grid-rows-2 row-span-2">
+  <div class="grid grid-rows-2">
     <img :src="imageUrl" :alt="title" class="row-span-2"/>
-    <h1 class="text-2xl mt-2">{{ title }}</h1>
-    <p v-if="description">{{ description }}</p>
+    <h1 class="text-xl mt-2">{{ title }}</h1>
+    <p v-if="description" class="font-extralight">{{ description }}</p>
   </div>
 </template>
