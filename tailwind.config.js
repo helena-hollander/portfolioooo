@@ -18,9 +18,9 @@ export default {
         strongContrast: '#FF3567',
       },
       backgroundImage: {
-        scribbleWorkHover: ["url('/images/scribbles/scribbleWorkHover.png')"],
-        scribbleContactHover: ["url('/images/scribbles/scribbleContactHover.png')"],
-        scribbleAboutHover: ["url('/images/scribbles/scribbleAboutHover.png')"],
+        scribbleWorkHover: ["url('/images/scribbles/work_hover_blue.png')"],
+        scribbleAboutHover: ["url('/images/scribbles/contact_hover_blue.png')"],
+        scribbleContactHover: ["url('/images/scribbles/about_hover_blue.png')"],
       },
       fontSize:{
         displaySizeMobile: '2.3rem',
