@@ -24,9 +24,9 @@ import TitleCom from '@/components/universal/TitleCom.vue';
         />
       </div>
 
-    <div class="w-screen z-30 absolute">
+    <div class="w-screen z-30 absolute sm:mt-0 mt-[20%]">
       <TitleCom />
-      <div class="h-screen w-full bg-lightContrast z-20">
+      <div class="h-screen w-full bg-lightContrast z-20 mt-[20%] sm:mt-0">
     </div>
     </div>
    
