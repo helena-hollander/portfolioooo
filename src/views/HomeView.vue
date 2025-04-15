@@ -9,11 +9,11 @@ import TitleCom from '@/components/universal/TitleCom.vue';
 
 <template>
   <main class="h-[200vh] bg-lightest main">
-    <div class="h-screen grid gric-cols-5 sm:w-[80vw] w-[108vw]">
+   
       <div class="absolute self-center hover:underline">
       <RouterLink to="/toys">sextoys</RouterLink>
        </div>
-       <div class="logo-container fixed w-full h-[100%] z-10 mt-[-10%]">
+       <div class="logo-container fixed w-full sm:h-[100%] h-[100%] z-10">
         <InteractiveLogoCom 
           text="helena hollænder" 
           :textSize="0.12"
@@ -23,13 +23,13 @@ import TitleCom from '@/components/universal/TitleCom.vue';
           class="text-center text-darkest"
         />
       </div>
-    </div>
-    <div class="w-screen z-30 absolute top-0">
-      <TitleCom />
-    </div>
-    <div class="h-screen w-full bg-lightContrast absolute z-20">
 
+    <div class="w-screen z-30 absolute">
+      <TitleCom />
+      <div class="h-screen w-full bg-lightContrast z-20">
     </div>
+    </div>
+   
    
   </main>
 </template>
@@ -37,7 +37,7 @@ import TitleCom from '@/components/universal/TitleCom.vue';
 <style>
 .logo-container {
   width: 100%;
-  display: flex;
+
   justify-content: center;
   align-items: center;
 }
