@@ -6,7 +6,7 @@ import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
  <div class="h-[100vh] bg-lightest">
     <div class="grid grid-cols-7">
         <img src="/images/about/tulips_portrait.png" class="col-span-3 h-[100vh] object-cover fixed" />
-        <p class="col-start-4 col-span-4 mt-[12%] mr-[6%] font-vazirmatn text-lg/6 font-light ml-[-8%]">
+        <p class="col-start-4 col-span-4 mt-[12%] mr-[6%] font-vazirmatn text-lg/6 font-light ml-[-8%] z-50">
 Hi,
 
 <br><br>My name is___________________ (she/her) and I am a visual creator, illustrator, explorer, coder and artist.

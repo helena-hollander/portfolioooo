@@ -15,7 +15,7 @@ export default {
         darkest: '#0E183D',
         lightest: '#FFFCF8',
         lightContrast: '#2126cf',
-        strongContrast: '#FF3567',
+        strongContrast: '#1f25e0',
       },
       backgroundImage: {
         scribbleWorkHover: ["url('/images/scribbles/work_hover_blue.png')"],
