@@ -19,7 +19,7 @@ Hi,
 
 <br><br>I am a queer artist and I practice design from a feministic point of view. I believe the best businesses and projects are driven by true diversity and transparency. 
 
-<br><br>Thank you for stopping by my little corner of the internet. Let’s connect.
+<br><br>Thank you for stopping by my little corner of the internet. Let’s <RouterLink to="/contact" class="text-darkest underline hover:text-strongContrast">connect.</RouterLink>
 
 
 
