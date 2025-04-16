@@ -30,9 +30,10 @@ defineProps({
 </script>
 
 <template>
-  <RouterLink :to="projectUrl">
+  
   <div class="grid grid-rows-2 mb-[2%] sm:grid-rows-2 ro-span-1">
-    <video autoplay muted loop playsinline  :alt="title" class="row-span-2 sm:row-span-1 sm:h-[100%]">
+    <RouterLink :to="projectUrl" class="row-span-2 sm:row-span-1 sm:h-[100%]">
+    <video autoplay muted loop playsinline  :alt="title" >
       <source :src="videoUrl" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -40,6 +41,7 @@ defineProps({
     <h1 class="text-xl mt-2">{{ title }}</h1>
     <p v-if="description" class="font-extralight">{{ description }}</p>
   </div>
-  </div>
 </RouterLink>
+  </div>
+
 </template>

@@ -6,8 +6,8 @@ import WorkVideoCardCom from '@/components/cards/WorkVideoCardCom.vue';
 <template>
 <div class="grid grid-cols-1 gap-0 mt-[28%] sm:mt-0 sm:grid-cols-10 sm:gap-[0%] sm:pt-[4%] mx-[8%] text-darkest font-bold">
     
-    <WorkCardCom 
-      imageUrl="/images/toys/toysWandPoster.png"
+    <WorkVideoCardCom 
+      videoUrl="/videos/toys01.mp4"
      
       title="SEXTOY GALLERY"
       projectUrl="/toys"
