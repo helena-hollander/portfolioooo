@@ -1,15 +1,20 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 // Define props with their types and default values
 defineProps({
   videoUrl: {
     type: String,
     required: true
   },
-  widthVideo: {
-    type: String,
-    required: true
-  },
-  heightVideo: {
+  // widthVideo: {
+  //   type: String,
+  //   required: true
+  // },
+  // heightVideo: {
+  //   type: String,
+  //   required: true
+  // },
+  projectUrl: {
     type: String,
     required: true
   },
@@ -25,8 +30,9 @@ defineProps({
 </script>
 
 <template>
-  <div class="grid grid-rows-2 mb-[2%] sm:grid-rows-2">
-    <video autoplay muted loop playsinline :width="widthVideo" :height="heightVideo" :alt="title" class="row-span-2 sm:row-span-1 sm:h-[100%]">
+  <RouterLink :to="projectUrl">
+  <div class="grid grid-rows-2 mb-[2%] sm:grid-rows-2 ro-span-1">
+    <video autoplay muted loop playsinline  :alt="title" class="row-span-2 sm:row-span-1 sm:h-[100%]">
       <source :src="videoUrl" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -35,4 +41,5 @@ defineProps({
     <p v-if="description" class="font-extralight">{{ description }}</p>
   </div>
   </div>
+</RouterLink>
 </template>
