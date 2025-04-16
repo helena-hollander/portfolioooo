@@ -1,3 +1,7 @@
+<script setup>
+import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
+</script>
+
 <template>
  <div class="h-[100vh] bg-lightest">
     <div class="grid grid-cols-7">
@@ -26,5 +30,6 @@ Hi,
 
  </p>
     </div>
+    <AboutDrawingCom class="absolute z-30 top-0 w-full"></AboutDrawingCom>
  </div>
 </template>
