@@ -28,7 +28,7 @@ import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
     <div class="w-screen z-30 absolute sm:mt-0 mt-[20%]">
       <TitleCom />
       <div class="h-[300vh] w-full  z-20 mt-[-20%] sm:mt-[-0%]">
-      <WorkLayoutCom class=""></WorkLayoutCom>
+      <WorkLayoutCom></WorkLayoutCom>
       </div>
     </div>
    
