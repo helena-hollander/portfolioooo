@@ -1,13 +1,21 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import CopyMailCom from "@/components/universal/CopyMailCom.vue";
-
+import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 
 </script>
 <template>
-
-<div>
-    
+<div class="h-[100vh]">
+    <div class="logo-container h-[60%] w-full">
+        <InteractiveLogoCom 
+          text="HIT ME UP!" 
+          :textSize="0.06"
+          textColor="#0E183D"
+          backgroundColor="#FFFCF8"
+          fontFamily="Vazirmatn"
+          class="text-center text-darkest"
+            />
+    </div>
 </div>
 
 
@@ -36,3 +44,11 @@ import CopyMailCom from "@/components/universal/CopyMailCom.vue";
     </div> -->
    
 </template>
+
+<style scoped>
+.logo-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+</style>
