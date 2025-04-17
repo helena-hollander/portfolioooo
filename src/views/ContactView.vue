@@ -16,7 +16,7 @@ import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
           class="text-center text-darkest"
             />
     </div>
-    <CopyMailCom class="absolute"></CopyMailCom>
+    <CopyMailCom class="absolute self-end"></CopyMailCom>
 </div>
 
 
