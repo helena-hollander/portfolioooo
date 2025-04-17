@@ -2,28 +2,20 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import CopyMailCom from "@/components/universal/CopyMailCom.vue";
 
-// const isSmallScreen = ref(window.matchMedia('(min-width: 640px)').matches)
 
-// const updateScreenSize = () => {
-//   isSmallScreen.value = window.matchMedia('(min-width: 640px)').matches
-// }
-
-// onMounted(() => {
-//   window.addEventListener('resize', updateScreenSize)
-// })
-
-// onUnmounted(() => {
-//   window.removeEventListener('resize', updateScreenSize)
-// })
-
-// const imageSrc = computed(() => {
-//   return isSmallScreen.value ? '/images/scribbles/contact/scribbleDisplayBubbleWide.png' : '/images/scribbles/contact/scribbleBubbleSmall.png'
-// })
 </script>
 <template>
-    <div class="grid  h-full bg-lightContrast pt-[10%] content-start sm:h-screen">
+
+<div>
+    
+</div>
+
+
+<!-- Old contact page: -->
+
+    <!-- <div class="grid  h-full bg-lightContrast pt-[10%] content-start sm:h-screen">
         <h2 class="mt-[4%] m-[4%] pr-[4%] font-trispace text-3xl/6 text-darkest w-[360px] sm:mt-[-4%] sm:w-full">Let’s <img src="/images/scribbles/contact/scribbleShare.png" class="w-[140px] inline ml-[-20px] sm:w-[200px]"><span class="ml-[-120px] sm:ml-[-180px]">share</span></img> ideas and get creative.</h2>
-        <!-- <img :src="imageSrc" class="w-[100%] mt-[-30%] lg:w-[84%] sm:mt-[-12%]"> -->
+         <img :src="imageSrc" class="w-[100%] mt-[-30%] lg:w-[84%] sm:mt-[-12%]">
 
     
         <div class="grid font-trispace text-darkest text-base/6 m-[4%]">
@@ -41,6 +33,6 @@ import CopyMailCom from "@/components/universal/CopyMailCom.vue";
             <img src="/images/scribbles/contact/scribbleClickMail.png" class="w-[38%] ml-[-8%] mt-[-12%]">
             <CopyMailCom class="mt-[-2%]"></CopyMailCom>
         </div>
-    </div>
+    </div> -->
    
 </template>
