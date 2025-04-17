@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute inset-0 w-full h-full pointer-events-none">
+    <div class="fixed inset-0 w-full h-full pointer-events-none">
       <div 
         ref="canvasContainer" 
         class="absolute inset-0 w-full h-full pointer-events-none" 
@@ -44,6 +44,7 @@
       p5Instance.clear(); // Keep canvas transparent after resize
     }
   };
+
   
   // p5.js sketch
   const sketch = (p) => {
@@ -75,5 +76,13 @@
       p.stroke(strongContrastColor);
       p.line(p.pmouseX, p.pmouseY, p.mouseX, p.mouseY);
     };
+     // Add keyPressed function within the sketch
+  p.keyPressed = () => {
+    if (p.key === ' ') {
+      p.clear();
+      return false; // Prevent default behavior
+    }
+    return true;
+  };
   };
   </script>

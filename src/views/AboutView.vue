@@ -6,7 +6,7 @@ import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
  <div class="sm:h-[100%] bg-lightest">
     <div class="grid grid-cols-1 sm:grid-cols-7 sm:h-[100%]">
         <img src="/images/about/tulips_portrait_small.png" class="relative row-start-2 w-[100vw] h-[60vh] sm:col-span-3 sm:row-start-1  sm:w-[40%] sm:h-[100%] object-cover sm:fixed" />
-        <p class="my-[12%] px-[6%] font-vazirmatn sm:pb-[4%] sm:col-start-4 sm:col-span-4 sm:text-lg/6 font-light sm:ml-[0%] z-50">
+        <p class="my-[8%] px-[6%] font-vazirmatn sm:pb-[4%] sm:col-start-4 sm:col-span-4 sm:text-lg/6 font-light sm:ml-[0%] z-50">
 Hi,
 
 <br><br>My name is___________________ (she/her) and I am a visual creator, illustrator, explorer, coder and artist.
@@ -30,6 +30,7 @@ Hi,
 
  </p>
     </div>
-    <AboutDrawingCom class="absolute z-30 top-0 w-full"></AboutDrawingCom>
+    <AboutDrawingCom class="z-30 top-0 w-full fixed sm:fixed"></AboutDrawingCom> 
+    <!-- Vil jeg style denne, se selve com -->
  </div>
 </template>
