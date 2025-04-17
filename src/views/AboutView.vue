@@ -3,14 +3,14 @@ import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
 </script>
 
 <template>
- <div class="h-[100vh] bg-lightest">
-    <div class="grid grid-cols-7">
-        <img src="/images/about/tulips_portrait_small.png" class="col-span-3 h-[100vh] object-cover fixed" />
-        <p class="col-start-4 col-span-4 mt-[12%] mr-[6%] font-vazirmatn text-lg/6 font-light ml-[-8%] z-50">
+ <div class="sm:h-[100%] bg-lightest">
+    <div class="grid grid-cols-1 sm:grid-cols-7 sm:h-[100%]">
+        <img src="/images/about/tulips_portrait_small.png" class="relative row-start-2 w-[100vw] h-[60vh] sm:col-span-3 sm:row-start-1  sm:w-[40%] sm:h-[100%] object-cover sm:fixed" />
+        <p class="my-[12%] px-[6%] font-vazirmatn sm:pb-[4%] sm:col-start-4 sm:col-span-4 sm:text-lg/6 font-light sm:ml-[0%] z-50">
 Hi,
 
 <br><br>My name is___________________ (she/her) and I am a visual creator, illustrator, explorer, coder and artist.
-<br><br>I am inspired by  ___________________.
+<!-- <br><br>I am inspired by  ___________________. -->
 <br><br>I am currently studying for my BA in Visual Communication, ___________________ at DMJX, Copenhagen. <br>I am looking for an internship from 20th of October ‘25 to 6th of March ‘26. 
 
 <br><br>I specialize in interactive design and stage design through creative coding, 3D and motion. Anything within the realm of theatre, museum installations, websites, dancefloors, graphic novels and game design. 
