@@ -5,8 +5,8 @@ import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 
 </script>
 <template>
-<div class="h-[100vh]">
-    <div class="logo-container h-[60%] w-full">
+<div class="grid h-[100vh]">
+    <div class="logo-container h-[100%] w-full fixed">
         <InteractiveLogoCom 
           text="HIT ME UP!" 
           :textSize="0.06"
@@ -16,6 +16,7 @@ import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
           class="text-center text-darkest"
             />
     </div>
+    <CopyMailCom class="absolute"></CopyMailCom>
 </div>
 
 
