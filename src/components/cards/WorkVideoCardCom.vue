@@ -35,7 +35,7 @@ defineProps({
     </video>
     <div class="row-span-1">
     <h1 class="text-xl mt-2">{{ title }}</h1>
-    <p v-if="description" class="font-extralight">{{ description }}</p>
+    <p v-if="description" class="font-light">{{ description }}</p>
   </div>
 </RouterLink>
   </div>
