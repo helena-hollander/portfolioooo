@@ -21,14 +21,14 @@ import WorkVideoCardCom from '@/components/cards/WorkVideoCardCom.vue';
       projectUrl="/projectionmapping"
       class="sm:col-span-3 sm:col-start-5 sm:h-[40%] col-span-1 col-start-1 object-cover "/>
     <WorkCardCom 
-      imageUrl="/images/toys/toysWandPoster.png"
+      imageUrl="/images/genhope/genhope_setup.jpg"
       title="GENERATION HOPE"
       projectUrl="/generationhope"
       class="sm:col-span-3 sm:col-start-3 col-span-1 col-start-1"/>
     <WorkCardCom 
-      imageUrl="/images/toys/toysWandPoster.png"
-      title="TESTER"
-      projectUrl="/toys"
+      imageUrl="/images/rundetaarn/biblioteksslaen1.jpg"
+      title="Rundetårn Bibliotekssal"
+      projectUrl="/rundetaarn"
       class="sm:col-span-4 sm:col-start-7 col-span-1 col-start-1"/>
       
   </div>
