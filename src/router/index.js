@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import ContactView from '../views/ContactView.vue'
 import ToysView from '../views/projects/ToysView.vue'
 import ProjectionmappingLolaView from '@/views/projects/ProjectionmappingLolaView.vue'
+import GenHopeView from '@/views/projects/GenHopeView.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -35,6 +36,12 @@ const router = createRouter({
       path: '/projectionmapping',
       name: 'projectionmapping',
       component: ProjectionmappingLolaView,
+    
+    },
+    {
+      path: '/generationhope',
+      name: 'generationhope',
+      component: GenHopeView,
     
     },
   ],

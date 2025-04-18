@@ -6,14 +6,10 @@ defineProps({
     type: String,
     required: true
   },
-  // widthVideo: {
-  //   type: String,
-  //   required: true
-  // },
-  // heightVideo: {
-  //   type: String,
-  //   required: true
-  // },
+  type: {
+    type: String,
+    required: true
+  },
   projectUrl: {
     type: String,
     required: true
@@ -31,10 +27,10 @@ defineProps({
 
 <template>
   
-  <div class="grid grid-rows-2 mb-[2%] sm:grid-rows-2 ro-span-1">
+  <div class="grid grid-rows-2 mb-[2%] sm:grid-rows-1 row-span-1">
     <RouterLink :to="projectUrl" class="row-span-2 sm:row-span-1 sm:h-[100%]">
     <video autoplay muted loop playsinline  :alt="title" >
-      <source :src="videoUrl" type="video/mp4">
+      <source :src="videoUrl" :type="type">
       Your browser does not support the video tag.
     </video>
     <div class="row-span-1">
