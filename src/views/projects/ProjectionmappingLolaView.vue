@@ -2,10 +2,17 @@
 import { ref } from 'vue'
 import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
+import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
+
 </script>
 
 <template>
 <div class="grid">
+    <ProjectScribbleCom
+        scribbleUrl="/images/lola/projectionMapping_scribble.png"
+        title="Projection Mapping"
+        class="absolute rotate-90 self-start translate-x-[28%] translate-y-[124%] sm:rotate-0 sm:w-[80%] sm:justify-self-start sm:top-[-20%]"
+    />
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:w-[90%]">
         <ProjectImageCom imageUrl="/images/lola/lola_1.jpg" title="Lola" class="w-[70%] sm:w-[100%]"/>
         <div class="grid grid-rows-2 w-[70%] sm:w-[100%]">
@@ -21,7 +28,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
              />
         </div>
     </div>
-    <div class="grid grid-cols-2 items-end gap-[6%] mt-[8%] sm:mt-0 sm:grid-cols-3">
+    <div class="grid grid-cols-2 items-end gap-[6%] mt-[14%] sm:mt-0 sm:grid-cols-3">
         <ProjectImageCom imageUrl="/images/lola/lola_2.jpg" title="me_and_lola" class="w-[80%] justify-self-end sm:col-start-2"/>
         <ProjectImageCom imageUrl="/images/lola/lola_sketch.jpg" title="lola_sketch" class="col-start-2 sm:col-start-3"/>
     </div>
