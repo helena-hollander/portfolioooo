@@ -3,7 +3,7 @@ defineProps({
   textType: {
     type: String,
     required: true, // 'display' or 'body'
-    validator: (value) => ['display', 'body'].includes(value),
+    validator: (value) => ['display', 'body', 'description'].includes(value),
   },
   textContent: {
     type: String,
@@ -24,7 +24,11 @@ defineProps({
 <div class="grid">
   <p
     :class="[
-      textType === 'display' ? 'font-bold font-vazirmatn text-displaySizeMobile m-[2%] sm:text-displaySize sm:m-[4%]' : 'text-bodySizeMobile mt-[2%] sm:text-bodySize',
+      textType === 'display' 
+      ? 'font-bold font-vazirmatn text-displaySizeMobile m-[2%] sm:text-displaySize sm:m-[4%]' 
+      :textType ==='body' 
+      ? 'text-bodySizeMobile mt-[2%] sm:text-bodySize'
+      : 'text-descriptionSizeMobile mt-[2%] sm:text-descriptionSize',
       textColor,
       textSize
     ]"

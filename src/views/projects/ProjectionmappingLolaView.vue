@@ -22,9 +22,9 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
                 class="self-end"
              />
              <ProjectTextCom
-                textType="body"
+                textType="description"
                 textContent="Using p5.js mapper(); // projector // data input from Macbook.  "
-                class="self-end text-descriptionSizeMobile sm:text-descriptionSize sm:m-[4%]"
+                class="self-end sm:m-[4%]"
              />
         </div>
     </div>
