@@ -78,7 +78,7 @@
       setTimeout(() => {
         audioMessage.value = '';
         audioStarted.value = true;
-      }, 1500);
+      }, 50);
       
       // Create or recreate p5 instance with the new audio setup
       if (p5Instance) {
@@ -295,10 +295,11 @@
   
   .start-button {
     padding: 15px 30px;
-    background-color: #4CAF50;
+    background-color: #2126cf;
     color: white;
     border: none;
     border-radius: 5px;
+    font: Vazirmatn;
     font-size: 18px;
     cursor: pointer;
   }
