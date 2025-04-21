@@ -151,7 +151,7 @@
         
         // Use the amplitude from Web Audio API if available, otherwise use simulated data
         if (audioStarted.value && amplitudeValue > 0) {
-          amplitude = amplitudeValue;
+          amplitude = amplitudeValue *10; //tallet styrrer animation speed
         } else {
           // Use fake amplitude for visual effect
           fakeAmplitude = (fakeAmplitude + 0.05) % (Math.PI * 2);
@@ -261,14 +261,16 @@
   <style scoped>
   .visualizer-container {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    justify-self: center;
+    width: 80%;
+    height: 80%;
     overflow: hidden;
     background-color: #000;
   }
   
   .p5-canvas {
     position: absolute;
+    justify-self: center;
     top: 0;
     left: 0;
     width: 100%;

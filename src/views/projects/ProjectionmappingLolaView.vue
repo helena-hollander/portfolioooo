@@ -56,7 +56,7 @@ import ProjectLiveCodeCom from '@/components/projects/projectCards/ProjectLiveCo
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end col-span-2"/>
     </div>
     <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
-    <div class="grid">
+    <div class="grid grid-cols-1 h-[80vh] mt-[12%]">
  <ProjectLiveCodeCom
      
     />
