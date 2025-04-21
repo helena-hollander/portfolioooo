@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
+import ProjectLiveCodeCom from '@/components/projects/projectCards/ProjectLiveCodeCom.vue';
 
 </script>
 
@@ -54,6 +55,11 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard2.jpg" title="moodboard" class="col-start-1 self-end sm:col-start-4 col-span-3"/>
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end col-span-2"/>
     </div>
-    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-30%] sm:justify-self-end sm:mr-[6%]"/>
+    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
+    <div class="grid">
+ <ProjectLiveCodeCom
+     
+    />
+    </div>
 </div>
 </template>
