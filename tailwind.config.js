@@ -23,7 +23,13 @@ export default {
         scribbleContactHover: ["url('/images/scribbles/about_hover_blue.png')"],
       },
       fontSize:{
-        displaySizeMobile: '2.3rem',
+        displaySizeMobile: '1.25rem',
+        bodySizeMobile: '0.875rem',
+        descriptionSizeMobile:'0.625rem',
+        displaySize: '2rem',
+        bodySize: '1.5rem',
+        descriptionSize: '1.125rem',
+        //De her er udgået:
         contextSizeMobile: '0.85rem',
         contactSizeWeb: '2.3rem',
         displayContact: '2.6rem',
