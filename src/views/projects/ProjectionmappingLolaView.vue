@@ -8,7 +8,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 <div class="grid">
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:w-[90%]">
         <ProjectImageCom imageUrl="/images/lola/lola_1.jpg" title="Lola" class="w-[70%] sm:w-[100%]"/>
-        <div class="grid grid-rows-2">
+        <div class="grid grid-rows-2 w-[70%] sm:w-[100%]">
             <ProjectTextCom
                 textType="display"
                 textContent="SOUNDRESPONSIVE FASHION"
@@ -17,15 +17,15 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
              <ProjectTextCom
                 textType="body"
                 textContent="Using p5.js mapper(); // projector // data input from Macbook.  "
-                class="self-end text-descriptionSizeMobile sm:text-descriptionSize"
+                class="self-end text-descriptionSizeMobile sm:text-descriptionSize sm:m-[4%]"
              />
         </div>
     </div>
     <div class="grid grid-cols-2 items-end gap-[6%] mt-[8%] sm:mt-0 sm:grid-cols-3">
         <ProjectImageCom imageUrl="/images/lola/lola_2.jpg" title="me_and_lola" class="w-[80%] justify-self-end sm:col-start-2"/>
-        <ProjectImageCom imageUrl="/images/lola/lola_sketch.jpg" title="lola_sketch" class="col-start-3"/>
+        <ProjectImageCom imageUrl="/images/lola/lola_sketch.jpg" title="lola_sketch" class="col-start-2 sm:col-start-3"/>
     </div>
-    <div class="w-[80%]">
+    <div class="w-[100%] px-[4%] sm:w-[76%] sm:mx-[6%] sm:px-0">
     <ProjectTextCom
         textType="body"
         textContent="Playing with projection mapping, we were asked to create a pattern for our beloved model ‘Lola’. The theme was ‘camouflage’, which we could interperate however we wanted. The design needed to use data input to evolve."
