@@ -12,5 +12,5 @@ defineProps ({
 });
 </script>
 <template>
-<img :src="scribbleUrl" :alt="text">
+<img :src="scribbleUrl" :alt="text" class="z-50">
 </template>

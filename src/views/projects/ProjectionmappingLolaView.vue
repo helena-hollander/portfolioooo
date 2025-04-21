@@ -11,7 +11,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
     <ProjectScribbleCom
         scribbleUrl="/images/lola/projectionMapping_scribble.png"
         title="Projection Mapping"
-        class="absolute rotate-90 self-start translate-x-[28%] translate-y-[124%] sm:rotate-0 sm:w-[80%] sm:justify-self-start sm:top-[-20%]"
+        class="absolute rotate-90 self-start translate-x-[28%] translate-y-[124%] sm:rotate-0 sm:w-[80%] sm:translate-x-[24%] sm:top-[-20%]"
     />
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:w-[90%]">
         <ProjectImageCom imageUrl="/images/lola/lola_1.jpg" title="Lola" class="w-[70%] sm:w-[100%]"/>
@@ -49,5 +49,11 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         class="sm:mt-0"
         />
     </div>
+    <div class="grid grid-cols-2 sm:grid-cols-8 gap-[6%] mt-[14%] sm:mt-[6%] sm:ml-[6%] overflow-hidden">
+        <ProjectImageCom imageUrl="/images/lola/lola_moodboard1.jpg" title="moodboard" class="w-0 h-0 sm:w-full sm:h-[100%] self-end sm:col-start-1 sm:col-span-3"/>
+        <ProjectImageCom imageUrl="/images/lola/lola_moodboard2.jpg" title="moodboard" class="col-start-1 self-end sm:col-start-4 col-span-3"/>
+        <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end col-span-2"/>
+    </div>
+    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-30%] sm:justify-self-end sm:mr-[6%]"/>
 </div>
 </template>
