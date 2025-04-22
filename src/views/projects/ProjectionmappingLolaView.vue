@@ -4,6 +4,7 @@ import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
 import ProjectLiveCodeCom from '@/components/projects/projectCards/ProjectLiveCodeCom.vue';
+import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.vue';
 
 </script>
 
@@ -66,5 +67,9 @@ import ProjectLiveCodeCom from '@/components/projects/projectCards/ProjectLiveCo
     textType="description"
     textContent="//p5.js sketch, using the audio input from you computer, to animate the circles. (Inspired by Vira Patt)"
 />
+<div class="grid grid-cols-1 items-end gap-[6%] mt-[14%] sm:mt-0 sm:grid-cols-3">
+        <ProjectVideoCom videoUrl="/images/lola/lola_2.jpg" title="me_and_lola" class="w-[80%] justify-self-center self-center sm:col-start-2"/>
+        <ProjectVideoCom videoUrl="/images/lola/lola_sketch.jpg" title="lola_sketch" class="self-center sm:col-start-3"/>
+    </div>
 </div>
 </template>
