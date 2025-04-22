@@ -56,9 +56,10 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard2.jpg" title="moodboard" class="col-start-1 self-end sm:col-start-4 sm:col-span-3"/>
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end sm:col-span-2"/>
     </div>
-    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
-<div class="grid grid-cols-1 mt-[24%] h-[50vh] w-[78%] justify-self-center sm:h-[80vh] sm:mt-[12%]">
-    <ProjectLiveCodeCom class="z-10"/>
+  
+    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class="mt-[-66%] w-[24%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
+ <div class="grid grid-cols-1 mt-[24%] w-[68%] aspect-[16/9] justify-self-center sm:w-[78%] sm:mt-[12%] relative">
+  <ProjectLiveCodeCom class="w-full h-full z-10" />
 </div>
     <div>
     <ProjectScribbleCom scribbleUrl="/images/lola/makesomenoise_scribble.png" title="Make Some Noise" class="justify-self-end w-[60%] mt-[-100%] z-20 relative sm:-rotate-90 sm:w-[30%] sm:mt-[-38%] sm:justify-self-start sm:translate-x-[-14%]"/>
@@ -68,8 +69,8 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     textContent="//p5.js sketch, using the audio input from you computer, to animate the circles. (Inspired by Vira Patt)"
 />
 <div class="grid grid-cols-1 items-end gap-[6%] mt-[14%] sm:mt-0 sm:grid-cols-3">
-        <ProjectVideoCom videoUrl="/images/lola/lola_2.jpg" title="me_and_lola" class="w-[80%] justify-self-center self-center sm:col-start-2"/>
-        <ProjectVideoCom videoUrl="/images/lola/lola_sketch.jpg" title="lola_sketch" class="self-center sm:col-start-3"/>
+        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator.webm" type="video/webm" title="Lola model shot" class="w-[80%] h-[50vh] justify-self-center self-start sm:col-start-2"/>
+        <ProjectVideoCom videoUrl="/videos/lola.webm" type="video/webm" title="Interface video" class="self-center h-[60%] sm:col-start-3"/>
     </div>
 </div>
 </template>

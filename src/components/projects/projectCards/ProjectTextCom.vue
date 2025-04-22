@@ -21,7 +21,7 @@ defineProps({
 </script>
 
 <template>
-<div class="grid">
+<div class="grid relative">
   <p
     :class="[
       textType === 'display' 
