@@ -287,7 +287,7 @@ onBeforeUnmount(() => {
   height: 100%;
   min-height: 50px;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 100%; 
   background-color: #000;
 }
 
@@ -298,6 +298,7 @@ onBeforeUnmount(() => {
   width: 100% !important;
   height: 100% !important;
   display: block;
+  max-width: 100%;
 }
 
 .start-overlay {
