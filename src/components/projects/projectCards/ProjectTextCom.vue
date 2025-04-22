@@ -28,7 +28,7 @@ defineProps({
       ? 'font-bold font-vazirmatn text-displaySizeMobile m-[2%] sm:text-displaySize sm:m-[4%]' 
       :textType ==='body' 
       ? 'text-bodySizeMobile mt-[2%] sm:text-bodySize'
-      : 'text-descriptionSizeMobile m-[2%] sm:text-descriptionSize',
+      : 'text-descriptionSizeMobile mx-[2%] my-[1%] sm:text-descriptionSize',
       textColor,
       textSize
     ]"

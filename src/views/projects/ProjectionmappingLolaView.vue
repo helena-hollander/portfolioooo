@@ -50,16 +50,21 @@ import ProjectLiveCodeCom from '@/components/projects/projectCards/ProjectLiveCo
         class="sm:mt-0"
         />
     </div>
-    <div class="grid grid-cols-2 sm:grid-cols-8 gap-[6%] mt-[14%] sm:mt-[6%] sm:ml-[6%] overflow-hidden">
+    <div class="grid grid-cols-2 sm:grid-cols-8 gap-[6%] mt-[14%] sm:mt-[6%] sm:ml-[6%] ">
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard1.jpg" title="moodboard" class="w-0 h-0 sm:w-full sm:h-[100%] self-end sm:col-start-1 sm:col-span-3"/>
-        <ProjectImageCom imageUrl="/images/lola/lola_moodboard2.jpg" title="moodboard" class="col-start-1 self-end sm:col-start-4 col-span-3"/>
-        <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end col-span-2"/>
+        <ProjectImageCom imageUrl="/images/lola/lola_moodboard2.jpg" title="moodboard" class="col-start-1 self-end sm:col-start-4 sm:col-span-3"/>
+        <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end sm:col-span-2"/>
     </div>
     <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class=" mt-[-66%] w-[74%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
-    <div class="grid grid-cols-1 h-[80vh] mt-[12%]">
- <ProjectLiveCodeCom
-     
-    />
+<div class="grid grid-cols-1 mt-[24%] h-[50vh] w-[78%] justify-self-center sm:h-[80vh] sm:mt-[12%]">
+    <ProjectLiveCodeCom class="z-10"/>
+</div>
+    <div>
+    <ProjectScribbleCom scribbleUrl="/images/lola/makesomenoise_scribble.png" title="Make Some Noise" class="justify-self-end w-[60%] mt-[-100%] z-20 relative sm:-rotate-90 sm:w-[30%] sm:mt-[-38%] sm:justify-self-start sm:translate-x-[-14%]"/>
     </div>
+<ProjectTextCom
+    textType="description"
+    textContent="//p5.js sketch, using the audio input from you computer, to animate the circles. (Inspired by Vira Patt)"
+/>
 </div>
 </template>

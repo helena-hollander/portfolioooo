@@ -1,5 +1,5 @@
 <template>
-    <div class="visualizer-container">
+    <div class="visualizer-container relative">
       <div v-if="!audioStarted" class="start-overlay" @click="startAudio">
         <button class="start-button">Click to Start Audio Visualization</button>
       </div>
@@ -78,7 +78,7 @@
       setTimeout(() => {
         audioMessage.value = '';
         audioStarted.value = true;
-      }, 50);
+      }, 5);
       
       // Create or recreate p5 instance with the new audio setup
       if (p5Instance) {
@@ -262,8 +262,8 @@
   .visualizer-container {
     position: relative;
     justify-self: center;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     background-color: #000;
   }
@@ -276,7 +276,7 @@
     width: 100%;
     height: 100%;
     display: block;
-    z-index: 1;
+   
   }
   
   .start-overlay {
@@ -313,6 +313,6 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     border-radius: 5px;
-    z-index: 2;
+   
   }
   </style>
