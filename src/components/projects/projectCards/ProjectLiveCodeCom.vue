@@ -1,7 +1,7 @@
 <template>
   <div class="visualizer-container aspect-[16/9]">
     <div v-if="!audioStarted" class="start-overlay" @click="startAudio">
-      <button class="start-button text-bodySizeMobile font-vazirmatn sm:text-bodySize">Click to Start Audio Visualization</button>
+      <button class="start-button bg-lightContrast hover:bg-darkest text-bodySizeMobile font-vazirmatn sm:text-bodySize">Click to Start Audio Visualization</button>
     </div>
     <div ref="p5Canvas" class="p5-canvas"></div>
     <div v-if="audioMessage" class="message-overlay">
@@ -317,7 +317,6 @@ onBeforeUnmount(() => {
 
 .start-button {
   padding: 10px 25px;
-  background-color: #2126cf;
   color: white;
   border: none;
   cursor: pointer;

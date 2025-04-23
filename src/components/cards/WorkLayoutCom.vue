@@ -14,7 +14,7 @@ import WorkVideoCardCom from '@/components/cards/WorkVideoCardCom.vue';
       projectUrl="/toys"
       class="sm:col-span-2 sm:row-start-1 sm:row-span-1 col-span-1 row-span-3" />
     <WorkVideoCardCom 
-      videoUrl="/videos/lola.webm"
+      videoUrl="/videos/lola/lola_work_card.webm"
       type="video/webm"
       title="PROJECTION MAPPING"
       description="Lola <3"
