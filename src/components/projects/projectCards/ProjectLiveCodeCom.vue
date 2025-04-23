@@ -155,12 +155,12 @@ const createP5Instance = () => {
     };
 
     p.draw = () => {
-      p.background(0);
+      p.background(255);
       let amplitude;
       
       // Use the amplitude from Web Audio API if available, otherwise use simulated data
       if (audioStarted.value && amplitudeValue > 0) {
-        amplitude = amplitudeValue * 10; //tallet styrrer animation speed
+        amplitude = amplitudeValue * 4; //tallet styrrer animation speed
       } else {
         // Use fake amplitude for visual effect
         fakeAmplitude = (fakeAmplitude + 0.05) % (Math.PI * 2);

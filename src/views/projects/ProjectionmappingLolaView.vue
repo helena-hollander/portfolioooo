@@ -57,12 +57,12 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
         <ProjectImageCom imageUrl="/images/lola/lola_moodboard3.jpg" title="moodboard" class="self-end sm:col-span-2"/>
     </div>
   
-    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class="mt-[-66%] w-[24%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
+    <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class="mt-[-54%] w-[44%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
  <div class="grid grid-cols-1 mt-[24%] w-[50%] aspect-[16/9] justify-self-center sm:w-[78%] sm:mt-[12%] relative">
   <ProjectLiveCodeCom class="w-full h-full z-10" />
 </div>
     <div>
-    <ProjectScribbleCom scribbleUrl="/images/lola/makesomenoise_scribble.png" title="Make Some Noise" class="justify-self-end w-[60%] mt-[-100%] z-20 relative sm:-rotate-90 sm:w-[30%] sm:mt-[-38%] sm:justify-self-start sm:translate-x-[-14%]"/>
+    <ProjectScribbleCom scribbleUrl="/images/lola/makesomenoise_scribble.png" title="Make Some Noise" class="justify-self-end w-[48%] mt-[-36%] z-20 relative sm:-rotate-90 sm:w-[30%] sm:mt-[-38%] sm:justify-self-start sm:translate-x-[-14%]"/>
     </div>
 <ProjectTextCom
     textType="description"
