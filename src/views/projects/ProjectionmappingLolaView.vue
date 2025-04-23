@@ -25,7 +25,7 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
              />
              <ProjectTextCom
                 textType="description"
-                textContent="Using p5.js mapper(); // projector // data input from Macbook.  "
+                textContent="// p5.js mapper(); // projector // data input from Macbook.  "
                 class="self-end sm:m-[4%]"
              />
         </div>
@@ -70,8 +70,26 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     class="sm:mb-[10%]"
 />
 <div class="grid grid-cols-1 items-end gap-[6%]  mt-[14%] sm:mt-0 sm:grid-cols-3 overflow-hidden">
-        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.webm" type="video/webm" title="Lola model shot" class="w-[80%] justify-self-center self-start sm:col-start-2"/>
-        <ProjectVideoCom videoUrl="/videos/lola/lola_interface.webm" type="video/webm" title="Interface video" class="justify-self-center sm:col-start-3"/>
-    </div>
+        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.webm" type="video/webm" title="Lola model shot" class="w-[76%] justify-self-center self-start sm:col-start-2 sm:justify-self-end"/>
+        <ProjectVideoCom videoUrl="/videos/lola/lola_interface.mp4" type="video/mp4" title="Interface video" class="justify-self-center sm:col-start-3"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2">
+    <ProjectTextCom
+        textType="description"
+        class="sm:text-right col-start-1 sm:col-start-2"
+        textContent="//Demo videos and images by Freja Marott. (Tak!)"
+    />
+    <ProjectImageCom imageUrl="/images/lola/lola_p5.jpg" title="lola_p5" class="w-[68%] justify-self-start mt-[8%] sm:mt-0 sm:w-[48%] row-start-2 sm:col-start-1 sm:row-start-1"/>
+</div>
+<ProjectTextCom
+    textType="body"
+    textContent="After much tweaking of the projection, Lola got dressed in three different colour combinations, a variation of stripes and a wavy knit-like pattern. The animation expanded depending on the vomlume of the audio input. Each seperate clothing item has it’s own mapped sketch in p5 mapper(); and renders live."
+    class=" mt-[8%] mx-[6%] sm:mt-[4%] sm:mb-[0%] col-start-1 sm:w-[76%]"
+/>
+<ProjectTextCom
+    textType="body"
+    textContent="I can’t wait to see a future world rocking LED outfits (solar charged, of course) with music-driven patterns."
+    class=" mx-[6%]  sm:mb-[10%] col-start-1 sm:w-[76%]"
+/>
 </div>
 </template>
