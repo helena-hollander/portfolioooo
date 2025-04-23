@@ -91,5 +91,10 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     textContent="I can’t wait to see a future world rocking LED outfits (solar charged, of course) with music-driven patterns."
     class=" mx-[6%]  sm:mb-[10%] col-start-1 sm:w-[76%]"
 />
+<ProjectTextCom
+    textType="description"
+    textContent="// April 2025 // 'Projection Mapping course' by Stig Møller, DMJX, Copenhagen. // Parts of the interactive code has been edited with the help of AI."
+    class="mt-[4%] sm:mb-[10%] col-start-1"
+/>
 </div>
 </template>
