@@ -68,9 +68,9 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     textType="description"
     textContent="//p5.js sketch, using the audio input from you computer, to animate the circles. (Inspired by Vira Patt)"
 />
-<div class="grid grid-cols-1 items-end gap-[6%] mt-[14%] sm:mt-0 sm:grid-cols-3">
-        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator.webm" type="video/webm" title="Lola model shot" class="w-[80%] h-[50vh] justify-self-center self-start sm:col-start-2"/>
-        <ProjectVideoCom videoUrl="/videos/lola.webm" type="video/webm" title="Interface video" class="self-center h-[60%] sm:col-start-3"/>
+<div class="grid grid-cols-1 items-end gap-[6%]  mt-[14%] sm:mt-0 sm:grid-cols-3 overflow-hidden">
+        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.webm" type="video/webm" title="Lola model shot" class="w-[80%] justify-self-center self-start sm:col-start-2"/>
+        <ProjectVideoCom videoUrl="/videos/lola/lola_interface.webm" type="video/webm" title="Interface video" class="justify-self-center h-[60%] sm:col-start-3"/>
     </div>
 </div>
 </template>

@@ -164,7 +164,7 @@ const createP5Instance = () => {
       } else {
         // Use fake amplitude for visual effect
         fakeAmplitude = (fakeAmplitude + 0.05) % (Math.PI * 2);
-        amplitude = p.sin(fakeAmplitude) * 3;
+        amplitude = p.sin(fakeAmplitude) * 2;
       }
       
       for (let i = 0; i < cols; i++) {
@@ -316,11 +316,11 @@ onBeforeUnmount(() => {
 }
 
 .start-button {
-  padding: 15px 30px;
+  padding: 10px 25px;
   background-color: #2126cf;
   color: white;
   border: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font: Vazirmatn;
   font-size: 18px;
   cursor: pointer;
