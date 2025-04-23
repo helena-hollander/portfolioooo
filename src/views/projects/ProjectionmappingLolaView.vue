@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
 import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
@@ -76,30 +77,31 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
 <ProjectScribbleCom
     scribbleUrl="/images/lola/lola_scribble.png" 
     title="Lola<3"   
-    class="w-[46%] mt-[-148%] mx-[1%] pr-[0%] sm:w-[28%] sm:mt-[-16%] justify-self-center sm:pr-[4%]"
+    class="w-[46%] mt-[-148%] mx-[1%] pr-[0%] sm:w-[28%] sm:mt-[-16%] sm:justify-self-center sm:pr-[4%]"
 />
 <div class="grid grid-cols-1 sm:grid-cols-2">
     <ProjectTextCom
         textType="description"
         class="sm:text-right col-start-1 sm:col-start-2"
-        textContent="//Demo videos and images by Freja Marott. (Tak!)"
+        textContent="//Demo videos by Freja Marott. (Tak!)"
     />
     <ProjectImageCom imageUrl="/images/lola/lola_p5.jpg" title="lola_p5" class="w-[68%] justify-self-start mt-[8%] sm:mt-0 sm:w-[48%] row-start-2 sm:col-start-1 sm:row-start-1"/>
 </div>
 <ProjectTextCom
     textType="body"
     textContent="After much tweaking of the projection, Lola got dressed in three different colour combinations, a variation of stripes and a wavy knit-like pattern. The animation expanded depending on the vomlume of the audio input. Each seperate clothing item has it’s own mapped sketch in p5 mapper(); and renders live."
-    class=" mt-[8%] mx-[6%] sm:mt-[4%] sm:mb-[0%] col-start-1 sm:w-[76%]"
+    class=" mt-[8%] mx-[6%] sm:mt-[4%] col-start-1 sm:w-[76%]"
 />
 <ProjectTextCom
     textType="body"
     textContent="I can’t wait to see a future world rocking LED outfits (solar charged, of course) with music-driven patterns."
-    class=" mx-[6%]  sm:mb-[10%] col-start-1 sm:w-[76%]"
+    class="mx-[6%] mb-[2%] col-start-1 sm:w-[76%]"
 />
+<p class="text-bodySizeMobile mx-[6%] sm:text-bodySize">For more projection mapping fun, check out <RouterLink to="/genhope"class="text-strongContrast hover:text-lightContrast hover:underline" >'Generation Hope x Thoravej 29'.</RouterLink></p>
 <ProjectTextCom
     textType="description"
-    textContent="// April 2025 // 'Projection Mapping course' by Stig Møller, DMJX, Copenhagen. // Parts of the interactive code has been edited with the help of AI."
-    class="mt-[4%] sm:mb-[10%] col-start-1"
+    textContent="// April 2025 // 'Projection Mapping' course by Stig Møller, DMJX, Copenhagen. // Parts of the interactive code has been edited with the help of AI."
+    class=" sm:mb-[10%] col-start-1 my-[12%]"
 />
 </div>
 </template>
