@@ -73,6 +73,11 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
         <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.webm" type="video/webm" title="Lola model shot" class="w-[76%] justify-self-center self-start sm:col-start-2 sm:justify-self-end"/>
         <ProjectVideoCom videoUrl="/videos/lola/lola_interface.mp4" type="video/mp4" title="Interface video" class="justify-self-center sm:col-start-3"/>
 </div>
+<ProjectScribbleCom
+    scribbleUrl="/images/lola/lola_scribble.png" 
+    title="Lola<3"   
+    class="w-[46%] mt-[-148%] mx-[1%] pr-[0%] sm:w-[28%] sm:mt-[-16%] justify-self-center sm:pr-[4%]"
+/>
 <div class="grid grid-cols-1 sm:grid-cols-2">
     <ProjectTextCom
         textType="description"
