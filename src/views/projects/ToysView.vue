@@ -1,10 +1,25 @@
 <script setup>
 import { ref } from 'vue'
+import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.vue';
+import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
+import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.vue';
 import FooterCom from '@/components/universal/FooterCom.vue';
 </script>
 
 <template>
-    <div class="grid sm:grid-cols-2">
+    <div class="">
+       <ProjectVideoCom
+            videoSrc="/videos/toys01.mp4"
+            type="video/mp4"
+            title="toys"
+       /> 
+    </div>
+
+
+
+
+
+    <!-- <div class="grid sm:grid-cols-2">
         <img src="/images/toys/toysSketch01.png" class="w-[70%] justify-self-end pt-4 sm:w-[86%] sm:cols-start-2">
         <img src="/images/toys/toysSketch02.png" class="w-[70%] justify-self-start translate-y-[-20px] translate-x-[-20px] sm:w-[86%] sm:mt-[-28%] sm:col-start-1">
         <video autoplay muted loop playsinline class="w-[50%] justify-self-center mt-[10%] sm:w-[46%] sm:col-start-1 sm:row-start-1 sm:justify-self-end sm:mt-0"> ">
@@ -42,7 +57,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
     <img src="/images/toys/toysCollection3d01.png" class="w-[96%] mt-[-6%] justify-self-center">
     </div>
 
-    <!-- scribble div -->
+    scribble div
     <div class="absolute top-0 grid w-full sm:grid-cols-3">   
      <img src="/images/toys/toyScribble01.png" class="w-[50%] mt-[30%] ml-[4%] sm:col-start-1 sm:w-[76%] sm:mt-[44%] sm:ml-[24%]">
      <img src="/images/toys/toysScribbleHearts01.png" class="w-[28%] mt-[44%] justify-self-end mr-[10%] sm:col-start-3 sm:row-start-2 sm:w-[34%] sm:justify-self-start">
@@ -51,16 +66,16 @@ import FooterCom from '@/components/universal/FooterCom.vue';
      <img src="/images/toys/scribbleDemoFloor.png" class="w-[10%] mt-[13%] justify-self-start ml-[41%] sm:col-start-3 sm:mt-[20%] sm:w-[18%] sm:mr-[14%] sm:justify-self-end">
     
    
-        <!-- <div class="h-[0px] content-end">
+     <div class="h-[0px] content-end">
     <img src="/images/toys/scribbleDemoFloor.png" class="w-[10vw] justify-self-start ml-[40vw]">
-        </div> -->
-    </div>
+        </div> 
+    </div> -->
     <!-- displayText div -->
-    <!-- <div class="absolute top-0 grid w-full justify-items-end">
+        <!-- <div class="absolute top-0 grid w-full justify-items-end">
         <h1 class="mt-[124%] mr-[4%] font-trispace text-darkest text-displaySizeMobile/[1.15] text-right w-[36%] sm:col-start-1 sm:w-[100%] sm:text-5xl sm:text-nowrap">the SEXTOY GALLERY</h1>
         <p class="pr-[4%] font-trispace text-darkest text-right text-contextSizeMobile text-nowrap">[school project, June '24]</p>
       
 
-    </div> -->
-    <FooterCom />
+    </div>
+    <FooterCom /> -->
 </template>
