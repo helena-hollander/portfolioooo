@@ -7,12 +7,43 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 </script>
 
 <template>
-    <div class="">
+    <div class="h-full">
+        <div class="grid grid-cols-3">
        <ProjectVideoCom
-            videoSrc="/videos/toys01.mp4"
+            videoUrl="/videos/toys01.mp4"
             type="video/mp4"
             title="toys"
+            class="w-[100%] mt-[30%]"
        /> 
+            <div class="grid sm:grid-rows-4 sm:col-span-2">
+                <ProjectTextCom
+                 textType="display"
+                 textContent="The SEX TOY GALLERY"
+                 class="row-start-2 self-end"
+                />
+                <ProjectTextCom
+                 textType="body"
+                 textContent="Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.
+
+The concept focuses on sextoys being playful and ‘pop’, rather than taboo."
+                 class="mx-[4%] self-start row-start-3"
+                />
+                <ProjectTextCom
+                 textType="description"
+                 textContent="// Blender // Processing //Adobe Illustrator"
+                 class=" self-start row-start-4"
+                />
+
+            </div>
+     <div class="grid col-span-2 col-start-2">   
+        <ProjectImageCom
+            imageUrl="/images/toys/toys_sketch1.jpg"
+            title="sketchbook"
+            class="w-[48%] justify-self-end mx-[6%]"
+
+        />
+    </div>
+     </div>
     </div>
 
 
