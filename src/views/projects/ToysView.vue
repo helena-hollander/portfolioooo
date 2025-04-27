@@ -66,8 +66,12 @@ The concept focuses on sextoys being playful and ‘pop’, rather than taboo."
             class="col-span-5 row-start-3 mx-[4%] sm:col-span-3 mt-[2%] sm:mr-[6%] sm:mx-[0%]"
 
         />
-
     </div>
+    <ProjectScribbleCom
+        scribbleUrl="/images/toys/valuesToysScribble.png"
+        title="values"
+        class=" col-span-3 col-start-1 justify-self-end mt-[-88%] w-[58%] sm:col-start-2 sm:pr-[14%] sm:mt-[-24%] sm:w-[60%]"
+    />
      </div>
     </div>
 
