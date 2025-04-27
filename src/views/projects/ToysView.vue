@@ -29,9 +29,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                 />
                 <ProjectTextCom
                  textType="body"
-                 textContent="Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.
-
-The concept focuses on sextoys being playful and ‘pop’, rather than taboo."
+                 textContent="Visual identity combining 3D models with Processing filters, to create consistent and generative logo-assets. The concept focuses on sextoys being playful and ‘pop’, rather than taboo. Giving this museum of sextoys, an identity and interactive feature that can draw in visitors in a playful yet modern manner."
                  class="mx-[4%] row-start-4 self-start sm:row-start-3"
                 />
                 <ProjectTextCom
@@ -58,20 +56,59 @@ The concept focuses on sextoys being playful and ‘pop’, rather than taboo."
             videoUrl="/videos/demoFloorToys.mp4"
             type="video/mp4"
             title="demoFloorToys"
-            class="col-span-5 row-start-2 w-[60%] self-center sm:col-span-2 sm:w-[70%] sm:row-start-3 sm:justify-self-end sm:m-[6%]"
+            class="col-span-5 row-start-2 w-[60%] self-center sm:col-span-2 sm:w-[70%] sm:row-start-3 sm:justify-self-end sm:ml-[6%] mt-[4%]"
+        />
+        <ProjectTextCom
+            textType="description"
+            textContent="//Processing demo sketch, the mouse representing the visitor walking around."
+            class="row-start-3 col-span-3 sm:col-span-2  sm:row-start-4"
         />
         <ProjectTextCom
             textType="body"
-            textContent="To egnite visitors cuiriosity, I designed an interactive floor-plan, which lights up and sparks pixels, wherever you walk. Leaving a trail behind you, a clear representation of your presence in the gallery. Playful and inviting."
-            class="col-span-5 row-start-3 mx-[4%] sm:col-span-3 mt-[2%] sm:mr-[6%] sm:mx-[0%]"
+            textContent="To egnite visitor's cuiriosity, I designed an interactive floor-plan in the exherbitions, which lights up and sparks pixels, wherever you walk. Leaving a trail behind you, a clear representation of your presence in the gallery. Playful and inviting."
+            class="col-span-5 row-start-4 mx-[4%] sm:col-span-3 mt-[2%] sm:mr-[6%] sm:mx-[6%] sm:row-start-3"
 
         />
     </div>
     <ProjectScribbleCom
         scribbleUrl="/images/toys/valuesToysScribble.png"
         title="values"
-        class=" col-span-3 col-start-1 justify-self-end mt-[-88%] w-[58%] sm:col-start-2 sm:pr-[14%] sm:mt-[-24%] sm:w-[60%]"
+        class=" col-span-3 col-start-1 justify-self-end mt-[-88%] w-[58%] sm:col-start-2 sm:pr-[14%] sm:mt-[-24%] sm:w-[50%]"
     />
+    <div class="col-span-5 grid grid-cols-1 sm:grid-cols-7 gap-x-[4%] mt-[4%]">
+        <ProjectImageCom
+        imageUrl="/images/toys/flogger3dToys.jpg"
+        title="flogger3d"
+        class="col-start-1 w-[40%] justify-self-center sm:col-span-2 sm:w-[70%] sm:justify-self-end"
+        /> 
+        <ProjectImageCom
+        imageUrl="/images/toys/processingFloggerToys.jpg"
+        title="flogger3d"
+        class="row-start-2 sm:col-start-3 sm:col-span-5 sm:row-span-2"
+        /> 
+        <ProjectScribbleCom
+        scribbleUrl="/images/toys/arrowToysScribble.png"
+        title="arrow"
+        class="w-0 sm:row-start-2 sm:w-[60%] sm:col-start-2 justify-self-end"
+        />
+        <ProjectTextCom
+            textType="description"
+            textContent="// Processing sketch, creating a SVG file using the 3D model and the pixelfilter. "
+            class="col-span-5 col-start-3"
+        />
+    </div>
+    <div class="grid grid-cols-3 col-span-5">
+        <ProjectTextCom
+            textType="body"
+            textContent="Re-using the round-cornered pixels in the logo and logo assets. The 'Asset Generator' makes random SVG toys, to be used on posters, merch, advertisement and communication inside the museum."
+            class="col-span-2 ml-[6%]"
+        />
+        <ProjectTextCom
+            textType="body"
+            textContent="Pixels, often used to censor bodies or sextoys, are now re-used to draw them. Turning society's sometimes narrow and conservative view of sextoys, on it's head."
+            class="col-span-2 ml-[6%]"
+        />
+    </div>
      </div>
     </div>
 
