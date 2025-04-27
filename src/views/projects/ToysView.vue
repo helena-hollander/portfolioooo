@@ -94,19 +94,19 @@ import FooterCom from '@/components/universal/FooterCom.vue';
         <ProjectTextCom
             textType="description"
             textContent="// Processing sketch, creating a SVG file using the 3D model and the pixelfilter. "
-            class="col-span-5 col-start-3"
+            class="sm:col-span-5 sm:col-start-3"
         />
     </div>
-    <div class="grid grid-cols-3 col-span-5">
+    <div class="grid grid-cols-3 col-span-5 mr-[4%]">
         <ProjectTextCom
             textType="body"
             textContent="Re-using the round-cornered pixels in the logo and logo assets. The 'Asset Generator' makes random SVG toys, to be used on posters, merch, advertisement and communication inside the museum."
-            class="col-span-2 ml-[6%]"
+            class="col-span-3 sm:col-span-2 ml-[6%]"
         />
         <ProjectTextCom
             textType="body"
             textContent="Pixels, often used to censor bodies or sextoys, are now re-used to draw them. Turning society's sometimes narrow and conservative view of sextoys, on it's head."
-            class="col-span-2 ml-[6%]"
+            class="col-span-3 sm:col-span-2 ml-[6%]"
         />
     </div>
      </div>
