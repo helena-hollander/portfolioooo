@@ -3,45 +3,70 @@ import { ref } from 'vue'
 import ProjectImageCom from '@/components/projects/projectCards/ProjectImageCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.vue';
+import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
 import FooterCom from '@/components/universal/FooterCom.vue';
 </script>
 
 <template>
     <div class="h-full">
+        <ProjectScribbleCom
+            scribbleUrl="/images/toys/toysDisplayScribble.png"
+            title="Generative Logo"
+            class="absolute w-full mt-[50%] sm:w-[80%] top-0 z-50 sm:right-0 sm:mt-[0%]" 
+    />
         <div class="grid grid-cols-3">
        <ProjectVideoCom
             videoUrl="/videos/toys01.mp4"
             type="video/mp4"
             title="toys"
-            class="w-[100%] mt-[30%]"
+            class="w-[100%] sm:mt-[30%] row-span-1 col-span-3 sm:col-span-1 self-center"
        /> 
-            <div class="grid sm:grid-rows-4 sm:col-span-2">
+            <div class="grid col-span-3 sm:grid-rows-4 sm:col-span-2">
                 <ProjectTextCom
                  textType="display"
                  textContent="The SEX TOY GALLERY"
-                 class="row-start-2 self-end"
+                 class=" row-start-1 sm:row-start-2 self-end"
                 />
                 <ProjectTextCom
                  textType="body"
                  textContent="Visual identity combining 3d models with Processing filters, to create consistent and generative logo-assets.
 
 The concept focuses on sextoys being playful and ‘pop’, rather than taboo."
-                 class="mx-[4%] self-start row-start-3"
+                 class="mx-[4%] row-start-4 self-start sm:row-start-3"
                 />
                 <ProjectTextCom
                  textType="description"
                  textContent="// Blender // Processing //Adobe Illustrator"
-                 class=" self-start row-start-4"
+                 class=" self-start row sm:row-start-4"
                 />
 
             </div>
-     <div class="grid col-span-2 col-start-2">   
+   
+     <div class="grid grid-cols-5 grid-cols-1 col-span-3 col-start-1">   
         <ProjectImageCom
-            imageUrl="/images/toys/toys_sketch1.jpg"
+            imageUrl="/images/toys/toysSketch01.png"
             title="sketchbook"
-            class="w-[48%] justify-self-end mx-[6%]"
+            class="col-span-5 w-full justify-self-end row-span-1 sm:row-span-2 sm:row-start-1 sm:w-[100%] sm:col-span-2 sm:col-start-4"
 
         />
+        <ProjectImageCom
+            imageUrl="/images/toys/toysSketch02.png"
+            title="sketchbook"
+            class="w-[0%] sm:w-[78%] sm:col-start-1 sm:col-span-2 sm:justify-self-start sm:row-start-2 sm:col-start-2"
+        />
+        <ProjectVideoCom
+            videoUrl="/videos/demoFloorToys.mp4"
+            type="video/mp4"
+            title="demoFloorToys"
+            class="col-span-5 row-start-2 w-[60%] self-center sm:col-span-2 sm:w-[70%] sm:row-start-3 sm:justify-self-end sm:m-[6%]"
+        />
+        <ProjectTextCom
+            textType="body"
+            textContent="To egnite visitors cuiriosity, I designed an interactive floor-plan, which lights up and sparks pixels, wherever you walk. Leaving a trail behind you, a clear representation of your presence in the gallery. Playful and inviting."
+            class="col-span-5 row-start-3 mx-[4%] sm:col-span-3 mt-[2%] sm:mr-[6%] sm:mx-[0%]"
+
+        />
+
     </div>
      </div>
     </div>
