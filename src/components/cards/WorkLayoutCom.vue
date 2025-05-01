@@ -20,16 +20,24 @@ import WorkVideoCardCom from '@/components/cards/WorkVideoCardCom.vue';
       description="Lola <3"
       projectUrl="/projectionmapping"
       class="sm:col-span-3 sm:col-start-5 sm:h-[40%] col-span-1 col-start-1 object-cover "/>
-    <WorkCardCom 
+      <WorkCardCom 
       imageUrl="/images/genhope/genhope_setup.jpg"
       title="GENERATION HOPE"
       projectUrl="/generationhope"
       class="sm:col-span-3 sm:col-start-3 col-span-1 col-start-1"/>
-    <WorkCardCom 
+      <WorkCardCom 
       imageUrl="/images/rundetaarn/biblioteksslaen1.jpg"
       title="Rundetårn Bibliotekssal"
       projectUrl="/rundetaarn"
       class="sm:col-span-4 sm:col-start-7 col-span-1 col-start-1"/>
+
+      <WorkVideoCardCom 
+        videoUrl="/videos/tunniit/tunniit_scroll_through (1).mp4"
+        type="video/webm"
+        title="Greenland Experience Site"
+        description="A scroll though graphic novel"
+        projectUrl="/projectionmapping"
+        class="sm:col-span-4 sm:col-start-7 col-span-1 col-start-1"/>
       
   </div>
 </template>

@@ -83,8 +83,8 @@ import FooterCom from '@/components/universal/FooterCom.vue';
         /> 
         <ProjectImageCom
         imageUrl="/images/toys/processingFloggerToys.jpg"
-        title="flogger3d"
-        class="row-start-2 sm:col-start-3 sm:col-span-5 sm:row-span-2"
+        title="floggerProcessing"
+        class="row-start-2 mt-[4%] sm:col-start-3 sm:col-span-5 sm:row-span-2"
         /> 
         <ProjectScribbleCom
         scribbleUrl="/images/toys/arrowToysScribble.png"
