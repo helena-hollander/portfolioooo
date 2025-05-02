@@ -3,13 +3,14 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import CopyMailCom from "@/components/universal/CopyMailCom.vue";
 import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribbleCom.vue';
+import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 
 </script>
 <template>
 <div class="grid h-[100vh]">
     <div class="logo-container h-[100%] w-full fixed">
         <InteractiveLogoCom 
-          text="HIT ME UP!" 
+          text="HIT ME UP!!" 
           :textSize="0.06"
           textColor="#0E183D"
           backgroundColor="#FFFCF8"
@@ -17,13 +18,22 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
           class="text-center text-darkest"
             />
     </div>
-    <div class="absolute ">
+    <div class="w-[40%] mx-[4%] mt-[10%] h-full content-start">
+        <ProjectTextCom
+        textType="description"
+        title="HELENA HOLLANDER"
+        textContent="// Let’s connect and cook up something cool. I can’t wait!
+
+You can reach me on mail or keep browsing on my other socials. "    
+        />
+    </div>
+    <div class="absolute content-center h-full">
     <a href="https://www.linkedin.com/in/helena-holl%C3%A6nder-b0641728b/" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/Linkedin_scribble.png"
         title="LinkedIn"
-        class="sm:w-[52%] sm:justify-self-end mt-[-2%] hover:opacity-[24%]" />
-    /></a>
+        class="sm:w-[52%] sm:justify-self-end mt-[-10%] hover:opacity-[24%]" />
+    </a>
     <a href="https://github.com/helena-hollander" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/gitHub_scribble.png"
@@ -41,7 +51,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         <ProjectScribbleCom
         scribbleUrl="/images/contact/copyMail_scribble.png"
         title="Instagram"
-        class="sm:w-[92%] self-end mb-[22%]" />
+        class="sm:w-[90%] self-end mb-[18%] w-0" />
     </div>
     <CopyMailCom class="absolute sm:self-end sm:w-[76%] w-0 hover:opacity-[24%]"></CopyMailCom>
 </div>
