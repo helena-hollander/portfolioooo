@@ -18,16 +18,19 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
           class="text-center text-darkest"
             />
     </div>
-    <div class="w-[40%] mx-[4%] mt-[10%] h-full content-start">
+    <div class="w-[80%] mx-[6%] mt-[18%] sm:w-[40%] sm:mx-[4%] sm:mt-[10%] h-full sm:content-start">
         <ProjectTextCom
-        textType="description"
+        textType="body"
         title="HELENA HOLLANDER"
-        textContent="// Let’s connect and cook up something cool. I can’t wait!
-
-You can reach me on mail or keep browsing on my other socials. "    
+        textContent="Let’s connect and cook up something cool. I can’t wait! You can reach me on mail or keep browsing on my other socials. "    
+        />
+        <ProjectTextCom
+        textType="body"
+        textContent="HELENA.HOLLAENDER@GMAIL.COM"
+        class="font-bold mt-[6%] underline sm:opacity-0 sm:pointer-events-none"
         />
     </div>
-    <div class="absolute content-center h-full">
+    <div class="absolute content-end sm:content-center h-full">
     <a href="https://www.linkedin.com/in/helena-holl%C3%A6nder-b0641728b/" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/Linkedin_scribble.png"
