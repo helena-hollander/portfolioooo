@@ -18,16 +18,17 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
           class="text-center text-darkest"
             />
     </div>
-    <div class="w-[80%] mx-[6%] mt-[18%] sm:w-[40%] sm:mx-[4%] sm:mt-[10%] h-full sm:content-start">
+    <div class="w-[80%] mx-[6%] mt-[22%] sm:w-[40%] sm:mx-[4%] sm:mt-[10%] h-full sm:content-start">
         <ProjectTextCom
         textType="body"
-        title="HELENA HOLLANDER"
+        title="Greeting"
         textContent="Let’s connect and cook up something cool. I can’t wait! You can reach me on mail or keep browsing on my other socials. "    
         />
         <ProjectTextCom
         textType="body"
+        title="e-mail"
         textContent="HELENA.HOLLAENDER@GMAIL.COM"
-        class="font-bold mt-[6%] underline sm:opacity-0 sm:pointer-events-none"
+        class="font-bold mt-[10%] underline sm:opacity-0 sm:pointer-events-none"
         />
     </div>
     <div class="absolute content-end sm:content-center h-full">
