@@ -26,7 +26,7 @@ const copyToClipboard = () => {
 </script>
 
 <template>
-  <button @click="copyToClipboard">
-    <img src="/images/scribbles/contact/scribbleMail.png" alt="Copy Email">
+  <button @click="copyToClipboard" >
+    <img src="/images/contact/mail_scribble.png" alt="Copy Email">
   </button>
 </template>
