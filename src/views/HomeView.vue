@@ -15,7 +15,7 @@ import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
       <div class="absolute self-center hover:underline">
       <RouterLink to="/toys">sextoys</RouterLink>
        </div>
-       <div class="logo-container fixed w-full sm:h-[100%] h-[100%] z-10">
+       <div class="logo-container fixed w-full sm:h-[100%] h-[100%]">
         <InteractiveLogoCom 
           text="HELENA HOLLÆNDER" 
           :textSize="0.09"
@@ -26,10 +26,10 @@ import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
         />
       </div>
 
-    <div class="w-screen z-30 absolute sm:mt-0 mt-[20%]">
-      <TitleCom />
-      <div class="h-[300vh] w-full  z-20 mt-[-20%] sm:mt-[-0%]">
-      <WorkSecondLayoutCom class="mt-[-10%]" ></WorkSecondLayoutCom>
+    <div class="w-screen absolute sm:mt-0 mt-[20%]">
+      <TitleCom class="z-[30] relative"/>
+      <div class="h-[300vh] w-full mt-[-20%] sm:mt-[-0%] z-[10]">
+        <WorkSecondLayoutCom class="mt-[-10%] relative" ></WorkSecondLayoutCom>
       </div>
     </div>
    

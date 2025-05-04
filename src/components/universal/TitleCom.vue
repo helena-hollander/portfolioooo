@@ -25,5 +25,5 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <img :src="imageSrc" alt="portfolio_title" class="w-[100%]"/>
+  <img :src="imageSrc" alt="portfolio_title" class="w-[100%] z-50"/>
 </template>
