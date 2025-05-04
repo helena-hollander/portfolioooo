@@ -43,9 +43,16 @@ import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
   justify-content: center;
   align-items: center;
 }
+/* Default cursor for the entire page */
 .main {
   cursor: url('/images/cursor_blue.png'), auto;
- 
+}
+
+/* Pointer cursor for clickable elements */
+.main a, /* Links */
+.main button, /* Buttons */
+.main .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
 }
 
 </style>
