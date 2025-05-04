@@ -12,15 +12,15 @@ import { RouterLink } from 'vue-router'
 </template>
 <style scoped> 
 #nav{
-  cursor: url('/images/cursor_orange.png'), pointer;
+  cursor: url('/images/cursor_blue.png'), pointer;
 }
 .work{
-  cursor: url('/images/cursor_white.png'), pointer;
+  cursor: url('/images/cursor_pink.png'), pointer;
 }
 .about{
-  cursor: url('/images/cursor_white.png'), pointer;
+  cursor: url('/images/cursor_pink.png'), pointer;
 }
 .contact{
-  cursor: url('/images/cursor_white.png'), pointer;
+  cursor: url('/images/cursor_pink.png'), pointer;
 }
 </style>

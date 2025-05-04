@@ -44,7 +44,8 @@ import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
   align-items: center;
 }
 .main {
-  cursor: url('/images/cursor_orange.png'), auto;
+  cursor: url('/images/cursor_blue.png'), auto;
+ 
 }
 
 </style>
