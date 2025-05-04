@@ -7,7 +7,7 @@ import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
     <div class="grid grid-cols-1 sm:grid-cols-7 sm:h-[100%]">
         <img src="/images/about/tulips_portrait_small.png" class="relative row-start-2 w-[100vw] h-[60vh] sm:col-span-3 sm:row-start-1  sm:w-[40%] sm:h-[100%] object-cover sm:fixed" />
         <p class="my-[8%] px-[6%] font-vazirmatn sm:px-[0%] sm:pr-[4%] sm:pb-[4%] sm:col-start-4 sm:col-span-4 sm:text-[1.2rem] z-50">
-Hi,
+<br><br><br>Hi,
 
 <br><br>My name is Helena (she/her) and I am a visual creator, illustrator, explorer, coder and artist.
 <br><br>I am currently inspired by Spring weather in Copenhagen, the new season of Doctor Who and all things 'Lady Gaga'.
