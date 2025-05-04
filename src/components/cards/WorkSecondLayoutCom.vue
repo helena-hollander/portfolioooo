@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<div class="cardContainer grid grid-cols-10 bg-lightContrast grid-rows-[repeat(38,minmax(10vw,auto))]">
+<div class="cardContainer grid grid-cols-10 grid-rows-[repeat(38,minmax(10vw,auto))]">
     <div class="col-span-2 col-start-2 h-[20vw] bg-white row-span-2">
         <img src="/images/toys/flogger3dToys.jpg" class="w-full h-full object-cover" />
     </div>
