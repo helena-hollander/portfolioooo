@@ -10,7 +10,7 @@ import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
 </script>
 
 <template>
-  <main class="h-[200vh] bg-lightest main">
+  <main class="h-[300vh] bg-lightest main">
    
       <div class="absolute self-center hover:underline">
       <RouterLink to="/toys">sextoys</RouterLink>
