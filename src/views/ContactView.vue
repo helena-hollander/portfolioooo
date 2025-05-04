@@ -7,7 +7,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-<div class="grid h-[100vh]">
+<div class="contactView grid h-[100vh]">
     <div class="logo-container h-[100%] w-full fixed">
         <InteractiveLogoCom 
           text="HIT ME UP!!" 
@@ -70,4 +70,18 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
   justify-content: center;
   align-items: center;
 }
+
+
+.contactView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.contactView a, /* Links */
+.contactView button, /* Buttons */
+.contactView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+
+
 </style>
