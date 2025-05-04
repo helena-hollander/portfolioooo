@@ -31,24 +31,24 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         class="font-bold mt-[10%] underline sm:opacity-0 sm:pointer-events-none"
         />
     </div>
-    <div class="absolute content-end sm:content-center h-full">
+    <div class="absolute content-end sm:content-center h-full sm:w-[52%] sm:right-0 sm:mt-[-4%]">
     <a href="https://www.linkedin.com/in/helena-holl%C3%A6nder-b0641728b/" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/Linkedin_scribble.png"
         title="LinkedIn"
-        class="sm:w-[52%] sm:justify-self-end mt-[-10%] hover:opacity-[24%]" />
+        class="sm:w-full sm:justify-self-end  hover:opacity-[24%]" />
     </a>
     <a href="https://github.com/helena-hollander" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/gitHub_scribble.png"
         title="Instagram"
-        class="sm:w-[52%] sm:justify-self-end mt-[-6%] hover:opacity-[24%]" />
+        class="sm:w-full sm:justify-self-end mt-[-10%] hover:opacity-[24%]" />
     </a>
     <a href="https://www.behance.net/helenahollnder" target="_blank">
         <ProjectScribbleCom
         scribbleUrl="/images/contact/BeHance_scribble.png"
         title="Instagram"
-        class="sm:w-[52%] sm:justify-self-end mt-[-6%] hover:opacity-[24%]" />
+        class="sm:w-full sm:justify-self-end mt-[-10%] hover:opacity-[24%]" />
     </a>
     </div>
     <div class="absolute grid h-full">
