@@ -4,6 +4,7 @@ import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 import TitleCom from '@/components/universal/TitleCom.vue';
 import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
+import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
 
 
 </script>
@@ -28,7 +29,7 @@ import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
     <div class="w-screen z-30 absolute sm:mt-0 mt-[20%]">
       <TitleCom />
       <div class="h-[300vh] w-full  z-20 mt-[-20%] sm:mt-[-0%]">
-      <WorkLayoutCom></WorkLayoutCom>
+      <WorkSecondLayoutCom class="mt-[-10%]" ></WorkSecondLayoutCom>
       </div>
     </div>
    
