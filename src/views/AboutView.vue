@@ -15,7 +15,7 @@ Hi,
 
 <br><br>I specialize in interactive design and stage design through creative coding, 3D and motion. Anything within the realm of theatre, museum installations, websites, dancefloors, graphic novels and game design. 
 
-<br><br>My process startson paper, always. Drawing is like thinking, and the best way for me to map out ideas with friends and colleagues. 
+<br><br>My process starts on paper, always. Drawing is like thinking, and the best way for me to map out ideas with friends and colleagues. 
 
 <br><br>I dream about designing worlds.
 
