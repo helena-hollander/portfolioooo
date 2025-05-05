@@ -41,19 +41,22 @@
 
     </div>
     <div class="col-span-5 col-start-4 row-start-[23] row-span-3 h-[30vw] justify-items-center">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-[96%] w-[82%] object-cover" />
+        <img src="/images/inbattle/inBattleCard.png" class=" h-[96%] w-[82%] object-cover" />
 
     </div>
     <div class="col-span-3 col-start-7 row-start-[26] row-span-4 h-[40vw] justify-items-center content-end ml-[2%]">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-[88%] w-[76%] object-cover" />
+     
+        <video autoplay muted loop playsinline  class=" h-[88%] w-[76%] object-cover"  alt="Lola">
+            <source src="/videos/interactiveStone/interactivestoneCard.webm" type="video/webm">
+        </video>
 
     </div>
     <div class="col-span-3 col-start-3 row-start-[29] row-span-2 h-[20vw] justify-items-center content-end mr-[2%]">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-full w-full object-cover" />
+        <img src="/images/rundetaarn/rundetaarnCard.jpg" class=" h-full w-full object-cover" />
 
     </div>
     <div class="col-span-6 col-start-3 row-start-[32] row-span-6 h-[60vw] justify-items-center content-end mr-[2%]">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-full w-[80%] object-cover" />
+        <img src="/images/portraits/ladybugCard.jpeg" class=" h-full w-[80%] object-cover" />
 
     </div>
    
