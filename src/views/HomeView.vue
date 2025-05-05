@@ -27,7 +27,7 @@ import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
       </div>
 
     <div class="w-screen absolute sm:mt-0 mt-[20%]">
-      <TitleCom class="z-[30] relative"/>
+      <TitleCom class="z-[30] relative pointer-events-none"/>
       <div class="h-[300vh] w-full mt-[-20%] sm:mt-[-0%] z-[10]">
         <WorkSecondLayoutCom class="mt-[-10%] relative" ></WorkSecondLayoutCom>
       </div>
