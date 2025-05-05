@@ -57,7 +57,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         title="Instagram"
         class="sm:w-[90%] self-end mb-[18%] w-0" />
     </div>
-    <CopyMailCom class="absolute sm:self-end sm:w-[76%] w-0 hover:opacity-[24%]"></CopyMailCom>
+    <CopyMailCom class="absolute sm:self-end sm:w-[72%] w-0 hover:opacity-[24%]"></CopyMailCom>
 </div>
 
 
