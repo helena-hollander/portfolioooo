@@ -13,9 +13,7 @@ import WorkScribbleLayoutCom from '@/components/cards/WorkScribbleLayoutCom.vue'
 <template>
   <main class="h-[300vh] bg-lightest main">
    
-      <div class="absolute self-center hover:underline">
-      <RouterLink to="/toys">sextoys</RouterLink>
-       </div>
+      
        <div class="logo-container fixed w-full sm:h-[100%] h-[100%]">
         <InteractiveLogoCom 
           text="HELENA HOLLÆNDER" 
