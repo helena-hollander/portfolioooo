@@ -41,7 +41,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                 title="King's visit"
                 textType="body"
-                textContent="The sketch was made in Processing, and displayed a pixel-like grid, with sqaures that changed color, mapped from the camera input, and animated on sound. The colors were picked from random vectors on images of the King himself. And we could scroll through an array of palettes from keyboard inputs."
+                textContent="The sketch was made in Processing, and displayed a pixel-like grid, with sqaures that changed color, mapped from the camera input, and animated on sound. The colors were picked from random vectors on images of the King himself. We could scroll through an array of palettes from keyboard inputs, and the size of the squares was mapped to the x-position of the mouse."
                  />
         </div>
         <div class="col-span-6 col-start-3 h-[20vw] row-span-2 row-start-11 justify-items-end">
