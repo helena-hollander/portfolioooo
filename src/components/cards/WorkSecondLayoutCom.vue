@@ -29,15 +29,15 @@
 
     </div>
     <div class="col-span-2 col-start-2 row-start-[16] row-span-2 h-[20vw] content-center">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-[80%] w-[80%] object-cover" />
+        <img src="/images/studiekort/studiekortID.png" class=" h-[80%] w-[80%] object-cover" />
 
     </div>
     <div class="col-span-4 col-start-7 row-start-[18] row-span-2 h-[20vw] justify-items-end content-end">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-[90%] w-[62.5%] object-cover" />
+        <img src="/images/threejs/threejsCard.png" class=" h-[90%] w-[62.5%] object-cover" />
 
     </div>
     <div class="col-span-3 col-start-3 row-start-[19] row-span-3 h-[30vw] content-end">
-        <img src="/images/toys/flogger3dToys.jpg" class=" h-[96%] w-[96%] object-cover" />
+        <img src="/images/dsr/dsrCard.png" class=" h-[96%] w-[96%] object-cover" />
 
     </div>
     <div class="col-span-5 col-start-4 row-start-[23] row-span-3 h-[30vw] justify-items-center">
