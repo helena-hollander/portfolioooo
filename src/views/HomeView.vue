@@ -3,8 +3,9 @@ import { RouterLink } from 'vue-router'
 import InteractiveLogoCom from '@/components/universal/InteractiveLogoCom.vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 import TitleCom from '@/components/universal/TitleCom.vue';
-import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
+// import WorkLayoutCom from '@/components/cards/WorkLayoutCom.vue';
 import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
+import WorkScribbleLayoutCom from '@/components/cards/WorkScribbleLayoutCom.vue';
 
 
 </script>
@@ -29,7 +30,8 @@ import WorkSecondLayoutCom from '@/components/cards/WorkSecondLayoutCom.vue';
     <div class="w-screen absolute sm:mt-0 mt-[20%]">
       <TitleCom class="z-[30] relative pointer-events-none"/>
       <div class="h-[300vh] w-full mt-[-20%] sm:mt-[-0%] z-[10]">
-        <WorkSecondLayoutCom class="mt-[-10%] relative" ></WorkSecondLayoutCom>
+        <WorkSecondLayoutCom class="mt-[-10%] relative"></WorkSecondLayoutCom>
+        <WorkScribbleLayoutCom class="absolute top-0 mt-[50%]"></WorkScribbleLayoutCom>
       </div>
     </div>
    
