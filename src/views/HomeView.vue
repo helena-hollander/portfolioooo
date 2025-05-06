@@ -27,9 +27,9 @@ import WorkScribbleLayoutCom from '@/components/cards/WorkScribbleLayoutCom.vue'
 
     <div class="w-screen absolute sm:mt-0 mt-[20%]">
       <TitleCom class="z-[30] relative pointer-events-none"/>
-      <div class="h-[300vh] w-full mt-[-20%] sm:mt-[-0%] z-[10]">
-        <WorkSecondLayoutCom class="mt-[-10%] relative"></WorkSecondLayoutCom>
-        <WorkScribbleLayoutCom class="absolute top-0 mt-[50%]"></WorkScribbleLayoutCom>
+      <div class="h-[220vh] sm:h-[300vh] w-full mt-[-20%] sm:mt-[-0%] z-[10]">
+        <WorkSecondLayoutCom class="mt-[10%] sm:mt-[-10%] relative"></WorkSecondLayoutCom>
+        <WorkScribbleLayoutCom class="absolute top-0 mt-[116%] sm:mt-[50%]"></WorkScribbleLayoutCom>
       </div>
     </div>
    
