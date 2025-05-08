@@ -161,6 +161,12 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
                 textContent="I called her 'Qivi' - short for 'Qivittoq', meaning someone who wanders into the unknown, because they can't fit into the given standards, creating a new path. Qivi in this context means 'bravery'."
                 class="sm:mx-[4%]"
                  />
+            <ProjectTextCom
+                title="graphic novel"
+                textType="description"
+                textContent="//February 2025"
+                class="sm:mx-[4%]"
+                 />
             
         </div>   
         <div class=" sm:col-span-9 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[36] ">
