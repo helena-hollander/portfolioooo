@@ -25,6 +25,45 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         <div class="sm:col-span-4 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-7 sm:justify-items-center">
             <img src="/images/tunniit/theBoat.png" class="sm:w-[86%] object-cover"/>
         </div>
+        <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[12] sm:justify-items-end">
+            <img src="/images/tunniit/zoomout2.png" class="sm:w-[86%] object-cover"/>
+        </div>
+        <div class="sm:col-span-4 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-center">
+            <img src="/images/tunniit/screen11.png" class="sm:w-[86%] object-cover"/>
+        </div>
+        <div class="sm:col-span-8 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[19] sm:justify-items-center">
+            <ProjectVideoCom
+            videoUrl="/videos/tunniit/tunniit_scroll_through (1).mp4"
+            type="video/mp4"
+            title="Site_scroll_through"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[28] sm:justify-items-center">
+            <img src="/images/tunniit/screen1.png" class="sm:w-[98%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[28] sm:justify-items-center">
+            <img src="/images/tunniit/screen3.png" class="sm:w-[98%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[28] sm:justify-items-center">
+            <img src="/images/tunniit/screen4.png" class="sm:w-[98%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[30] sm:justify-items-center">
+            <img src="/images/tunniit/screen5.png" class="sm:w-[98%] sm:mt-[-6%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-[30] sm:justify-items-center">
+            <img src="/images/tunniit/screen6.png" class="sm:w-[98%] sm:mt-[-6%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[30] sm:justify-items-center">
+            <img src="/images/tunniit/screen7.png" class="sm:w-[98%] sm:mt-[-6%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[32] sm:justify-items-center">
+            <img src="/images/tunniit/screen8.png" class="sm:w-[98%] sm:mt-[-12%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[32] sm:justify-items-center">
+            <img src="/images/tunniit/screen9.png" class="sm:w-[98%] sm:mt-[-12%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[32] sm:justify-items-center">
+            <img src="/images/tunniit/screen13.png" class="sm:w-[98%] sm:mt-[-12%] object-cover"/>
+        </div>
 
         <!--TEXT-->
         <div class=" sm:col-span-5 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-2">
@@ -70,11 +109,69 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
                 class="sm:mx-[4%]"
                  />
         </div>   
-    <!-- <ProjectVideoCom
-            videoUrl="/videos/tunniit/tunniit_scroll_through (1).mp4"
-            type="video/mp4"
-            title="Site_scroll_through"
-        /> -->
+        <div class=" sm:col-span-6 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-[16] ">
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="I chose to work with the parallax scroll effect to tell the story and let the reader control the speed and focus of every frame. The opening uses 'shards', instead of traditional comic squares, to create depth. The dream-scene under water, scrolls way slower, than the rest, to create the feeling of resistance and struggle. "
+                class="sm:mx-[4%] sm:mt-[10%]"
+                 />
+            
+        </div>  
+        <div class=" sm:col-span-7 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[23] ">
+            <ProjectTextCom
+                title="graphic novel"
+                textType="description"
+                textContent="// Scroll through the story"
+                class="sm:mt-[6%]"
+                 
+                />
+        </div> 
+        <div class=" sm:col-span-7 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[23] ">
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="The story is about a young inuk woman, chosing to embrace her culture and identity, through the traditional art of 'Tunniit' - a tattoo style rooted in the inuit culture. Celebrating womanhood and a  symbol of the youth's fight for equality and decolonization from Denmark. "
+                class="sm:mx-[4%] sm:mt-[10%]"
+                 />
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="The dream scene under water, shows Qivi meeting the Mother of the Ocean, Sedna, who protects the ocean and it's animals. She has the temperament of the ocean and keeps people accountable, when they mistreat nature. She is a very strong female character in inuit mythology, wrapping her hair around travelers, as they try to make peace with her. She sets Qivi free when she stops fearing her history and culture. "
+                class="sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="She wakes up a new person, a woman, proud of her community and heritage. Ready for the future."
+                class="sm:mx-[4%]"
+                 />
+            
+        </div>   
+        <div class=" sm:col-span-7 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[34] ">
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="It was important to me, that inuit readers could relate to the main character, and that she was portrayed as strong and beautiful. Shaping her own identity and future. "
+                class="sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="graphic novel"
+                textType="body"
+                textContent="I called her 'Qivi' - short for 'Qivittoq', meaning someone who wanders into the unknown, because they can't fit into the given standards, creating a new path. Qivi in this context means 'bravery'."
+                class="sm:mx-[4%]"
+                 />
+            
+        </div>   
+        <div class=" sm:col-span-9 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[36] ">
+           <p class="font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize sm:ml-[4%]">//References: <br> //The Boat: <a href="https://www.sbs.com.au/theboat/" target="_blank" class="hover:underline hover:text-lightContrast">https://www.sbs.com.au/theboat/</a>
+             // Milik Publishing:<a href="https://milik.gl/" target="_blank" class="hover:underline hover:text-lightContrast"> https://milik.gl/</a> 
+             // CBC on Inuit tattoos:  <a href="https://www.cbc.ca/player/play/video/1.6973774" target="_blank" class="hover:underline hover:text-lightContrast">https://www.cbc.ca/player/play/video/1.6973774</a> 
+             // Aka Hansen: <a href="https://www.instagram.com/akahansen/?hl=da" target="_blank" class="hover:underline hover:text-lightContrast">https://www.instagram.com/akahansen/?hl=da </a>
+             // Greenlandic Myths, Visit Greenland: <a href="https://visitgreenland.com/articles/greenlands-myths-legends/" target="_blank" class="hover:underline hover:text-lightContrast">https://visitgreenland.com/articles/greenlands-myths-legends/</a> </p>
+            
+        </div>   
+
     </div>
 
 </template>
