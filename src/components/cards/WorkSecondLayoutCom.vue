@@ -40,7 +40,7 @@ import { RouterLink } from 'vue-router'
     <div class="col-span-2 col-start-2 row-start-[16] row-span-2 h-[20vw] content-center">
         <div class="h-[80%] w-[80%] ">
             <RouterLink to="/studentcard" > 
-                <img src="/images/studiekort/studiekortID.png" class="w-full h-full object-cover" />
+                <img src="/images/studiekort/studiekortID.jpeg" class="w-full h-full object-cover" />
             </RouterLink>
         </div>
     </div>
