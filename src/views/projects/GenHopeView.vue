@@ -8,7 +8,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="row-start-3 col-start-1 col-span-1 justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-5 sm:h-[20vw]  sm:row-span-2 sm:row-start-1 sm:justify-items-end">
             <img src="/images/genhope/reol.jpg" class="w-[60%] mt-[-20%] sm:mt-[4%] sm:w-[96%] object-cover"/>
         </div>
-        <div class="mt-[-6%] sm:col-span-2 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-2 justify-items-end sm:mt-0">
+        <div class="mt-[-6%] sm:col-span-2 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-3 justify-items-end sm:mt-0">
             <img src="/images/genhope/brev3.jpeg" class="w-[30%] sm:w-[90%] object-cover"/>
         </div>
         <div class="justify-items-center sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-6 sm:justify-items-end">
