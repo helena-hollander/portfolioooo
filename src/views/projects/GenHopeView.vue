@@ -14,6 +14,47 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-6 sm:justify-items-end">
             <img src="/images/genhope/brev1.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
+        <div class="sm:col-span-4 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-9 sm:justify-items-end">
+            <img src="/images/genhope/genhopeSketch2.png" class="sm:w-[100%] object-cover"/>
+        </div>
+        <div class="sm:col-span-4 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-10 sm:justify-items-end">
+            <img src="/images/genhope/genhopeSketch1.png" class="sm:w-[100%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-12 sm:justify-items-start">
+            <img src="/images/genhope/fedtfarver.jpg" class="sm:w-[76%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-[14] sm:justify-items-start content-end">
+            <img src="/images/genhope/karlsKamera.jpg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-start content-end">
+            <img src="/images/genhope/genhopeSketch3.png" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
+            <video class=" sm:w-full object-cover" autoplay loop muted playsinline>
+                <source src="/videos/genhope/genhopeCard.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[19] sm:justify-items-end content-end">
+            <img src="/images/genhope/haaber.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-[19] sm:justify-items-end content-end">
+            <img src="/images/genhope/sommerfugle.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
+            <img src="/images/genhope/regnbuer.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
+            <img src="/images/genhope/baglaens.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
+            <img src="/images/genhope/droemme.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
+            <img src="/images/genhope/fald.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-end content-end">
+            <img src="/images/genhope/fred.jpeg" class="sm:w-[90%] object-cover"/>
+        </div>
 
 
         <!--Text-->
@@ -64,7 +105,17 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 class="sm:mx-[4%]"
                  />
          
+        </div>
+        <div class="sm:col-span-6 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[27]">
            
+            <ProjectTextCom
+                title="Generation Hope x SNART"
+                textType="body"
+                textContent="In the beginning of March, Generation Hope visited our classroom with their arms full of 'Loveletters to the Future'. A collection of more than 1,500 letter written by young people as a response to the rising levels of anxiety about the future. Their goal is to spark new hope and exitement in the next generations, and help shift the media narrative's unproportionate foces on chaos, onto the positive things happening in the world."
+                class="sm:mx-[4%]"
+                 />
+           
+         
         </div>
         
     </div>
