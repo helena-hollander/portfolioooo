@@ -5,10 +5,10 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 </script>
 <template>
     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(36,minmax(10vw,auto))] sm:gap-0">
-        <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-4 sm:h-[20vw]  sm:row-span-2 sm:row-start-1 sm:justify-items-end">
+        <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-5 sm:h-[20vw]  sm:row-span-2 sm:row-start-1 sm:justify-items-end">
             <img src="/images/genhope/reol.jpg" class="w-[60%] mt-[4%] sm:w-[96%] object-cover"/>
         </div>
-        <div class="sm:col-span-2 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-3 sm:justify-items-end">
+        <div class="sm:col-span-2 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-3 sm:justify-items-end">
             <img src="/images/genhope/brev3.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
         <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-6 sm:justify-items-end">
@@ -34,10 +34,10 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 <source src="/videos/genhope/genhopeCard.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[21] sm:justify-items-end content-end">
-            <img src="/images/genhope/haaber.jpeg" class="sm:w-[90%] object-cover"/>
+        <div class="sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-center sm:content-end">
+            <img src="/images/genhope/haaber.jpeg" class="sm:w-[60%] object-cover"/>
         </div>
-        <div class="sm:col-span-2 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[20] sm:justify-items-end content-end">
+        <div class="sm:col-span-2 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-[20] sm:justify-items-end content-end">
             <img src="/images/genhope/sommerfugle.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
         <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
@@ -80,30 +80,31 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 title="Generation Hope x SNART"
                 textType="display"
                 textContent="Generation Hope x SNART"
+                 class="sm:mx-[4%]"
                  />
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="description"
                 textContent="//Projection Mapping school project in collaboration with Thoravej 29, SNART and Generation Hope."
-                class="w-[60%]"
+                class="w-[70%] sm:mx-[4%]"
                  />
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="description"
                 textContent="// Curated by Majken Overgaard"
-                class="w-[60%]"
+                class="w-[70%] sm:mx-[4%]"
                  />
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="description"
                 textContent="// In collaboration with Karl Emil Bager <3"
-                class="w-[60%]"
+                class="w-[70%] sm:mx-[4%]"
                  />
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="description"
                 textContent="// March 2025"
-                class="w-[60%]"
+                class="w-[70%] sm:mx-[4%]"
                  />
         </div>
         <div class="sm:col-span-7 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-6">
@@ -128,7 +129,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 title="Generation Hope x SNART"
                 textType="body"
                 textContent="After many iterations of the projected object, the class decided on a vase and a paper tulip. Karl and I chose to create a stop motion video in 3 days, using the roots of the flower to write quotes from the letters."
-                class="sm:mx-[4%]"
+                class="sm:mx-[4%] sm:mt-[4%]"
                  />
             <ProjectTextCom
                 title="Generation Hope x SNART"
@@ -139,9 +140,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            
          
         </div>
-        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[36]">
+        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[36] font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize">
            
-           <p class="mx-[2%] ">// Links</p>
+           <p class="mx-[2%] ">// Links:</p>
+           <p class="mx-[2%] ">// Generation Hope: <a href="https://generationhope.dk/" class="hover:underline hover:text-lightContrast" target="_blank">generationhope.dk/</a></p>
+           <p class="mx-[2%] ">// Thoravej 29: <a href="https://www.thoravej29.dk/da" class="hover:underline hover:text-lightContrast" target="_blank">thoravej29.dk/da</a></p>
+           <p class="mx-[2%] ">// SNART: <a href="https://www.fremtid-snart.dk/" class="hover:underline hover:text-lightContrast" target="_blank">fremtid-snart.dk/</a></p>
+           <p class="mx-[2%] ">// Karl <a href="https://www.portfolio.karlbager.dk/" class="hover:underline hover:text-lightContrast" target="_blank">portfolio.karlbager.dk/</a></p>
          
         </div>
         
