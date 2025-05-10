@@ -4,7 +4,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 </script>
 <template>
-    <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+    <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(36,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-4 sm:h-[20vw]  sm:row-span-2 sm:row-start-1 sm:justify-items-end">
             <img src="/images/genhope/reol.jpg" class="w-[60%] mt-[4%] sm:w-[96%] object-cover"/>
         </div>
@@ -34,10 +34,10 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 <source src="/videos/genhope/genhopeCard.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[19] sm:justify-items-end content-end">
+        <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[21] sm:justify-items-end content-end">
             <img src="/images/genhope/haaber.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
-        <div class="sm:col-span-3 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-[19] sm:justify-items-end content-end">
+        <div class="sm:col-span-2 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[20] sm:justify-items-end content-end">
             <img src="/images/genhope/sommerfugle.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
         <div class="sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-center content-end">
@@ -55,7 +55,23 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-end content-end">
             <img src="/images/genhope/fred.jpeg" class="sm:w-[90%] object-cover"/>
         </div>
-
+        <div class="sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[30] sm:justify-items-end">
+            <video class=" sm:w-full object-cover" autoplay loop muted playsinline>
+                <source src="/images/genhope/genHopekort.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[29] sm:justify-items-end content-end">
+            <img src="/images/genhope/karlsComputer.jpg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-2 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[33] sm:justify-items-end content-end">
+            <img src="/images/genhope/karlsKage.jpg" class="sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-1 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[30] sm:justify-items-end">
+            <video class=" sm:w-full object-cover" autoplay loop muted playsinline>
+                <source src="/videos/genhope/genhopeKort2.webm" type="video/webm">
+            </video>
+        </div>
+      
 
         <!--Text-->
         <div class="row-start-2 sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-2">
@@ -111,10 +127,21 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="body"
-                textContent="In the beginning of March, Generation Hope visited our classroom with their arms full of 'Loveletters to the Future'. A collection of more than 1,500 letter written by young people as a response to the rising levels of anxiety about the future. Their goal is to spark new hope and exitement in the next generations, and help shift the media narrative's unproportionate foces on chaos, onto the positive things happening in the world."
+                textContent="After many iterations of the projected object, the class decided on a vase and a paper tulip. Karl and I chose to create a stop motion video in 3 days, using the roots of the flower to write quotes from the letters."
+                class="sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="Generation Hope x SNART"
+                textType="body"
+                textContent="I handdrew all of our frames, while Karl took pictures and edited the video. The result is a 1,5 minute video, seperated in 3 themes: Hopes, Believes and Demands."
                 class="sm:mx-[4%]"
                  />
            
+         
+        </div>
+        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[36]">
+           
+           <p class="mx-[2%] ">// Links</p>
          
         </div>
         
