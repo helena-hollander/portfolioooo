@@ -27,6 +27,19 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:row-span-2 sm:row-start-[12] sm:h-[20vw] sm:justify-items-center">
             <img src="/images/stones/stonesSketch.jpeg" class="w-full sm:w-[100%] object-cover"/>
         </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-6 sm:col-start-2 sm:row-span-2 sm:row-start-[14] sm:h-[20vw] sm:justify-items-center">
+            <img src="/images/stones/styleFull.jpeg" class="w-full sm:w-[100%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
+            <video class=" sm:w-[80%] object-cover" autoplay loop muted playsinline>
+                <source src="/images/stones/implementering.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
+            <video class=" sm:w-[80%] object-cover" autoplay loop muted playsinline>
+                <source src="/images/stones/threejsPrototypeStones.webm" type="video/webm">
+            </video>
+        </div>
 
         <!--TEXT-->
         <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-3">
@@ -71,6 +84,49 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                class="mx-[4%]"
                 />
           
+        </div>
+        <div class="sm:col-span-6 sm:col-start-2 sm:h-[10vw] sm:row-span-1 sm:row-start-[17] content-start">
+           
+           <ProjectTextCom
+               title="Interactive 'stone collector'"
+               textType="description"
+               textContent="// Style tile. The logo is a blue version of Danske Fysioterapeuter's logo. A bit softer to look liks rings in water. The font is also the same."
+               class="mx-[4%] sm:mx-0 sm:mt-[-4%]"
+                />
+          
+        </div>
+        <div class="sm:col-span-6 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[19] content-start">
+           
+           <ProjectTextCom
+               title="Interactive 'stone collector'"
+               textType="body"
+               textContent="The app features an interactive page, that collects 3D stones (Three.js and Blender) each time you open your mobil device. The amount of time spent on each 'visit', determines the size of the stone. The stones reacts to the rotation of the device, and roles around with physics. (Prototyped with mouse position) Each stone contains the data of each visit, and the info button reveals more in depth statistics related to time spent on the phone."
+               class="mx-[4%]"
+                />
+           
+           <ProjectTextCom
+               title="Interactive 'stone collector'"
+               textType="body"
+               textContent="The goal is to inform, not scare, the users to let them make more intentional choices and build better habits. This could also be in the context of physical - or mental health related treatment."
+               class="mx-[4%]"
+                />
+          
+        </div>
+        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
+           <ProjectTextCom
+               title="Interactive 'stone collector'"
+               textType="description"
+               textContent="// Figma prototype"
+               class="mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
+                />
+        </div>
+        <div class="sm:col-span-6 sm:col-start-4 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
+           <ProjectTextCom
+               title="Interactive 'stone collector'"
+               textType="description"
+               textContent="// Three.js prototype"
+               class="mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
+                />
         </div>
   </div>
 </template>
