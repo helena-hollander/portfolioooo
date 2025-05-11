@@ -5,7 +5,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(24,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-1 sm:row-span-2 sm:row-start-1 sm:h-[20vw]">
             <img src="/images/stones/sketchbook2.png" class="w-[60%] mt-[4%] sm:w-full object-cover"/>
         </div>
@@ -100,16 +100,17 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Interactive 'stone collector'"
                textType="body"
-               textContent="The app features an interactive page, that collects 3D stones (Three.js and Blender) each time you open your mobil device. The amount of time spent on each 'visit', determines the size of the stone. The stones reacts to the rotation of the device, and roles around with physics. (Prototyped with mouse position) Each stone contains the data of each visit, and the info button reveals more in depth statistics related to time spent on the phone."
+               textContent="The app features an interactive page, that collects 3D stones (Three.js and Blender) each time you open your mobile device. The amount of time spent on each 'visit', determines the size of the stone. The stones reacts to the rotation of the device, and roles around with physics. (Prototyped with mouse position) Each stone contains the data of each visit, and the info button reveals more in depth statistics related to time spent on the phone."
                class="mx-[4%]"
                 />
            
            <ProjectTextCom
                title="Interactive 'stone collector'"
                textType="body"
-               textContent="The goal is to inform, not scare, the users to let them make more intentional choices and build better habits. This could also be in the context of physical - or mental health related treatment."
+               textContent="The goal is to inform, not scare, the users to let them make more intentional choices and build better habits. This could be in the context of physical - or mental health related treatment."
                class="mx-[4%]"
                 />
+            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeModile sm:text-descriptionSize">Link to live prototype: <a href="https://rullesten.netlify.app/" class="hover:underline hover:text-lightContrast" target="_blank">https://rullesten.netlify.app/</a> <br>(click to spawn the stones)</p>
           
         </div>
         <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
@@ -127,6 +128,9 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                textContent="// Three.js prototype"
                class="mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
                 />
+        </div>
+        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[24] content-start">
+            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeModile sm:text-descriptionSize">Danske Fysioterapeuter: <a href="https://www.fysio.dk/" class="hover:underline hover:text-lightContrast" target="_blank">fysio.dk</a></p>
         </div>
   </div>
 </template>
