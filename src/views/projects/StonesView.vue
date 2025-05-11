@@ -90,7 +90,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Interactive 'stone collector'"
                textType="description"
-               textContent="// Style tile. The logo is a blue version of Danske Fysioterapeuter's logo. A bit softer to look liks rings in water. The font is also the same."
+               textContent="// Style tile. The logo is a blue version of Danske Fysioterapeuter's logo. A bit softer to look like rings in water. The font is also the same."
                class="mx-[4%] sm:mx-0 sm:mt-[-4%]"
                 />
           
