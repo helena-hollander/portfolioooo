@@ -47,7 +47,7 @@ import { RouterLink } from 'vue-router'
     <div class="col-span-4 col-start-7 row-start-[18] row-span-2 h-[20vw] justify-items-end content-end">
         <div class="h-[90%] w-[62.5%]">
             <RouterLink to="/threejs">
-            <img src="/images/threejs/threejsCard.png" class="h-full w-full object-cover" />
+            <img src="/images/threejs/threejsCard.jpeg" class="h-full w-full object-cover" />
             </RouterLink>
         </div>
     </div>
