@@ -7,31 +7,31 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 <template>
      <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(24,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-1 sm:row-span-2 sm:row-start-1 sm:h-[20vw]">
-            <img src="/images/stones/sketchbook2.png" class="w-[60%] mt-[4%] sm:w-full object-cover"/>
+            <img src="/images/stones/sketchbook2.png" class="w-[88%] mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-4 sm:col-start-4 sm:row-span-2 sm:row-start-2 sm:h-[20vw] sm:justify-items-center">
-            <img src="/images/stones/moodboard.png" class="w-full  sm:w-[66%] object-cover"/>
+            <img src="/images/stones/moodboard.png" class="w-[80%]  sm:w-[66%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:row-span-2 sm:row-start-3 sm:h-[20vw]">
+        <div class="row-start-3 justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:row-span-2 sm:row-start-3 sm:h-[20vw]">
             <img src="/images/stones/sketchbook3.png" class="w-full  sm:w-full object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-5 sm:col-start-3 sm:row-span-2 sm:row-start-6 sm:h-[20vw]">
             <img src="/images/stones/sketchbook1.png" class="w-full sm:w-full object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-2 sm:col-start-8 sm:row-span-2 sm:row-start-8 sm:h-[20vw] sm:justify-items-center">
-            <img src="/images/stones/blender1.jpeg" class="w-full sm:w-[70%] object-cover"/>
+            <img src="/images/stones/blender1.jpeg" class="w-[50%] sm:w-[70%] object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-2 sm:col-start-6 sm:row-span-2 sm:row-start-10 sm:h-[20vw] sm:justify-items-center">
             <img src="/images/stones/blender2.jpeg" class="w-full sm:w-[70%] object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:row-span-2 sm:row-start-[12] sm:h-[20vw] sm:justify-items-center">
-            <img src="/images/stones/stonesSketch.jpeg" class="w-full sm:w-[100%] object-cover"/>
+            <img src="/images/stones/stonesSketch.jpeg" class="w-[70%] sm:w-[100%] object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-6 sm:col-start-2 sm:row-span-2 sm:row-start-[14] sm:h-[20vw] sm:justify-items-center">
             <img src="/images/stones/styleFull.jpeg" class="w-full sm:w-[100%] object-cover"/>
         </div>
-        <div class="sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
-            <video class=" sm:w-[80%] object-cover" autoplay loop muted playsinline>
+        <div class="justify-items-center sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
+            <video class="w-[80%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
                 <source src="/images/stones/implementering.mp4" type="video/mp4">
             </video>
         </div>
@@ -42,7 +42,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
 
         <!--TEXT-->
-        <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-3">
+        <div class="row-start-2 sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-3">
            
            <ProjectTextCom
                title="Interactive 'stone collector'"
@@ -69,7 +69,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                class="mx-[4%]"
                 />
         </div>
-        <div class="sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
+        <div class="row-start-9 sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
            
            <ProjectTextCom
                title="Interactive 'stone collector'"
@@ -85,13 +85,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 />
           
         </div>
-        <div class="sm:col-span-6 sm:col-start-2 sm:h-[10vw] sm:row-span-1 sm:row-start-[17] content-start">
+        <div class="row-start-[11] sm:col-span-6 sm:col-start-2 sm:h-[10vw] sm:row-span-1 sm:row-start-[17] content-start">
            
            <ProjectTextCom
                title="Interactive 'stone collector'"
                textType="description"
                textContent="// Style tile. The logo is a blue version of Danske Fysioterapeuter's logo. A bit softer to look like rings in water. The font is also the same."
-               class="mx-[4%] sm:mx-0 sm:mt-[-4%]"
+               class="mx-[4%] sm:mx-0 mt-[-4%]"
                 />
           
         </div>
@@ -110,27 +110,27 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                textContent="The goal is to inform, not scare, the users to let them make more intentional choices and build better habits. This could be in the context of physical - or mental health related treatment."
                class="mx-[4%]"
                 />
-            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeModile sm:text-descriptionSize">Link to live prototype: <a href="https://rullesten.netlify.app/" class="hover:underline hover:text-lightContrast" target="_blank">https://rullesten.netlify.app/</a> <br>(click to spawn the stones)</p>
+            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize">Link to live prototype: <a href="https://rullesten.netlify.app/" class="hover:underline hover:text-lightContrast" target="_blank">https://rullesten.netlify.app/</a> <br>(click to spawn the stones)</p>
           
         </div>
-        <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
+        <div class="row-start-[13] sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
            <ProjectTextCom
-               title="Interactive 'stone collector'"
+               title="Figma prototype"
                textType="description"
                textContent="// Figma prototype"
-               class="mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
+               class="mt-[-4%] mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
                 />
         </div>
-        <div class="sm:col-span-6 sm:col-start-4 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
+        <div class="row-start-[15] sm:col-span-6 sm:col-start-4 sm:h-[10vw] sm:row-span-1 sm:row-start-[23] content-start">
            <ProjectTextCom
-               title="Interactive 'stone collector'"
+               title="Three.js prototype"
                textType="description"
                textContent="// Three.js prototype"
-               class="mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
+               class="mt-[-4%] mx-[4%] sm:mx-0 sm:mt-[3%] sm:ml-[10%]"
                 />
         </div>
         <div class="sm:col-span-6 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[24] content-start">
-            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeModile sm:text-descriptionSize">Danske Fysioterapeuter: <a href="https://www.fysio.dk/" class="hover:underline hover:text-lightContrast" target="_blank">fysio.dk</a></p>
+            <p class="mx-[4%] mt-[4%] font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize">Danske Fysioterapeuter: <a href="https://www.fysio.dk/" class="hover:underline hover:text-lightContrast" target="_blank">fysio.dk</a></p>
         </div>
   </div>
 </template>
