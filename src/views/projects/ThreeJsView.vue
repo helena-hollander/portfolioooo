@@ -7,13 +7,31 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 <template>
      <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(24,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:row-span-2 sm:row-start-1 sm:h-[20vw]">
-            <img src="/images/threejs/storytellingSketch1.png" class="w-[88%] mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
+            <img src="/images/threejs/storytellingSketch1.png" class="w-full mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-4 sm:col-start-1 sm:row-span-2 sm:row-start-3 sm:h-[20vw]">
-            <img src="/images/threejs/storytellingSketch2.png" class="w-[88%] mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
+            <img src="/images/threejs/storytellingSketch2.png" class="w-full mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
         </div>
         <div class="justify-items-center sm:justify-items-start  sm:col-span-4 sm:col-start-1 sm:row-span-2 sm:row-start-6 sm:h-[20vw]">
-            <img src="/images/threejs/storytellingSketch3.png" class="w-[88%] mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
+            <img src="/images/threejs/storytellingSketch3.png" class="w-full mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-end  sm:col-span-2 sm:col-start-6 sm:row-span-2 sm:row-start-8 sm:h-[20vw]">
+            <img src="/images/threejs/limbo.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-end  sm:col-span-2 sm:col-start-8 sm:row-span-2 sm:row-start-8 sm:h-[20vw]">
+            <img src="/images/threejs/coraline.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-2 sm:col-start-9 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+            <img src="/images/threejs/littleN.jpeg" class="w-full sm:mt-0 sm:w-[100%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-2 sm:col-start-7 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+            <img src="/images/threejs/gris.jpeg" class="w-full sm:mt-0 sm:w-[90%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-center  sm:col-span-3 sm:col-start-1 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+            <img src="/images/threejs/stringConceptArt1.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-4 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+            <img src="/images/threejs/stringConceptArt2.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
         </div>
 
         <!--TEXT-->
