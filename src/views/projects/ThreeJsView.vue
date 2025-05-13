@@ -27,11 +27,14 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start  sm:col-span-2 sm:col-start-7 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
             <img src="/images/threejs/gris.jpeg" class="w-full sm:mt-0 sm:w-[90%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-center  sm:col-span-3 sm:col-start-1 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+        <div class="justify-items-center sm:justify-items-center  sm:col-span-3 sm:col-start-5 sm:row-span-2 sm:row-start-[12] sm:h-[20vw]">
             <img src="/images/threejs/stringConceptArt1.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-4 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:row-span-2 sm:row-start-[12] sm:h-[20vw]">
             <img src="/images/threejs/stringConceptArt2.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-5 sm:col-start-1 sm:row-span-2 sm:row-start-[10] sm:h-[20vw]">
+            <img src="/images/threejs/storyboard.jpeg" class="w-full sm:mt-0 sm:w-[80%] object-cover"/>
         </div>
 
         <!--TEXT-->
