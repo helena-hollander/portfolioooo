@@ -18,6 +18,48 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-3">
             <img src="/images/dsr/dsrSketch2.png" class="w-[0%] sm:w-full object-cover"/>
         </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-7">
+            <img src="/images/dsr/insta8.jpeg" class="w-[0%] sm:w-full object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-2 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
+            <img src="/images/dsr/insta1.jpeg" class="w-[0%] sm:w-full object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-11">
+            <img src="/images/dsr/insta3.jpeg" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-6">
+            <img src="/images/dsr/Hoola (hvid).png" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-2 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[12]">
+            <img src="/images/dsr/insta5.jpeg" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[12]">
+            <img src="/images/dsr/stickers1.jpeg" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[10]">
+            <img src="/images/dsr/Kim 3.png" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[13]">
+            <img src="/images/dsr/Tøjsnor (hvid).png" class="w-[0%] sm:w-[70%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[14]">
+            <img src="/images/dsr/dsrCard.png" class="w-[0%] sm:w-[70%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[15]">
+            <img src="/images/dsr/Rodehoved(hvid).png" class="w-[0%] sm:w-[70%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[15]">
+            <img src="/images/dsr/Venner(hvid).png" class="w-[0%] sm:w-[60%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[17]">
+            <img src="/images/dsr/DSR_Cykel(hvid) 1.png" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[19]">
+            <img src="/images/dsr/Computer(hvid).png" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[20]">
+            <img src="/images/dsr/Ide(hvid).png" class="w-[0%] sm:w-[90%] object-cover"/>
+        </div>
 
         <div class="row-start-3 sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-5">
            
@@ -28,15 +70,30 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 class="w-[280px] mx-[4%] sm:w-[500px]"
                 />
            <ProjectTextCom
-               title="Title"
+               title="Descrition"
                textType="description"
                textContent="// New visual identity for DSR, the Student Body Council at DMJX. Logo, colors, typography and illstration assets."
                 class="w-[280px] mx-[4%] sm:w-[500px]"
                 />
            <ProjectTextCom
-               title="Title"
+               title="Date"
                textType="description"
                textContent="// Janurary 2024"
+               class="w-[280px] mx-[4%] sm:w-[500px]"
+                />
+           <ProjectTextCom
+               title="Intro"
+               textType="body"
+               textContent="'De Studerendes Råd' at DMJX Amager really needed an updated visual identity. So Stella Areschoug and I was tasked with puttingtogether a new palette of colors, logo, typo and assets to catch the attention of our fellow students. A warm, divers and funny concept, to represent the work and community of DSR."
+               class="w-[280px] mx-[4%] sm:w-[500px]"
+                />
+          
+       </div>
+        <div class="row-start-3 sm:col-span-4 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-[17]">
+           <ProjectTextCom
+               title="Intro"
+               textType="body"
+               textContent="We decided a combination of brirght, playfull colors, a funky logo-type and I created a series of character illustrations. They all represent the everyday life, ups and downs of being a student at DMJX. They are purposefully made in a gender-neutral likeness, to be diverse and relateable across genders and backrounds."
                class="w-[280px] mx-[4%] sm:w-[500px]"
                 />
           
