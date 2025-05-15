@@ -21,26 +21,31 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start sm:row-start-8 sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-2">
             <img src="/images/inbattle/inbattleSketch2.png" class="w-[100%]  sm:w-full object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start sm:row-start-[11] sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 ">
+        <!-- <div class="justify-items-center sm:justify-items-start sm:row-start-[11] sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 ">
             <img src="/images/inbattle/aisketch2.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
-        </div>
+        </div> -->
         <div class="justify-items-center sm:justify-items-start sm:row-start-[14] sm:col-span-6 sm:col-start-2 sm:h-[20vw] sm:row-span-2 ">
             <img src="/images/inbattle/styleTile.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[13]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[11]">
             <img src="/images/inbattle/screen1.jpeg" class="w-[100%]  sm:w-[100%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[15]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[13]">
             <img src="/images/inbattle/screen2.jpeg" class="w-[100%]  sm:w-[100%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[17]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[15]">
             <img src="/images/inbattle/screen4.jpeg" class="w-[100%]  sm:w-[100%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[19]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[17]">
             <img src="/images/inbattle/screen5.jpeg" class="w-[100%]  sm:w-[100%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[21]">
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-[19]">
             <img src="/images/inbattle/screen6.jpeg" class="w-[100%]  sm:w-[100%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[21]">
+            <video class=" sm:w-full object-cover" autoplay loop muted playsinline>
+                <source src="/images/inbattle/inBattleVideo.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="justify-items-center sm:justify-items-start sm:row-start-[22] sm:col-span-6 sm:col-start-1 sm:h-[20vw] sm:row-span-2 ">
             <img src="/images/inbattle/installation1.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
@@ -51,6 +56,10 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start sm:row-start-[26] sm:col-span-4 sm:col-start-2 sm:h-[20vw] sm:row-span-2 ">
             <img src="/images/inbattle/installation3.jpeg" class="w-[100%]  sm:w-[90%] object-cover"/>
         </div>
+        <div class="justify-items-center sm:justify-items-end sm:row-start-[29] sm:col-span-3 sm:col-start-3 sm:h-[20vw] sm:row-span-2 ">
+            <img src="/images/inbattle/installationScreen.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
+        </div>
+        
 
         <!--TEXT-->
         <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-5">
@@ -101,7 +110,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                title="Intro"
                textType="body"
                textContent="// Style tile"
-               class="mx-[4%] sm:mt-[8%]"
+               class="mx-[4%] sm:mt-[16%]"
                 />
          
           
@@ -120,6 +129,27 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                textContent="The background is based on a live webcam feed from the website. Using p5.js and CSS, the 'refleksion' of the user is duplicated, blurred, scaled and tinted to create this living deep-blue image. This makes the website and installation interactive and puts the audience at the center of the design. "
                class="mx-[4%]"
                 />
+           
+          
+       </div>
+        <div class="sm:col-span-6 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[27]">
+           
+            <ProjectTextCom
+               title="Installation"
+               textType="body"
+               textContent="The installation is designed to take the audience on a journey, walking through 2 LED screens, surrounded by their own blue refleksions. It is a tunnel, a pathway for movement, recreating oldschool funhouse mirrors in a digital scale."
+               class="mx-[4%]"
+                />
+            <ProjectTextCom
+               title="Installation"
+               textType="body"
+               textContent="The goal is to create a common experience. A memory enhanced by humor, curiosity and the participation of self. All while listening to ominous vocal arrangements. (In this demo written, recorded and performed be me.) "
+               class="mx-[4%]"
+                />
+        <p  class="ml-[4%] sm:mt-[15%] text-darkest font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize">
+            //Link to live installations demo: <a href="https://whileinbattle-hh-installation.netlify.app/#/" class="hover:underline hover:text-lightContrast" target="_blank">INSTALLATION</a>
+             </p>
+          
            
           
        </div>
