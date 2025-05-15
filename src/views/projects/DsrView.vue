@@ -60,6 +60,12 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start sm:col-span-3 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[20]">
             <img src="/images/dsr/Ide(hvid).png" class="w-[0%] sm:w-[90%] object-cover"/>
         </div>
+        <div class="justify-items-center sm:justify-items-cente sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[22]">
+            <img src="/images/dsr/insta7.jpeg" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-cente sm:col-span-2 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[23]">
+            <img src="/images/dsr/poster1.jpeg" class="w-[0%] sm:w-[80%] object-cover"/>
+        </div>
 
         <div class="row-start-3 sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-5">
            
