@@ -21,9 +21,6 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-start sm:row-start-8 sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-2">
             <img src="/images/inbattle/inbattleSketch2.png" class="w-[100%]  sm:w-full object-cover"/>
         </div>
-        <!-- <div class="justify-items-center sm:justify-items-start sm:row-start-[11] sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 ">
-            <img src="/images/inbattle/aisketch2.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
-        </div> -->
         <div class="justify-items-center sm:justify-items-start sm:row-start-[14] sm:col-span-6 sm:col-start-2 sm:h-[20vw] sm:row-span-2 ">
             <img src="/images/inbattle/styleTile.jpeg" class="w-[100%]  sm:w-[80%] object-cover"/>
         </div>
@@ -150,7 +147,12 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             //Link to live installations demo: <a href="https://whileinbattle-hh-installation.netlify.app/#/" class="hover:underline hover:text-lightContrast" target="_blank">INSTALLATION</a>
              </p>
           
-           
+       </div>
+        <div class="sm:col-span-5 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[30]">
+        <p  class="ml-[4%] sm:mt-[14%] text-darkest font-vazirmatn text-descriptionSizeMobile sm:text-descriptionSize">
+            // Links:  <a href="https://cullberg.com/en/" class="hover:underline hover:text-lightContrast" target="_blank"> Cullberg </a>// <a href="https://www.metropolis.dk/" class="hover:underline hover:text-lightContrast" target="_blank">Metropolis </a>// <a href="https://id.is/en/whileinbattle-2/" class="hover:underline hover:text-lightContrast" target="_blank">WHEN IN BATTLE</a>
+             </p>
+    
           
        </div>
 </div>
