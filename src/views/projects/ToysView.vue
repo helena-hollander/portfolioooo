@@ -50,8 +50,8 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                     <source src="/videos/toysTweaks.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-8 sm:h-[10vw] sm:row-span-1 sm:row-start-[25] sm:content-center">
-            <img src="/images/toys/w-tote.png" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-9 sm:h-[10vw] sm:row-span-1 sm:row-start-[25] sm:content-center">
+            <img src="/images/toys/w-tote.png" class="sm:mt-[0%] sm:w-[100%] object-cover"/>
             </div>
             <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[27] sm:content-center">
             <img src="/images/toys/toysDildPoster.jpg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
