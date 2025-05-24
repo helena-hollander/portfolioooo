@@ -8,7 +8,92 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 </script>
 
 <template>
-    <div class="h-full">
+     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+        <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:row-start-1 sm:col-span-4 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-5 sm:content-center">
+            <img src="/images/toys/toysSketch01.png" class="w-[60%] sm:w-full object-cover"/>
+        </div>
+        <div class="justify-items-center sm:row-start-1 sm:col-span-4 sm:col-start-3 sm:h-[10vw] sm:row-span-1 sm:row-start-7 sm:content-center">
+            <img src="/images/toys/toysSketch02.png" class="w-[60%] sm:mt-[4%] sm:w-[80%] object-cover"/>
+        </div>
+         <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-1 sm:justify-items-end">
+            <video class="sm:mt-[0%] sm:w-[90%] object-cover" autoplay loop muted playsinline>
+                <source src="/videos/toys01.mp4" type="video/mp4">
+            </video>
+     
+        </div>
+         <div class=" sm:row-start-1 sm:col-span-3 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-10 sm:content-center sm:justify-items-end">
+            <img src="/images/toys/moco.jpeg" class="sm:mt-[12%] sm:w-[80%] object-cover"/>
+        </div>
+         <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-8 sm:h-[10vw] sm:row-span-1 sm:row-start-11 sm:content-center">
+            <img src="/images/toys/peech.jpeg" class="sm:mt-[10%] sm:w-[80%] object-cover"/>
+        </div>
+         <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[13] sm:content-center">
+            <img src="/images/toys/queerBritain.jpeg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
+        </div>
+        <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-end">
+            <video class="sm:mt-[0%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
+                <source src="/videos/demoFloorToys.mp4" type="video/mp4">
+            </video>
+     
+        </div>
+        <!--TEXT-->
+
+        <div class=" sm:col-span-5 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-3">
+           
+            <ProjectTextCom
+                title="Title: The Sex Toy Gallery"
+                textType="display"
+                textContent="The SEX TOY GALLERY"
+                 class="sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="Discription"
+                textType="description"
+                textContent="// Visual identity using Processing, Blender and Adobe Illustrator to create generative logo-assets and animations."
+                 class="sm:mx-[4%]"
+                 />
+                
+        </div>
+        <div class=" sm:col-span-5 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-11">
+           
+            
+            <ProjectTextCom
+                title="Intro"
+                textType="body"
+                textContent="The concept focuses on sextoys being playful and ‘pop’, rather than taboo. Giving this museum of sextoys, an identity and interactive feature that can draw in visitors in a playful yet modern manner."
+                 class="sm:mx-[4%] sm:w-[82%]"
+                 />
+            
+            <ProjectTextCom
+                title="Intro"
+                textType="body"
+                textContent="Inspired by the lack of erotic museums in Denmark, and my love for pop-art. I wanted to play with people's idea of sex vs. culture, and how I could reshape their associations and spark curiosity."
+                 class="sm:mx-[4%] sm:w-[82%]"
+                 />
+                
+        </div>
+        <div class=" sm:col-span-6 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[16]"> 
+            <ProjectTextCom
+                title="Intro"
+                textType="body"
+                textContent="I designed an interactive floor-plan in the exherbitions, which lights up and sparks pixels, wherever you walk. (As a projection or screen) Leaving a trail behind you, a clear representation of your presence in the gallery. Playful and inviting."
+                 class="sm:mx-[4%]"
+                 />
+            
+            <ProjectTextCom
+                title="Intro"
+                textType="body"
+                textContent="This demo is made in Processing, where the mouse postion represents the visitors route, seen from above. "
+                 class="sm:mx-[4%]"
+                 />
+                
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="h-full">
         <ProjectScribbleCom
             scribbleUrl="/images/toys/toysDisplayScribble.png"
             title="Generative Logo"
@@ -111,7 +196,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
     </div>
      </div>
     </div>
-
+ -->
 
 
 
