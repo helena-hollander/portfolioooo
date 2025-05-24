@@ -54,9 +54,16 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                  />
                 
         </div>
+        <div class=" sm:col-span-3 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-6"> 
+            <ProjectTextCom
+                title="sketch"
+                textType="description"
+                textContent="// Processing sketch recording"
+                 class="sm:mx-[14%] sm:mt-[10%]"
+                 />
+                
+        </div>
         <div class=" sm:col-span-5 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-11">
-           
-            
             <ProjectTextCom
                 title="Intro"
                 textType="body"
@@ -72,16 +79,27 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                  />
                 
         </div>
+        <div class=" sm:col-span-6 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[14]"> 
+            <ProjectTextCom
+                title="Interactive floor"
+                textType="description"
+                textContent="//Moco Museum, Peech and Queer Britain"
+                 class="sm:mx-[4%] sm:mt-[16%]"
+                 />
+            
+            
+                
+        </div>
         <div class=" sm:col-span-6 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[16]"> 
             <ProjectTextCom
-                title="Intro"
+                title="Interactive floor"
                 textType="body"
                 textContent="I designed an interactive floor-plan in the exherbitions, which lights up and sparks pixels, wherever you walk. (As a projection or screen) Leaving a trail behind you, a clear representation of your presence in the gallery. Playful and inviting."
                  class="sm:mx-[4%]"
                  />
             
             <ProjectTextCom
-                title="Intro"
+                title="Demo"
                 textType="body"
                 textContent="This demo is made in Processing, where the mouse postion represents the visitors route, seen from above. "
                  class="sm:mx-[4%]"
