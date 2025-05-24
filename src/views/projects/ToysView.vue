@@ -30,6 +30,9 @@ import FooterCom from '@/components/universal/FooterCom.vue';
          <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[13] sm:content-center">
             <img src="/images/toys/queerBritain.jpeg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
         </div>
+         <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-8 sm:h-[10vw] sm:row-span-1 sm:row-start-[9] sm:content-center">
+            <img src="/images/toys/colors.png" class="sm:mt-[4%] sm:w-[60%] object-cover"/>
+        </div>
         <div class="sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-end">
             <video class="sm:mt-[0%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
                 <source src="/videos/demoFloorToys.mp4" type="video/mp4">
