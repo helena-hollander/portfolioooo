@@ -8,7 +8,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 </script>
 
 <template>
-     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(34,minmax(10vw,auto))] sm:gap-0">
+     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:row-start-1 sm:col-span-4 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-5 sm:content-center">
             <img src="/images/toys/toysSketch01.png" class="w-[60%] sm:w-full object-cover"/>
         </div>
@@ -39,6 +39,9 @@ import FooterCom from '@/components/universal/FooterCom.vue';
             <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-8 sm:h-[10vw] sm:row-span-1 sm:row-start-[19] sm:content-center">
             <img src="/images/toys/flogger3dToys.jpg" class="sm:mt-[0%] sm:w-[80%] object-cover"/>
             </div>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-6 sm:h-[10vw] sm:row-span-1 sm:row-start-[18] sm:content-center">
+            <img src="/images/toys/satisfyerBlender.jpg" class="sm:mt-[12%] sm:w-[60%] object-cover"/>
+            </div>
             <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-9 sm:h-[10vw] sm:row-span-1 sm:row-start-[21] sm:content-center">
             <img src="/images/toys/processingVarsToys.jpg" class="sm:mt-[0%] sm:w-[60%] object-cover"/>
             </div>
@@ -50,23 +53,29 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                     <source src="/videos/toysTweaks.mp4" type="video/mp4">
                 </video>
             </div>
+            <!-- <div class="justify-items-center sm:col-span-9 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[28] sm:content-center">
+            <img src="/images/toys/wandPng.png" class="sm:mt-[0%] sm:w-[100%] object-cover"/>
+            </div> -->
             <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-9 sm:h-[10vw] sm:row-span-1 sm:row-start-[25] sm:content-center">
             <img src="/images/toys/w-tote.png" class="sm:mt-[0%] sm:w-[100%] object-cover"/>
             </div>
-            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[27] sm:content-center">
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-3 sm:h-[10vw] sm:row-span-1 sm:row-start-[27] sm:content-center sm:justify-items-end">
             <img src="/images/toys/toysDildPoster.jpg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
             </div>
-            <div class="justify-items-center sm:row-start-1 sm:col-span-1 sm:col-start-10 sm:h-[10vw] sm:row-span-1 sm:row-start-[27] ">
-            <img src="/images/toys/bottle.png" class="sm:mt-[0%] sm:w-[80%] object-cover"/>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-8 sm:h-[10vw] sm:row-span-1 sm:row-start-[30] sm:content-center sm:justify-items-end">
+            <img src="/images/toys/toysWandPoster.jpg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
+            </div>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[28] ">
+            <img src="/images/toys/w-bottle.png" class="sm:mt-[0%] sm:w-[50%] object-cover"/>
             </div>
             <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[28] ">
             <img src="/images/toys/w-t-shirt.png" class="sm:mt-[0%] sm:w-[100%] object-cover"/>
             </div>
-            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[29] ">
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[27] sm:justify-items-end">
             <img src="/images/toys/toysSatisfyerPoster.jpg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
             </div>
-            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-3 sm:h-[10vw] sm:row-span-1 sm:row-start-[30] ">
-            <img src="/images/toys/tote.png" class="sm:mt-[0%] sm:w-[70%] object-cover"/>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-3 sm:col-start-3 sm:h-[10vw] sm:row-span-1 sm:row-start-[30] sm:content-end">
+            <img src="/images/toys/tote.png" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
             </div>
         <!--TEXT-->
 
@@ -151,6 +160,16 @@ import FooterCom from '@/components/universal/FooterCom.vue';
                 textContent="The 'Asset Generator' makes random SVG toys, to be used on posters, merch, advertisement and communication inside the museum."
                  class="sm:mx-[4%]"
                  />
+                
+        </div>
+        <div class=" sm:col-span-4 sm:col-start-1 sm:h-[10vw] sm:row-span-1 sm:row-start-[31]"> 
+            <ProjectTextCom
+                title="Karl Emil Bager"
+                textType="description"
+                textContent="// Mock-ups by Karl Emil Bager <3"
+                 class="sm:mx-[4%]"
+                 />
+          
                 
         </div>
     </div>
