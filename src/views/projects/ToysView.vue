@@ -65,6 +65,9 @@ import FooterCom from '@/components/universal/FooterCom.vue';
             <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-7 sm:h-[10vw] sm:row-span-1 sm:row-start-[29] ">
             <img src="/images/toys/toysSatisfyerPoster.jpg" class="sm:mt-[0%] sm:w-[90%] object-cover"/>
             </div>
+            <div class="justify-items-center sm:row-start-1 sm:col-span-2 sm:col-start-3 sm:h-[10vw] sm:row-span-1 sm:row-start-[30] ">
+            <img src="/images/toys/tote.png" class="sm:mt-[0%] sm:w-[70%] object-cover"/>
+            </div>
         <!--TEXT-->
 
         <div class=" sm:col-span-5 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-3">
