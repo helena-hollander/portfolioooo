@@ -5,7 +5,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(24,minmax(10vw,auto))] sm:gap-0">
+     <div class="stonesView absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(24,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start  sm:col-span-3 sm:col-start-1 sm:row-span-2 sm:row-start-1 sm:h-[20vw]">
             <img src="/images/stones/sketchbook2.png" class="w-[88%] mt-[-14%] sm:mt-0 sm:w-full object-cover"/>
         </div>
@@ -134,3 +134,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
   </div>
 </template>
+
+<style>
+.stonesView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.stonesView a, /* Links */
+.stonesView button, /* Buttons */
+.stonesView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

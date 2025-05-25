@@ -5,7 +5,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-<div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+<div class="battleView absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start  sm:row-start-1 sm:col-span-3 sm:col-start-2 sm:h-[20vw]  sm:row-span-2 sm:row-start-2">
             <img src="/images/inbattle/inbattleSketch1.png" class="w-[0%] sm:w-full object-cover"/>
         </div>
@@ -157,3 +157,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
        </div>
 </div>
 </template>
+
+<style>
+.battleView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.battleView a, /* Links */
+.battleView button, /* Buttons */
+.battleView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

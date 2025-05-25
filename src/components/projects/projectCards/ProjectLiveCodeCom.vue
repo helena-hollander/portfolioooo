@@ -1,5 +1,5 @@
 <template>
-  <div class="visualizer-container aspect-[16/9]">
+  <div class=" visualizer-container aspect-[16/9]">
     <div v-if="!audioStarted" class="start-overlay" @click="startAudio">
       <button class="start-button bg-lightContrast hover:bg-darkest text-bodySizeMobile font-vazirmatn sm:text-bodySize">Click to Start Audio Visualization</button>
     </div>

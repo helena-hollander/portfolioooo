@@ -8,7 +8,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
 
 
 <template>
- <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.4%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+ <div class="tunniitView absolute grid grid-cols-1 grid-rows-auto gap-[0.4%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
    <!--Images and videos-->
     <div class="row-start-1 col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start  sm:row-start-1 sm:col-span-4 sm:col-start-1 sm:h-[20vw]  sm:row-span-2 sm:row-start-2">
             <img src="/images/tunniit/tunniitSketch1.png" class="w-[80%] mt-[4%] sm:w-full object-cover"/>
@@ -182,3 +182,15 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
     </div>
 
 </template>
+<style>
+.tunniitView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.tunniitView a, /* Links */
+.tunniitView button, /* Buttons */
+.tunniitView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

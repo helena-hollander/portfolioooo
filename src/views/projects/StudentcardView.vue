@@ -4,7 +4,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 </script>
 <template>
-   <div class="absolute grid grid-cols-1 grid-rows-auto gap-2 sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
+   <div class="idCardView absolute grid grid-cols-1 grid-rows-auto gap-2 sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-1 sm:justify-items-end">
             <img src="/images/studiekort/mockupGd.jpeg" class="w-[100%] sm:mt-[4%] sm:w-[100%] object-cover"/>
         </div>
@@ -132,3 +132,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
   
     </div>
 </template>
+
+<style>
+.idCardView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.idCardView a, /* Links */
+.idCardView button, /* Buttons */
+.idCardView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

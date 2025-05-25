@@ -4,7 +4,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-  <div class="absolute grid grid-cols-1 grid-rows-auto gap-3 sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
+  <div class="rundetaarnView absolute grid grid-cols-1 grid-rows-auto gap-3 sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
       <div class="col-start-1 col-span-1 justify-items-start sm:col-span-5 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-2 sm:justify-items-center">
           <img src="/images/rundetaarn/rundetaarnSketch2.png" class="w-0 sm:w-[80%] object-cover"/>
       </div>
@@ -137,3 +137,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
  </div>
 </template>
+
+<style>
+.rundetaarnView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.rundetaarnView a, /* Links */
+.rundetaarnView button, /* Buttons */
+.rundetaarnView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

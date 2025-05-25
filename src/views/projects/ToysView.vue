@@ -7,7 +7,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
 </script>
 
 <template>
-     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.2%] sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
+     <div class="toysView absolute grid grid-cols-1 grid-rows-auto gap-[0.2%] sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1  justify-items-end sm:row-start-1 sm:col-span-4 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-5 sm:content-center">
             <img src="/images/toys/toysSketch01.png" class="w-[80%] sm:w-full object-cover"/>
         </div>
@@ -180,3 +180,15 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
 
 
 </template>
+<style>
+.toysView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.toysView a, /* Links */
+.toysView button, /* Buttons */
+.toysView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

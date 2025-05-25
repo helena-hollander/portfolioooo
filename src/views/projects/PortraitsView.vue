@@ -4,7 +4,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
- <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(13,minmax(10vw,auto))] sm:gap-0">
+ <div class="portraitsView absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(13,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 justify-items-center sm:justify-items-end  sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-1">
             <img src="/images/portraits/Ladybug.color.face – stor.jpeg" class="w-[80%] mt-[4%] sm:w-[90%] object-cover"/>
         </div>
@@ -62,3 +62,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
  </div>
 </template>
+
+<style>
+.portraitsView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.portraitsView a, /* Links */
+.portraitsView button, /* Buttons */
+.portraitsView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

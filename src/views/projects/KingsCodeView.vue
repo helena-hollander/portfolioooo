@@ -4,7 +4,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
 import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vue';
 </script>
 <template>
-    <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+    <div class="kingsView absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 row-start-1 justify-items-center sm:justify-items-start sm:col-span-1 sm:row-start-1 sm:col-span-3 sm:col-start-2 sm:h-[20vw]  sm:row-span-2 sm:row-start-2">
             <img src="/images/kingscode/me.jpeg" class="w-[60%] mt-[4%] sm:w-full object-cover"/>
         </div>
@@ -137,3 +137,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
     </div>
 </template>
+
+<style>
+.kingsView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.kingsView a, /* Links */
+.kingsView button, /* Buttons */
+.kingsView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer;
+}
+</style>

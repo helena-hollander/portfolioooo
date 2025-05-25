@@ -10,7 +10,7 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
 </script>
 
 <template>
-<div class="grid">
+<div class="lolaView grid">
     <ProjectScribbleCom
         scribbleUrl="/images/lola/projectionMapping_scribble.png"
         title="Projection Mapping"
@@ -59,8 +59,8 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     </div>
   
     <ProjectScribbleCom scribbleUrl="/images/lola/70s_scribble.png" title="70's babes" class="mt-[-54%] w-[44%] sm:w-[34%] sm:mt-[-38%] sm:justify-self-end sm:mr-[6%]"/>
- <div class="grid grid-cols-1 mt-[24%] w-[50%] aspect-[16/9] justify-self-center sm:w-[78%] sm:mt-[12%] relative">
-  <ProjectLiveCodeCom class="w-full h-full z-10" />
+ <div class="pointerCursor grid grid-cols-1 mt-[24%] w-[50%] aspect-[16/9] justify-self-center sm:w-[78%] sm:mt-[12%] relative">
+  <ProjectLiveCodeCom class=" w-full h-full z-10" />
 </div>
     <div>
     <ProjectScribbleCom scribbleUrl="/images/lola/makesomenoise_scribble.png" title="Make Some Noise" class="justify-self-end w-[48%] mt-[-36%] z-20 relative sm:-rotate-90 sm:w-[30%] sm:mt-[-38%] sm:justify-self-start sm:translate-x-[-14%]"/>
@@ -105,3 +105,25 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
 />
 </div>
 </template>
+<style>
+.lolaView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Default cursor for the entire page */
+/* Pointer cursor for clickable elements */
+.lolaView a, /* Links */
+.lolaView button, /* Buttons */
+.lolaView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: url('/images/cursor_pink.png'), pointer !important;
+}
+/* Target all interactive elements within pointerCursor */
+.lolaView .pointerCursor *,
+.lolaView .pointerCursor canvas,
+.lolaView .pointerCursor iframe,
+.lolaView .pointerCursor video,
+.lolaView .pointerCursor input,
+.lolaView .pointerCursor select,
+.lolaView .pointerCursor textarea {
+  cursor: var(--cursor-pointer) !important;
+}
+</style>

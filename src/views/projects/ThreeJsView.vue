@@ -5,7 +5,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-     <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.2%] sm:grid-cols-10 sm:grid-rows-[repeat(31,minmax(10vw,auto))] sm:gap-0">
+     <div class="threejsView absolute grid grid-cols-1 grid-rows-auto gap-[0.2%] sm:grid-cols-10 sm:grid-rows-[repeat(31,minmax(10vw,auto))] sm:gap-0">
         <div class="justify-items-end col-start-1 col-span-1  sm:justify-items-start  sm:col-span-3 sm:col-start-8 sm:row-span-2 sm:row-start-1 sm:h-[20vw]">
             <img src="/images/threejs/storytellingSketch1.png" class="w-[60%] mt-[-24%] sm:mt-0 sm:w-full object-cover"/>
         </div>
@@ -149,3 +149,43 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
     </div>
 </template>
+
+<style>
+.threejsView{
+  cursor: url('/images/cursor_blue.png'), auto;
+}
+/* Pointer cursor for clickable elements */
+.threejsView a, /* Links */
+.threejsView button, /* Buttons */
+.threejsView .pointerCursor { /* Any custom class for clickable elements */
+  cursor: var(--cursor-pointer) !important;
+}
+
+/* Target all interactive elements within pointerCursor */
+.threejsView .pointerCursor *,
+.threejsView .pointerCursor canvas,
+.threejsView .pointerCursor iframe,
+.threejsView .pointerCursor video,
+.threejsView .pointerCursor input,
+.threejsView .pointerCursor select,
+.threejsView .pointerCursor textarea {
+  cursor: var(--cursor-pointer) !important;
+}
+
+/* Specific targeting for ALL video elements and controls */
+.threejsView video,
+.threejsView video *,
+.threejsView video::-webkit-media-controls,
+.threejsView video::-webkit-media-controls-panel,
+.threejsView video::-webkit-media-controls-play-button,
+.threejsView video::-webkit-media-controls-timeline,
+.threejsView video::-webkit-media-controls-current-time-display,
+.threejsView video::-webkit-media-controls-time-remaining-display,
+.threejsView video::-webkit-media-controls-mute-button,
+.threejsView video::-webkit-media-controls-toggle-closed-captions-button,
+.threejsView video::-webkit-media-controls-volume-slider,
+.threejsView video::-webkit-media-controls-fullscreen-button {
+  cursor: var(--cursor-pointer) !important;
+}
+
+</style>
