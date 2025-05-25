@@ -4,7 +4,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
-  <div class="absolute grid grid-cols-1 grid-rows-auto gap-2 sm:grid-cols-10 sm:grid-rows-[repeat(36,minmax(10vw,auto))] sm:gap-0">
+  <div class="absolute grid grid-cols-1 grid-rows-auto gap-2 sm:grid-cols-10 sm:grid-rows-[repeat(32,minmax(10vw,auto))] sm:gap-0">
       <div class="col-start-1 col-span-1 justify-items-start sm:col-span-5 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-2 sm:justify-items-center">
           <img src="/images/rundetaarn/rundetaarnSketch2.png" class="w-[100%] sm:w-[80%] object-cover"/>
       </div>
@@ -42,10 +42,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <img src="/images/rundetaarn/Bibliotekssalen2.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
         </div>
         <div class="col-start-1 col-span-1 justify-items-start sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[25] sm:justify-items-center">
-            <img src="/images/rundetaarn/projectionSketch.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
+            <img src="/images/rundetaarn/kulørteLamper.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
         </div>
         <div class="col-start-1 col-span-1 justify-items-start sm:col-span-5 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-[26] sm:justify-items-center">
             <img src="/images/rundetaarn/Bibliotekssalen2.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
+        </div>
+        <div class="col-start-1 col-span-1 justify-items-start sm:col-span-3 sm:col-start-8 sm:h-[20vw] sm:row-span-2 sm:row-start-[28] sm:justify-items-center">
+            <img src="/images/rundetaarn/projectionSketch.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
         </div>
 
         <!--TEXT-->
@@ -86,6 +89,15 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                  class="sm:mx-[4%]"
                  />
         </div>
+         <div class="sm:col-span-3 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-[19]">
+           
+            <ProjectTextCom
+                title="Installations concept"
+                textType="description"
+                textContent="// Sketches done in Procreate"
+                 class="sm:mx-[4%] sm:mt-[-4%]"
+                 />
+        </div>
          <div class="sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[24]">
            
             <ProjectTextCom
@@ -94,8 +106,28 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 textContent="Another version would be lightbubl hanging in wires from the ceiling/sky, to create the effect og fallen stars. These also lights up when someone comes near, but in a genlte, pulsing maner."
                  class="sm:mx-[4%]"
                  />
+        </div>
+         <div class="sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[30]">
            
-           
+            <ProjectTextCom
+                title="Installations concept"
+                textType="body"
+                textContent="Depicting how light travels and the exchange of energy between people. This walk through a not-so-sleepy-town let's your imagination wonder."
+                 class="sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="Installations concept"
+                textType="description"
+                textContent="// December '24"
+                 class="sm:mt-[12%] sm:mx-[4%]"
+                 />
+                 
+            <ProjectTextCom
+                title="Installations concept"
+                textType="description"
+                textContent="// This project was an Open Call application, but was not selected."
+                 class="sm:mx-[4%]"
+                 />
         </div>
  </div>
 </template>
