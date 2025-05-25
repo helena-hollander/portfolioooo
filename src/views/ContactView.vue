@@ -27,7 +27,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <ProjectTextCom
         textType="body"
         title="Greeting"
-        textContent="Available for internship(s) from 20th of October '25' to 6th of March '26."    
+        textContent="Available for internship(s) from 20th of October '25 to 6th of March '26."    
         />
         <ProjectTextCom
         textType="body"
