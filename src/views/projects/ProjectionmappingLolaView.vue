@@ -71,7 +71,7 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     class="sm:mb-[10%]"
 />
 <div class="grid grid-cols-1 items-end gap-[6%]  mt-[14%] sm:mt-0 sm:grid-cols-3 overflow-hidden">
-        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.webm" type="video/webm" title="Lola model shot" class="w-[76%] justify-self-center self-start sm:col-start-2 sm:justify-self-end"/>
+        <ProjectVideoCom videoUrl="/videos/lola/lola_elevator2.mp4" type="video/mp4" title="Lola model shot" class="w-[76%] justify-self-center self-start sm:col-start-2 sm:justify-self-end"/>
         <ProjectVideoCom videoUrl="/videos/lola/lola_interface.mp4" type="video/mp4" title="Interface video" class="justify-self-center sm:col-start-3"/>
 </div>
 <ProjectScribbleCom
