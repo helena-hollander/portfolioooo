@@ -4,7 +4,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
 
 </script>
 <template>
- <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(30,minmax(10vw,auto))] sm:gap-0">
+ <div class="absolute grid grid-cols-1 grid-rows-auto gap-[0.5%] sm:grid-cols-10 sm:grid-rows-[repeat(13,minmax(10vw,auto))] sm:gap-0">
         <div class="col-start-1 col-span-1 justify-items-center sm:justify-items-end  sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-1">
             <img src="/images/portraits/Ladybug.color.face – stor.jpeg" class="w-[60%] mt-[4%] sm:w-[90%] object-cover"/>
         </div>
@@ -20,8 +20,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-7">
             <img src="/images/portraits/eggRef3.jpg" class="w-[64%] sm:w-[60%] object-cover"/>
         </div>
-        <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
-            <img src="/images/portraits/portraitPrint.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
+        <div class="justify-items-center sm:justify-items-center sm:col-span-3 sm:col-start-2 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
+            <img src="/images/portraits/portraitPrint.jpeg" class="w-[100%] sm:w-[70%] object-cover"/>
+        </div>
+        <div class="sm:col-span-3 sm:col-start-6 sm:h-[20vw] sm:row-span-2 sm:row-start-10 sm:justify-items-end">
+            <video class=" sm:w-[80%] object-cover" autoplay loop muted playsinline>
+                <source src="/videos/portraits/portraitsProcess.mp4" type="video/mp4">
+            </video>
         </div>
 <!--TEXT-->
          <div class="mt-[0%] sm:col-span-3 sm:col-start-9 sm:h-[10vw] sm:row-span-1 sm:row-start-5">
