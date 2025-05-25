@@ -11,7 +11,19 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         <div class="justify-items-center sm:justify-items-end sm:col-span-4 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-1">
             <img src="/images/portraits/Ladybug.color – stor.jpeg" class="w-[60%] mt-[4%] sm:w-[90%] object-cover"/>
         </div>
-
+        <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-5 sm:h-[20vw] sm:row-span-2 sm:row-start-7">
+            <img src="/images/portraits/eggRef1.jpg" class="w-[64%] sm:w-[60%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-7">
+            <img src="/images/portraits/eggRef2.jpg" class="w-[64%] sm:w-[60%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-9 sm:h-[20vw] sm:row-span-2 sm:row-start-7">
+            <img src="/images/portraits/eggRef3.jpg" class="w-[64%] sm:w-[60%] object-cover"/>
+        </div>
+        <div class="justify-items-center sm:justify-items-center sm:col-span-2 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-9">
+            <img src="/images/portraits/portraitPrint.jpeg" class="w-[100%] sm:w-[100%] object-cover"/>
+        </div>
+<!--TEXT-->
          <div class="mt-[0%] sm:col-span-3 sm:col-start-9 sm:h-[10vw] sm:row-span-1 sm:row-start-5">
            
             <ProjectTextCom
@@ -34,13 +46,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                 title="portraits"
                 textType="display"
                 textContent="self-portraits"
-                 class="sm:mx-[4%]"
+                 class=""
                  />
             <ProjectTextCom
                 title="description"
                 textType="description"
                 textContent="// A digitally painted duo made in Procreate."
-                 class="sm:mx-[4%]"
+                 class=""
                  />
         </div>
  </div>
