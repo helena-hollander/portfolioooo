@@ -16,7 +16,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         </div>
          <div class="row-start-3 justify-items-center sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-1 sm:justify-items-end">
             <video class="w-[60%] sm:mt-[0%] sm:w-[90%] object-cover" autoplay loop muted playsinline>
-                <source src="/videos/toys01.mp4" type="video/mp4">
+                <source src="/videos/toys/toys01.mp4" type="video/mp4">
             </video>
      
         </div>
@@ -34,7 +34,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
         </div>
         <div class="justify-items-center sm:col-span-4 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[15] sm:justify-items-end">
             <video class="w-[100%] sm:mt-[0%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
-                <source src="/videos/demoFloorToys.mp4" type="video/mp4">
+                <source src="/videos/toys/demoFloorToys.mp4" type="video/mp4">
             </video>
      
         </div>
@@ -52,7 +52,7 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
             </div>
             <div class="justify-items-center sm:col-span-2 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[24] sm:justify-items-end">
                 <video class="w-[60%] sm:mt-[0%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
-                    <source src="/videos/toysTweaks.mp4" type="video/mp4">
+                    <source src="/videos/toys/toysTweaks.mp4" type="video/mp4">
                 </video>
             </div>
             <!-- <div class="justify-items-center sm:col-span-9 sm:col-start-5 sm:h-[10vw] sm:row-span-1 sm:row-start-[28] sm:content-center">

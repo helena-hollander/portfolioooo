@@ -7,13 +7,13 @@ import { RouterLink } from 'vue-router'
     <div class="col-span-2 col-start-2 h-[20vw] bg-white row-span-2">
         <RouterLink to="/toys" class="h-full w-full">           
         <video autoplay muted loop playsinline  class="w-full h-full object-cover" alt="Lola">
-            <source src="/videos/toys01.mp4" type="video/mp4">
+            <source src="/videos/toys/toys01.mp4" type="video/mp4">
         </video> </RouterLink>
     </div>
     <div class="col-span-3 col-start-5 row-start-2 row-span-5 h-[50vw] bg-white">
         <RouterLink to="/projectionmapping" class="h-full w-full"> 
         <video autoplay muted loop playsinline  class="w-full h-full object-cover" alt="Lola">
-            <source src="/videos/lola.webm" type="video/webm">
+            <source src="/videos/lola/lolaHero.mp4" type="video/mp4">
         </video></RouterLink>
     </div>
     <div class="col-span-2 col-start-9 row-start-6 row-span-2 h-[20vw] content-center">
@@ -70,7 +70,7 @@ import { RouterLink } from 'vue-router'
         <div class="h-[88%] w-[76%]">
             <RouterLink to="/stones">
             <video autoplay muted loop playsinline  class="h-full w-full object-cover"  alt="Lola">
-            <source src="/videos/interactiveStone/interactivestoneCard.webm" type="video/webm">
+            <source src="/videos/interactiveStone/threejsPrototypeStones.mp4" type="video/mp4">
              </video>
             </RouterLink>
         </div>

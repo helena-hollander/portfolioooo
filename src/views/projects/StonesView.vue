@@ -32,12 +32,12 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
         <div class="justify-items-center sm:col-span-3 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
             <video class="w-[80%] sm:w-[80%] object-cover" autoplay loop muted playsinline>
-                <source src="/images/stones/implementering.mp4" type="video/mp4">
+                <source src="/videos/interactiveStone/implementering.mp4" type="video/mp4">
             </video>
         </div>
         <div class="sm:col-span-3 sm:col-start-4 sm:h-[20vw] sm:row-span-2 sm:row-start-[18] sm:justify-items-end">
             <video class=" sm:w-[80%] object-cover" autoplay loop muted playsinline>
-                <source src="/images/stones/threejsPrototypeStones.webm" type="video/webm">
+                <source src="/videos/interactiveStone/threejsPrototypeStones.mp4" type="video/mp4">
             </video>
         </div>
 
