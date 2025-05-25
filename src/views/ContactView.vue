@@ -26,6 +26,11 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         />
         <ProjectTextCom
         textType="body"
+        title="Greeting"
+        textContent="Available for internship(s) from 20th of October '25' to 6th of March '26."    
+        />
+        <ProjectTextCom
+        textType="body"
         title="e-mail"
         textContent="HELENA.HOLLAENDER@GMAIL.COM"
         class="font-bold mt-[10%] underline sm:opacity-0 sm:pointer-events-none"
