@@ -19,14 +19,14 @@ import { RouterLink } from 'vue-router'
     <div class="col-span-2 col-start-9 row-start-6 row-span-2 h-[20vw] content-center">
         <div class="w-[60%] h-[60%]">
             <RouterLink to="/kingscode"> 
-            <img src="/images/konge.png" class="h-full w-full object-cover" />
+            <img src="/images/kingscode/konge.png" class="h-full w-full object-cover" />
             </RouterLink>
         </div>
 
     </div>
     <div class="col-span-6 col-start-2 row-start-8 row-span-3 h-[30vw] justify-items-center">
         <RouterLink to="/tunniit" class="h-[90%] w-[80%]"> 
-        <img src="/images/tunniit.png" class="h-full w-full  object-cover" />
+        <img src="/images/tunniit/tunniit.png" class="h-full w-full  object-cover" />
         </RouterLink>
     </div>
     <div class="col-span-5 col-start-5 row-start-12 row-span-5 h-[50vw]">
