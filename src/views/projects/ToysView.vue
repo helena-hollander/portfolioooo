@@ -160,7 +160,7 @@ import FooterCom from '@/components/universal/FooterCom.vue';
             <ProjectTextCom
                 title="Interactive floor"
                 textType="body"
-                textContent="Pixels, often used to censor bodies or sextoys, are now re-used to draw them. Turning society's sometimes narrow and conservative approach on it's head."
+                textContent="Pixels, often used to censor bodies or sextoys, are now re-used to draw them. Turning society's, sometimes narrow and conservative, approach on it's head."
                  class="sm:mx-[4%]"
                  />
                 
