@@ -46,7 +46,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
         </div>
         <div class="row-start-6 sm:col-span-6 sm:col-start-3 sm:h-[20vw] sm:row-span-2 sm:row-start-11 sm:justify-items-end">
             <video class=" sm:w-full object-cover" autoplay loop muted playsinline>
-                <source src="/videos/kingscode/kingScreenRecording.mp4" type="video/mp4">
+                <source src="/videos/kingscode/kingScreenRecordingSmall.mp4" type="video/mp4">
             </video>
         </div>
        <div class="justify-items-center sm:col-span-5 sm:col-start-1 sm:h-[20vw] sm:row-span-2 sm:row-start-8 sm:justify-items-end">
