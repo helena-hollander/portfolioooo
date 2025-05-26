@@ -96,7 +96,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                title="Research"
                textType="body"
-               textContent="My 4 main themes was MOVEMENT, EXPERIENCE, PEACE vs. CHAOS and SPACE."
+               textContent="My four main themes was MOVEMENT, EXPERIENCE, PEACE vs. CHAOS and SPACE."
                class="mx-[4%]"
                 />
           
@@ -117,7 +117,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                title="Intro"
                textType="body"
-               textContent="The visual identity is based around 2 main colors: a deep blue and a dusty pink. Peaceful and contrastful. The background and the display text is blurred, to create an organic, soft look. The images were created using AI."
+               textContent="The visual identity is based around two main colors: a deep blue and a dusty pink. Peaceful and contrastful. The background and the display text is blurred, to create an organic, soft look. The images were created using AI."
                class="mx-[4%]"
                 />
             <ProjectTextCom
@@ -134,7 +134,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                title="Installation"
                textType="body"
-               textContent="The installation is designed to take the audience on a journey, walking through 2 LED screens, surrounded by their own blue refleksions. It is a tunnel, a pathway for movement, recreating oldschool funhouse mirrors in a digital scale."
+               textContent="The installation is designed to take the audience on a journey, walking through two LED screens, surrounded by their own blue refleksions. It is a tunnel, a pathway for movement, recreating oldschool funhouse mirrors in a digital scale."
                class="mx-[4%]"
                 />
             <ProjectTextCom

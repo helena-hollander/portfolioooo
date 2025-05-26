@@ -127,7 +127,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="body"
-                textContent="After many iterations of the projected object, the class decided on a vase and a paper tulip. Karl and I chose to create a stop motion video in 3 days, using the roots of the flower to write quotes from the letters."
+                textContent="After many iterations of the projected object, the class decided on a vase and a paper tulip. Karl and I chose to create a stop motion video in three days, using the roots of the flower to write quotes from the letters."
                 class="mx-[4%] sm:mt-[4%]"
                  />
             <ProjectTextCom
