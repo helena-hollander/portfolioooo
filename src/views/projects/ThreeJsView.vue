@@ -87,7 +87,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Intro"
                textType="body"
-               textContent="How to tell a good story? How to build an immersive world? And how to get acquainted with Three.js, all within 3 weeks time? We were in for a ride. "
+               textContent="How to tell a good story? How to build an immersive world? And how to get acquainted with Three.js, all within three weeks time? We were in for a ride. "
                class="mx-[4%] sm:mt-[4%]"
                 />
            <ProjectTextCom
@@ -130,7 +130,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Concept"
                textType="body"
-               textContent="I chose 3 scenes and started building models in Blender, then exporting them into Three.js. Then I build the compositions and placed the light and camera. I chose to keep it very dark and eerie, leaving room for the imagination to run. I recorded sounds in Logic Pro that trickers when an object is clicked. This deepens the stories and is just kinda creepy and fun."
+               textContent="I chose three scenes and started building models in Blender, then exporting them into Three.js. Then I build the compositions and placed the light and camera. I chose to keep it very dark and eerie, leaving room for the imagination to run. I recorded sounds in Logic Pro that trickers when an object is clicked. This deepens the stories and is just kinda creepy and fun."
                class="mx-[4%] sm:mt-[10%]"
                 />
         </div>
