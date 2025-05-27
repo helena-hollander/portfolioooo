@@ -10,7 +10,7 @@ import AboutDrawingCom from '@/components/universal/AboutDrawingCom.vue';
 <br><br><br>Hi,
 
 <br><br>My name is Helena (she/her) and I am a visual creator, illustrator, explorer, coder and artist.
-<br><br>I am currently inspired by Spring weather in Copenhagen, the new season of Doctor Who and all things 'Lady Gaga'.
+<br><br>I am currently inspired by Copenhagen Spring weather, the new season of Doctor Who and all things 'Lady Gaga'.
 <br><br>I am studying for my BA in Visual Communication, <a href="https://www.dmjx.dk/uddannelser/coded-design?gad_source=1&gad_campaignid=20043341036&gbraid=0AAAAADxHh-ZCEC5g26xEdAEwGFimKA-sz&gclid=Cj0KCQjwoNzABhDbARIsALfY8VMP2Xuw_5K57dSe5ljVfbU7KUR1N1aR6a_VDHxhy3Ol_GW8XhKcrn4aAuucEALw_wcB" target="_blank" class="underline hover:text-lightContrast">CODED DESIGN at DMJX,</a> Copenhagen. <br>I am looking for an internship from 20th of October ‘25 to 6th of March ‘26. 
 
 <br><br>I specialize in interactive design and stage design through creative coding, 3D and motion. Anything within the realm of theatre, museum installations, websites, dancefloors, graphic novels and game design. 
