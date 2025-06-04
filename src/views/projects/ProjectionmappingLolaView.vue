@@ -97,7 +97,7 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
     textContent="I can’t wait to see a future world rocking LED outfits (solar charged, of course) with music-driven patterns."
     class="mx-[6%] mb-[2%] col-start-1 sm:w-[76%]"
 />
-<p class="text-bodySizeMobile mx-[6%] sm:text-bodySize">For more projection mapping fun, check out <RouterLink to="/genhope"class="text-strongContrast hover:text-lightContrast hover:underline" >'Generation Hope x Thoravej 29'.</RouterLink></p>
+<p class="text-bodySizeMobile mx-[6%] sm:text-bodySize">For more projection mapping fun, check out <RouterLink to="/generationhope"class="text-strongContrast hover:text-lightContrast hover:underline" >'Generation Hope x Thoravej 29'.</RouterLink></p>
 <ProjectTextCom
     textType="description"
     textContent="// April 2025 // 'Projection Mapping' course by Stig Møller, DMJX, Copenhagen. // Parts of the interactive code has been edited with the help of AI."
