@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router'
     <div class="col-span-3 col-start-5 row-start-2 row-span-5 h-[50vw] bg-brightHover">
         <RouterLink to="/projectionmapping" class="h-full w-full"> 
         <video autoplay muted loop playsinline  class="w-full h-full object-cover hover:opacity-40" alt="Lola">
-            <source src="/videos/lola/lolaHero.mp4" type="video/mp4">
+            <source src="/videos/lola/lola_elevator2.mp4" type="video/mp4">
         </video></RouterLink>
     </div>
     <div class="col-span-2 col-start-9 row-start-6 row-span-2 h-[20vw] content-center ">
