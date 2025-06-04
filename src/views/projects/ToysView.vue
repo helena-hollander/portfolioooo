@@ -92,6 +92,12 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
             <ProjectTextCom
                 title="Discription"
                 textType="description"
+                textContent="// How to draw attention with pixelation, rather than censoring sextoys?"
+                 class="mx-[10%] sm:mx-[4%]"
+                 />
+            <ProjectTextCom
+                title="Discription"
+                textType="description"
                 textContent="// Visual identity using Processing, Blender and Adobe Illustrator to create generative logo-assets and animations."
                  class="mx-[10%] sm:mx-[4%]"
                  />

@@ -69,16 +69,16 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
                textContent="STRINGS"
                class="mx-[4%] sm:mt-[10%]"
                 />
+                <ProjectTextCom
+                    title="description"
+                    textType="description"
+                    textContent="// How worldbuilding can be it's own form of storytelling."
+                    class="mx-[4%]"
+                     />
            <ProjectTextCom
                title="description"
                textType="description"
-               textContent="// Three.Js introduction and World Building"
-               class="mx-[4%]"
-                />
-           <ProjectTextCom
-               title="description"
-               textType="description"
-               textContent="// October 2024"
+               textContent="// Three.Js introduction and World Building, October 2024."
                class="mx-[4%]"
                 />
         </div>

@@ -74,7 +74,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                title="Title"
                textType="description"
-               textContent="// Website concept and installation design using Processing and camera data"
+               textContent="// A visual identity that makes people move!"
+               class="mx-[4%]"
+                />
+            <ProjectTextCom
+               title="Title"
+               textType="description"
+               textContent="// Website concept and installation design using Processing and camera data. (And I sing a little bit!)"
                class="mx-[4%]"
                 />
           

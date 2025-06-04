@@ -99,7 +99,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Intro"
                textType="body"
-               textContent="'De Studerendes Råd' at DMJX Amager really needed an updated visual identity. So Stella Areschoug and I was tasked with puttingtogether a new palette of colors, logo, typo and assets to catch the attention of our fellow students. A warm, divers and funny concept, to represent the work and community of DSR."
+               textContent="To increase visibility among the students at DMJX, Amager, we decicede to update 'De Studerendes Råds' visual identity. Stella Areschoug and I was tasked with putting together a new palette of colors, logo, typo and assets to catch the attention of our fellow students. A warm, divers and funny concept, to represent the work and community of DSR."
                class=" mx-[4%] sm:w-[500px]"
                 />
           

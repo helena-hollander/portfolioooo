@@ -26,7 +26,7 @@ import ProjectVideoCom from '@/components/projects/projectCards/ProjectVideoCom.
              />
              <ProjectTextCom
                 textType="description"
-                textContent="// p5.js mapper(); // projector // data input from Macbook.  "
+                textContent="// How p5.js and a projector, lets your outfit stay on beat."
                 class="self-end sm:m-[4%]"
              />
         </div>

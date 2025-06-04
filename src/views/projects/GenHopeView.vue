@@ -84,7 +84,7 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
             <ProjectTextCom
                 title="Generation Hope x SNART"
                 textType="description"
-                textContent="//Projection Mapping school project in collaboration with Thoravej 29, SNART and Generation Hope."
+                textContent="// Our loveletter to the future. A projection Mapping school project in collaboration with Thoravej 29, SNART and Generation Hope."
                 class="w-[70%] sm:mx-[4%]"
                  />
             <ProjectTextCom

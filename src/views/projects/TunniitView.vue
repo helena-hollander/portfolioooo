@@ -77,8 +77,8 @@ import ProjectScribbleCom from '@/components/projects/projectCards/ProjectScribb
             <ProjectTextCom
                 title="graphic novel"
                 textType="description"
-                textContent="// A scroll based graphic novel about young people in Greenland"
-                 />
+                textContent="// A scroll based graphic novel about young inuit people and the cultural gap they have to navigate."
+                class="sm:w-[70%]" />
         </div>   
         <div class="row-start-6 sm:col-span-3 sm:col-start-7 sm:h-[20vw] sm:row-span-2 sm:row-start-6 ">
             <ProjectTextCom

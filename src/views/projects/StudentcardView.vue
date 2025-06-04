@@ -66,7 +66,13 @@ import ProjectTextCom from '@/components/projects/projectCards/ProjectTextCom.vu
            <ProjectTextCom
                title="Using Processing"
                textType="description"
-               textContent="// School project using Processing and Blender to update the look of the DMJX student ID card. "
+               textContent="// Re-design of our student ID card at DMJX"
+               class="mx-[4%]"
+                />
+           <ProjectTextCom
+               title="Using Processing"
+               textType="description"
+               textContent="// Using Processing and Blender"
                class="mx-[4%]"
                 />
        </div>
